@@ -7,6 +7,27 @@
     line-height: (@font-size / 10) * 1.5rem;
 }
 
+.full-background (@background-image) {
+
+    background: url(@background-image) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+
+}
+
+.border-radius (@radius: 50%) {
+
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -o-border-radius: @radius;
+    -ms-border-radius: @radius;
+    border-radius: @radius;
+
+}
+
 /* Helper Classes */
 
 .ir {

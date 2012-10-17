@@ -1,15 +1,17 @@
 @import 'normalize.less';
 @import 'mixins.less';
 @import 'fonts.less';
+@import 'animate.less';
 
-@font-size: 12;
+@font-size: 14;
+@color: #222;
 
 html,
 button,
 input,
 select,
 textarea {
-    color: #222;
+    color: @color;
 }
 
 html {
@@ -40,9 +42,97 @@ body {
 
 /* Author: Saul Hardman (@saulhardman) */
 
+/* Typography */
+
 h1, h2 {
 
     .futura;
+
+}
+
+a {
+
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+
+        text-decoration: underline;
+
+    }
+
+}
+
+/* Layout */
+
+body {
+
+    background-color: #eee;
+
+}
+
+.container {
+
+    .clearfix;
+    margin: 0 auto;
+    width: 1200px;
+
+}
+
+.content {
+
+    width: 600px;
+
+}
+
+.header {
+
+    height: 400px;
+    .full-background ('../img/backgrounds/processed/degree-show-1.jpg');
+
+}
+
+.logo {
+
+    float: left;
+
+}
+
+nav {
+
+    float: right;
+
+    ul {
+
+        .clearfix;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+    }
+
+    li {
+
+        float: left;
+        margin: 0 0 0 20px;
+            
+    }
+
+    a {
+
+        display: block;
+        padding: 4px 8px;
+        .border-radius (8px);
+
+        &:focus,
+        &.active {
+
+            color: @color;
+            background-color: #fff;
+
+        }
+
+    }
 
 }
 
