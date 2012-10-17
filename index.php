@@ -2,7 +2,7 @@
 
 <section class="course container">
 
-    <header class="content">
+    <header class="header">
 
         <hgroup>
 

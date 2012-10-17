@@ -18,7 +18,7 @@
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
     <body>
-        <header class="header">
+        <header class="main-header">
 
             <div class="container">
 
@@ -54,4 +54,4 @@
 
         </header>
 
-        <section class="main" role="main">
+        <div id="main" role="main">

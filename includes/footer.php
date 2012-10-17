@@ -1,10 +1,14 @@
-        </section>
+        </div>
 
-        <footer class="container">
+        <footer>
 
-            <h1>Find out more</h1>
+            <div class="container">
 
-            <p>To apply, click <a href="http://plymouth.ac.uk/" title="">here</a>. If you have any questions about the course, email us <a href="mailto:" title="">here</a>. To meet lecturers and students, join us on <a href="http://facebook.com/" title="">Facebook</a>.</p>
+                <h1>Find out more</h1>
+
+                <p>To apply, click <a href="http://plymouth.ac.uk/" title="">here</a>. If you have any questions about the course, email us <a href="mailto:" title="">here</a>. To meet lecturers and students, join us on <a href="http://facebook.com/" title="">Facebook</a>.</p>
+
+            </div>
 
         </footer>
 

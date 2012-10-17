@@ -3,8 +3,10 @@
 @import 'fonts.less';
 @import 'animate.less';
 
-@font-size: 14;
+@font-size: 16;
 @color: #222;
+@link-color: #999;
+@text-shadow: #ccc;
 
 html,
 button,
@@ -52,7 +54,7 @@ h1, h2 {
 
 a {
 
-    color: #fff;
+    color: @link-color;
     text-decoration: none;
 
     &:hover {
@@ -85,7 +87,7 @@ body {
 
 }
 
-.header {
+.main-header {
 
     height: 400px;
     .full-background ('../img/backgrounds/processed/degree-show-1.jpg');
@@ -101,6 +103,8 @@ body {
 nav {
 
     float: right;
+    margin: 40px 0 0;
+    .font-size (14);
 
     ul {
 
@@ -121,18 +125,47 @@ nav {
     a {
 
         display: block;
-        padding: 4px 8px;
-        .border-radius (8px);
+        padding: 3px 11px 2px;
+        color: @color;
+        line-height: 1.5;
+        text-shadow: 0 1px 0 @text-shadow;
+        background: #fff;
+        .border-radius (12px);
+
+        &:hover {
+
+            text-decoration: none;
+            background: #eee;
+
+        }
 
         &:focus,
         &.active {
 
-            color: @color;
-            background-color: #fff;
+
 
         }
 
     }
+
+}
+
+#main {
+
+    margin: 60px auto;
+
+    .header {
+
+        margin: 0 0 40px;
+
+    }
+
+}
+
+footer {
+
+    padding: 20px 0;
+    background-color: #d5d5d5;
 
 }
 
