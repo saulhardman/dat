@@ -23,6 +23,7 @@ html {
 body {
     .meta;
     .font-size (@font-size);
+    text-rendering: optimizeLegibility;
 }
 
 ::-moz-selection {
@@ -97,6 +98,16 @@ body {
 .logo {
 
     float: left;
+    margin: 40px 0 0;
+    color: white;
+
+    .title {
+
+        margin: 0;
+        .font-size (96);
+        line-height: 72px;
+
+    }
 
 }
 
@@ -126,23 +137,26 @@ nav {
 
         display: block;
         padding: 3px 11px 2px;
-        color: @color;
+        .futura;
+        color: #fff;
+        letter-spacing: 1px;
         line-height: 1.5;
-        text-shadow: 0 1px 0 @text-shadow;
-        background: #fff;
-        .border-radius (12px);
+        text-shadow: 0 0 2px rgba(20, 20, 20, .1);
+        .border-radius (14px);
 
         &:hover {
 
             text-decoration: none;
-            background: #eee;
+            background: rgba(20, 20, 20, .2);
 
         }
 
         &:focus,
         &.active {
 
-
+            color: @color;
+            background: #fff;
+            outline: none;
 
         }
 

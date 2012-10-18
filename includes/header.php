@@ -26,7 +26,7 @@
 
                     <h1 class="title" role="banner">DAT</h1>
 
-                    <h2 class="description">Messing with the future</h2>
+                    <!-- <h2 class="description">Messing with the future</h2> -->
 
                 </hgroup>
 

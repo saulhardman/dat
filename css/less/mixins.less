@@ -1,10 +1,19 @@
 /* Mixins */
 
 .font-size (@font-size: 10) {
+
     font-size: @font-size * 1px;
     line-height: @font-size * 1.5px;
     font-size: (@font-size / 10) * 1rem;
     line-height: (@font-size / 10) * 1.5rem;
+    
+}
+
+.letter-spacing (@letter-spacing: 1) {
+
+    letter-spacing: @letter-spacing * 1px;
+    letter-spacing: (@letter-spacing / 10) * 1rem;
+
 }
 
 .full-background (@background-image) {
