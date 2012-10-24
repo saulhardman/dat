@@ -3,10 +3,15 @@
 @import 'fonts.less';
 @import 'animate.less';
 
-@font-size: 16;
-@color: #222;
-@link-color: #999;
-@text-shadow: #ccc;
+@font-size:     16;
+
+@color:         rgba(34,34,34, 1.0);
+@link-color:    rgba(153,153,153, 1.0);
+@tint-color:    rgba(22,26,54, 0.7);
+@text-shadow:   rgba(204,204,204, 1.0); 
+
+@black:         rgba(0,0,0, 1.0);
+@white:         rgba(255,255,255, 1.0);
 
 html,
 button,
@@ -90,21 +95,47 @@ body {
 
 .main-header {
 
+    text-align: center;
     height: 400px;
     .full-background ('../img/backgrounds/processed/degree-show-1.jpg');
+
+    /*
+    
+    &:before {
+
+        z-index: 0;
+        content: "";
+        position: absolute;
+        height: 600px;
+        width: 600px;
+        border: 1px dashed rgba(255,255,255, .2);
+        .border-radius (300px);
+        top: 20px;
+        left: 420px;
+
+    }
+
+     */
+
+}
+
+.tint {
+    
+    height: 100%;
+    width: 100%;
+    background-color: @tint-color;
 
 }
 
 .logo {
 
-    float: left;
-    margin: 40px 0 0;
+    margin: 140px 0 0;
     color: white;
 
     .title {
 
         margin: 0;
-        .font-size (96);
+        .font-size (50);
         line-height: 72px;
 
     }
@@ -113,14 +144,12 @@ body {
 
 nav {
 
-    float: right;
-    margin: 40px 0 0;
+    margin: 0;
     .font-size (14);
+    font-weight: 300;
 
     ul {
 
-        .clearfix;
-        margin: 0;
         padding: 0;
         list-style: none;
 
@@ -128,26 +157,26 @@ nav {
 
     li {
 
-        float: left;
-        margin: 0 0 0 20px;
+        display: inline;
+        margin: 0 0 0 10px;
             
     }
 
     a {
 
-        display: block;
         padding: 3px 11px 2px;
         .futura;
         color: #fff;
         letter-spacing: 1px;
         line-height: 1.5;
         text-shadow: 0 0 2px rgba(20, 20, 20, .1);
-        .border-radius (14px);
 
         &:hover {
 
+            color: @black;
+            background-color: @white;
             text-decoration: none;
-            background: rgba(20, 20, 20, .2);
+            
 
         }
 
