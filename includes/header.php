@@ -1,3 +1,4 @@
+<?php $pageName = (isset($_GET['page'])) ? $_GET['page']: 'course'; ?>
 <!DOCTYPE html>
 
 <html class="no-js">
@@ -39,23 +40,15 @@
 
                     </hgroup>
 
+                    <?php $pages = array("design", "programming", "theory", "industry", "environment", "lifestyle"); ?>
+
                     <nav>
 
-                        <ul>
+                        <?php foreach ($pages as $page): ?>
 
-                            <li><a href="design" title="">Design</a></li>
+                            <li><a href="<?php echo $page; ?>"<?php if ($pageName == $page): ?> class="active"<?php endif; ?> title="Click to view the ‘<?php echo ucfirst($page); ?>’"><?php echo ucfirst($page); ?></a></li>
 
-                            <li><a href="programming" title="">Programming</a></li>
-
-                            <li><a href="theory" title="">Theory</a></li>
-
-                            <li><a href="industry" title="">Industry</a></li>
-
-                            <li><a href="environment" title="">Environment</a></li>
-
-                            <li><a href="lifestyle" title="">Lifestyle</a></li>
-
-                        </ul>
+                        <?php endforeach; ?>
 
                     </nav>
 

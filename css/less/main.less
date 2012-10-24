@@ -37,11 +37,13 @@ body {
 }
 
 ::-moz-selection {
+    color: #fff;
     background: @text-select;
     text-shadow: none;
 }
 
 ::selection {
+    color: #fff;
     background: @text-select;
     text-shadow: none;
 }
@@ -129,7 +131,7 @@ body {
 .logo {
 
     margin: 140px 0 0;
-    color: white;
+    color: #fff;
 
     .title {
 
@@ -159,14 +161,16 @@ nav {
         margin: 0 0 0 10px;
 
         &:first-of-type {
+
             margin: 0;
+
         }
             
     }
 
     a {
 
-        padding: 3px 11px 2px;
+        padding: 3px 11px;
         .futura;
         color: @highlight-color;
         letter-spacing: 1px;
@@ -174,7 +178,8 @@ nav {
         line-height: 1.5;
         text-shadow: 0 0 2px rgba(20, 20, 20, .1);
 
-        &:hover {
+        &:hover,
+        &.active {
 
             color: @white;
             background-color: @highlight-color;
@@ -183,8 +188,7 @@ nav {
 
         }
 
-        &:focus,
-        &.active {
+        &:focus {
 
             color: @color;
             background: #fff;
@@ -200,38 +204,10 @@ nav {
 
     margin: 0 auto 80px;
 
-}
-
-.header {
-
-    margin: 0 0 40px;
-
-}
-
-.content {
-
-    p {
-
-        margin: 0;
-        .line-height (40);
-
-    }
-
-    .mantra {
-
-        .futura ();
-        .font-size (14);
-        color: @highlight-color;
-
-    }
-
-}
-
-.course {
-
     .header {
 
         margin: 0;
+        text-align: center;
 
     }
 
@@ -244,22 +220,24 @@ nav {
 
     .title {
 
-        margin: 0;
-        padding: 60px;
+        display: inline-block;
+        margin: -40px auto 60px;
+        padding: 30px;
         text-align: center;
-        .font-size (48);
+        .font-size (38);
+        .line-height (22);
         color: @white;
         background-color: @highlight-color;
-        border-bottom: 5px solid darken(@highlight-color, 10%);
 
     }
 
     .description {
 
-        margin: 60px auto;
+        margin: 0 auto 60px;
         width: 760px;
         .meta;
         .font-size (32);
+        text-align: left;
         text-transform: none;
 
     }
@@ -281,6 +259,21 @@ nav {
         //     }
 
         // }
+
+        p {
+
+            margin: 0;
+            .line-height (40);
+
+        }
+
+        .mantra {
+
+            .futura;
+            .font-size (14);
+            color: @highlight-color;
+
+        }
 
         p:first-child {
 
