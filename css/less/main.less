@@ -5,13 +5,14 @@
 
 @font-size:     16;
 
-@color:         rgba(34,34,34, 1.0);
-@link-color:    rgba(153,153,153, 1.0);
-@tint-color:    rgba(22,26,54, 0.7);
-@text-shadow:   rgba(204,204,204, 1.0); 
+@color:         rgba(34, 34, 34, 1.0);
+@link-color:    rgba(153, 153, 153, 1.0);
+@tint-color:    rgba(22, 26, 54, 0.7);
+@text-shadow:   rgba(204, 204, 204, 1.0);
+@highlight-color:     #f0503c;
 
-@black:         rgba(0,0,0, 1.0);
-@white:         rgba(255,255,255, 1.0);
+@black:         rgba(0, 0, 0, 1.0);
+@white:         rgba(255, 255, 255, 1.0);
 
 html,
 button,
@@ -189,13 +190,13 @@ nav {
 
 #main {
 
-    margin: 80px auto;
+    margin: 0 auto 80px;
 
-    .header {
+}
 
-        margin: 0 0 40px;
+.header {
 
-    }
+    margin: 0 0 40px;
 
 }
 
@@ -212,25 +213,37 @@ nav {
 
 .course {
 
+    .header {
+
+        margin: 0;
+
+    }
+
     .title,
     .description {
 
-        margin: 0 0 60px;
+        margin: 0 auto 60px;
 
     }
 
     .title {
 
+        margin: 0;
+        padding: 60px;
+        text-align: center;
         .font-size (48);
+        color: @white;
+        background-color: @highlight-color;
 
     }
 
     .description {
 
+        margin: 60px auto;
         width: 760px;
         .meta;
-        text-transform: none;
         .font-size (32);
+        text-transform: none;
 
     }
 
