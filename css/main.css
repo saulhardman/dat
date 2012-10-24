@@ -674,7 +674,7 @@ body {
   color: #000;
   padding: 0.2em 0;
 }
-/* Author: Saul Hardman (@saulhardman) */
+/* Author: Saul Hardman (@saulhardman) and that other guy (@benashman) */
 /* Typography */
 h1,
 h2 {
@@ -849,7 +849,8 @@ nav a.active {
 }
 footer {
   padding: 20px 0;
-  background-color: rgba(22, 26, 54, 0.7);
+  color: #ffffff;
+  background-color: #222222;
 }
 @media print {
   * {
