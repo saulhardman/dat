@@ -3,16 +3,18 @@
 @import 'fonts.less';
 @import 'animate.less';
 
-@font-size:     16;
+@font-size:         16;
 
-@color:         rgba(34, 34, 34, 1.0);
-@link-color:    rgba(153, 153, 153, 1.0);
-@tint-color:    rgba(22, 26, 54, 0.7);
-@text-shadow:   rgba(204, 204, 204, 1.0);
-@highlight-color:     #f0503c;
+@color:             rgba(34, 34, 34, 1.0);
+@link-color:        rgba(153, 153, 153, 1.0);
+@tint-color:        rgba(22, 26, 54, 0.7);
+@text-shadow:       rgba(204, 204, 204, 1.0);
+@highlight-color:   rgba(240, 80, 60, 1.0);
 
-@black:         rgba(0, 0, 0, 1.0);
-@white:         rgba(255, 255, 255, 1.0);
+@text-select:       rgba(240, 80, 60, 1);
+
+@black:             rgba(0, 0, 0, 1.0);
+@white:             rgba(255, 255, 255, 1.0);
 
 html,
 button,
@@ -33,12 +35,12 @@ body {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: @text-select;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: @text-select;
     text-shadow: none;
 }
 
