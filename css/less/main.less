@@ -87,12 +87,6 @@ body {
 
 }
 
-.content {
-
-    width: 600px;
-
-}
-
 .main-header {
 
     text-align: center;
@@ -195,11 +189,76 @@ nav {
 
 #main {
 
-    margin: 60px auto;
+    margin: 80px auto;
 
     .header {
 
         margin: 0 0 40px;
+
+    }
+
+}
+
+.content {
+
+    p {
+
+        margin: 0;
+        .line-height (40);
+
+    }
+
+}
+
+.course {
+
+    .title,
+    .description {
+
+        margin: 0 0 60px;
+
+    }
+
+    .title {
+
+        .font-size (48);
+
+    }
+
+    .description {
+
+        width: 760px;
+        .meta;
+        text-transform: none;
+        .font-size (32);
+
+    }
+
+    .content {
+
+        // drop cap
+
+        // p:first-child {
+
+        //     &:first-letter {
+
+        //         float: left;
+        //         padding: 0 10px 0 0;
+        //         height: 72px;
+        //         .font-size (72);
+        //         .line-height (92);
+
+        //     }
+
+        // }
+
+        p:first-child {
+
+            font-weight: 600;
+
+        }
+
+        .columns (3, 40px);
 
     }
 

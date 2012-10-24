@@ -527,7 +527,7 @@ textarea {
   clear: both;
 }
 .meta {
-  font-family: "ff-meta-web-pro", helvetica, arial, verdana, sans-serif;
+  font-family: "ff-meta-serif-web-pro", helvetica, arial, verdana, sans-serif;
   font-weight: normal;
 }
 .futura {
@@ -654,12 +654,10 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "ff-meta-web-pro", helvetica, arial, verdana, sans-serif;
+  font-family: "ff-meta-serif-web-pro", helvetica, arial, verdana, sans-serif;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
   font-size: 1.6rem;
-  line-height: 2.4000000000000004rem;
   text-rendering: optimizeLegibility;
 }
 ::-moz-selection {
@@ -708,9 +706,6 @@ body {
 .container:after {
   clear: both;
 }
-.content {
-  width: 600px;
-}
 .main-header {
   text-align: center;
   height: 400px;
@@ -751,17 +746,13 @@ body {
 .logo .title {
   margin: 0;
   font-size: 50px;
-  line-height: 75px;
   font-size: 5rem;
-  line-height: 7.5rem;
   line-height: 72px;
 }
 nav {
   margin: 0;
   font-size: 14px;
-  line-height: 21px;
   font-size: 1.4rem;
-  line-height: 2.0999999999999996rem;
   font-weight: 300;
 }
 nav ul {
@@ -794,10 +785,46 @@ nav a.active {
   outline: none;
 }
 #main {
-  margin: 60px auto;
+  margin: 80px auto;
 }
 #main .header {
   margin: 0 0 40px;
+}
+.content p {
+  margin: 0;
+  line-height: 40px;
+  line-height: 4rem;
+}
+.course .title,
+.course .description {
+  margin: 0 0 60px;
+}
+.course .title {
+  font-size: 48px;
+  font-size: 4.8rem;
+}
+.course .description {
+  width: 760px;
+  font-family: "ff-meta-serif-web-pro", helvetica, arial, verdana, sans-serif;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 32px;
+  font-size: 3.2rem;
+}
+.course .content {
+  -webkit-column-count: 3;
+  -webkit-column-gap: 40px;
+  -moz-column-count: 3;
+  -moz-column-gap: 40px;
+  -o-column-count: 3;
+  -o-column-gap: 40px;
+  -ms-column-count: 3;
+  -ms-column-gap: 40px;
+  column-count: 3;
+  column-gap: 40px;
+}
+.course .content p:first-child {
+  font-weight: 600;
 }
 footer {
   padding: 20px 0;
