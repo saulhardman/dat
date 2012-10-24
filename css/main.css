@@ -750,7 +750,7 @@ body {
   line-height: 72px;
 }
 nav {
-  margin: 20px 0 0;
+  margin: 10px 0 0;
   font-size: 14px;
   font-size: 1.4rem;
 }
@@ -760,7 +760,7 @@ nav ul {
 }
 nav li {
   display: inline;
-  margin: 0 0 0 30px;
+  margin: 0 0 0 10px;
 }
 nav li:first-of-type {
   margin: 0;
@@ -772,13 +772,13 @@ nav a {
   text-transform: uppercase;
   color: #f0503c;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5;
   text-shadow: 0 0 2px rgba(20, 20, 20, 0.1);
 }
 nav a:hover {
-  color: #000000;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #f0503c;
   text-decoration: none;
 }
 nav a:focus,
@@ -788,9 +788,9 @@ nav a.active {
   outline: none;
 }
 #main {
-  margin: 80px auto;
+  margin: 0 auto 80px;
 }
-#main .header {
+.header {
   margin: 0 0 40px;
 }
 .content p {
@@ -798,21 +798,39 @@ nav a.active {
   line-height: 40px;
   line-height: 4rem;
 }
+.content .mantra {
+  font-family: "futura-pt", helvetica, arial, verdana, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #f0503c;
+}
+.course .header {
+  margin: 0;
+}
 .course .title,
 .course .description {
-  margin: 0 0 60px;
+  margin: 0 auto 60px;
 }
 .course .title {
+  margin: 0;
+  padding: 60px;
+  text-align: center;
   font-size: 48px;
   font-size: 4.8rem;
+  color: #ffffff;
+  background-color: #f0503c;
+  border-bottom: 5px solid #e72a12;
 }
 .course .description {
+  margin: 60px auto;
   width: 760px;
   font-family: "ff-meta-serif-web-pro", helvetica, arial, verdana, sans-serif;
   font-weight: normal;
-  text-transform: none;
   font-size: 32px;
   font-size: 3.2rem;
+  text-transform: none;
 }
 .course .content {
   -webkit-column-count: 3;
@@ -831,7 +849,7 @@ nav a.active {
 }
 footer {
   padding: 20px 0;
-  background-color: #d5d5d5;
+  background-color: rgba(22, 26, 54, 0.7);
 }
 @media print {
   * {

@@ -5,13 +5,14 @@
 
 @font-size:     16;
 
-@color:         rgba(34,34,34, 1.0);
-@link-color:    rgba(153,153,153, 1.0);
-@tint-color:    rgba(22,26,54, 0.7);
-@text-shadow:   rgba(204,204,204, 1.0); 
+@color:         rgba(34, 34, 34, 1.0);
+@link-color:    rgba(153, 153, 153, 1.0);
+@tint-color:    rgba(22, 26, 54, 0.7);
+@text-shadow:   rgba(204, 204, 204, 1.0);
+@highlight-color:     #f0503c;
 
-@black:         rgba(0,0,0, 1.0);
-@white:         rgba(255,255,255, 1.0);
+@black:         rgba(0, 0, 0, 1.0);
+@white:         rgba(255, 255, 255, 1.0);
 
 html,
 button,
@@ -138,7 +139,7 @@ body {
 
 nav {
 
-    margin: 20px 0 0;
+    margin: 10px 0 0;
     .font-size (14);
 
     ul {
@@ -151,7 +152,7 @@ nav {
     li {
 
         display: inline;
-        margin: 0 0 0 30px;
+        margin: 0 0 0 10px;
 
         &:first-of-type {
             margin: 0;
@@ -163,16 +164,16 @@ nav {
 
         padding: 3px 11px 2px;
         .futura;
-        color: #f0503c;
+        color: @highlight-color;
         letter-spacing: 1px;
-        font-weight: 500;
+        font-weight: 700;
         line-height: 1.5;
         text-shadow: 0 0 2px rgba(20, 20, 20, .1);
 
         &:hover {
 
-            color: @black;
-            background-color: @white;
+            color: @white;
+            background-color: @highlight-color;
             text-decoration: none;
             
 
@@ -193,13 +194,13 @@ nav {
 
 #main {
 
-    margin: 80px auto;
+    margin: 0 auto 80px;
 
-    .header {
+}
 
-        margin: 0 0 40px;
+.header {
 
-    }
+    margin: 0 0 40px;
 
 }
 
@@ -212,29 +213,50 @@ nav {
 
     }
 
+    .mantra {
+
+        .futura ();
+        .font-size (14);
+        color: @highlight-color;
+
+    }
+
 }
 
 .course {
 
+    .header {
+
+        margin: 0;
+
+    }
+
     .title,
     .description {
 
-        margin: 0 0 60px;
+        margin: 0 auto 60px;
 
     }
 
     .title {
 
+        margin: 0;
+        padding: 60px;
+        text-align: center;
         .font-size (48);
+        color: @white;
+        background-color: @highlight-color;
+        border-bottom: 5px solid darken(@highlight-color, 10%);
 
     }
 
     .description {
 
+        margin: 60px auto;
         width: 760px;
         .meta;
-        text-transform: none;
         .font-size (32);
+        text-transform: none;
 
     }
 
@@ -271,7 +293,7 @@ nav {
 footer {
 
     padding: 20px 0;
-    background-color: #d5d5d5;
+    background-color: @tint-color;
 
 }
 

@@ -1,6 +1,6 @@
 <?php include "includes/header.php"; ?>
 
-<section class="course container">
+<section class="course">
 
     <header class="header">
 
@@ -8,13 +8,17 @@
 
             <h1 class="title">BA/BSc (Hons) Digital Art and Technology</h1>
 
-            <h2 class="description">With a 20 year history, Digital Art and Technology at Plymouth University is <em>one of the UK’s best and most established</em> interactive media degrees.</h2>
+            <div class="container">
+
+                <h2 class="description">With a 20 year history, Digital Art and Technology at Plymouth University is <em>one of the UK’s best and most established</em> interactive media degrees.</h2>
+
+            </div>
 
         </hgroup>
 
     </header>
 
-    <div class="content">
+    <div class="content container">
 
         <p>Our graduates are amongst the World’s best game designers, digital artists, web designers, coders and creative thinkers.</p>
 
@@ -24,7 +28,7 @@
 
         <p>Breaking down barriers between disciplines, the course can be taken as either a BSc or a BA.</p>
 
-        <p>“Messing with the future” is our mantra.</p>
+        <p class="mantra">“Messing with the future” is our mantra.</p>
 
     </div>
 
