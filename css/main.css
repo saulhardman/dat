@@ -750,10 +750,9 @@ body {
   line-height: 72px;
 }
 nav {
-  margin: 0;
+  margin: 20px 0 0;
   font-size: 14px;
   font-size: 1.4rem;
-  font-weight: 300;
 }
 nav ul {
   padding: 0;
@@ -761,15 +760,19 @@ nav ul {
 }
 nav li {
   display: inline;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 30px;
+}
+nav li:first-of-type {
+  margin: 0;
 }
 nav a {
   padding: 3px 11px 2px;
   font-family: "futura-pt", helvetica, arial, verdana, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  color: #fff;
+  color: #f0503c;
   letter-spacing: 1px;
+  font-weight: 500;
   line-height: 1.5;
   text-shadow: 0 0 2px rgba(20, 20, 20, 0.1);
 }
