@@ -11,7 +11,9 @@
 @text-shadow:       rgba(204, 204, 204, 1.0);
 @highlight-color:   rgba(240, 80, 60, 1.0);
 
-@text-select:       rgba(240, 80, 60, 1);
+@text-select:       rgba(34, 34, 34, 0.4);
+
+@lowlight-color:    rgb(80, 80, 100);
 
 @black:             rgba(0, 0, 0, 1.0);
 @white:             rgba(255, 255, 255, 1.0);
@@ -141,9 +143,8 @@ body {
 
 nav {
 
-    margin: 0;
+    margin: 10px 0 0;
     .font-size (14);
-    font-weight: 300;
 
     ul {
 
@@ -156,6 +157,10 @@ nav {
 
         display: inline;
         margin: 0 0 0 10px;
+
+        &:first-of-type {
+            margin: 0;
+        }
             
     }
 
@@ -163,15 +168,16 @@ nav {
 
         padding: 3px 11px 2px;
         .futura;
-        color: #fff;
+        color: @highlight-color;
         letter-spacing: 1px;
+        font-weight: 700;
         line-height: 1.5;
         text-shadow: 0 0 2px rgba(20, 20, 20, .1);
 
         &:hover {
 
-            color: @black;
-            background-color: @white;
+            color: @white;
+            background-color: @highlight-color;
             text-decoration: none;
             
 
@@ -211,6 +217,14 @@ nav {
 
     }
 
+    .mantra {
+
+        .futura ();
+        .font-size (14);
+        color: @highlight-color;
+
+    }
+
 }
 
 .course {
@@ -236,6 +250,7 @@ nav {
         .font-size (48);
         color: @white;
         background-color: @highlight-color;
+        border-bottom: 5px solid darken(@highlight-color, 10%);
 
     }
 
@@ -282,7 +297,7 @@ nav {
 footer {
 
     padding: 20px 0;
-    background-color: #d5d5d5;
+    background-color: @lowlight-color;
 
 }
 

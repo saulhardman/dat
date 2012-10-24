@@ -1,12 +1,12 @@
 <?php include "includes/header.php"; ?>
 
-<section class="course">
+<section class="design">
 
     <header class="header">
 
         <hgroup>
 
-            <h1 class="title">BA/BSc (Hons) Digital Art and Technology</h1>
+            <h1 class="title">Design</h1>
 
             <div class="container">
 

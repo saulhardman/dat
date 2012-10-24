@@ -331,9 +331,11 @@ FileETag None
 
 <IfModule mod_rewrite.c>
   Options +FollowSymlinks
-# Options +SymLinksIfOwnerMatch
+  Options +SymLinksIfOwnerMatch
   RewriteEngine On
-# RewriteBase /
+  RewriteBase /DAT/
+  RewriteRule ^([a-z]+)/$ $1 [R=302,L]
+  RewriteRule ^([a-z]+)$ $1.php [L]
 </IfModule>
 
 
