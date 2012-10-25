@@ -26,6 +26,8 @@
 
     <body>
 
+        <a href="http://plymouth.ac.uk" title="Click here to apply to Digital Art and Technology at Plymouth University" class="apply">Apply</a>
+
         <header class="main-header">
 
             <div class="tint">

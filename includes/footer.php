@@ -4,9 +4,21 @@
 
             <div class="container">
 
-                <h1>Find out more</h1>
+                <form id="" action="">
 
-                <p>To apply, click <a href="http://plymouth.ac.uk/" title="">here</a>. If you have any questions about the course, email us <a href="mailto:" title="">here</a>. To meet lecturers and students, join us on <a href="http://facebook.com/" title="">Facebook</a>.</p>
+                    <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Sign up to our newsletter">
+
+                    <button id="newsletter-submit">Sign Up</button>
+
+                </form>
+
+                <ul class="links">
+
+                    <li><a class="contact" href="mailto:" data-title="If you have any questions about the course, email us">Contact</a></li>
+                    
+                    <li><a class="facebook" href="http://facebook.com" data-title="To meet lecturers and students, join us on facebook">Facebook</a></li>
+
+                </ul>
 
             </div>
 

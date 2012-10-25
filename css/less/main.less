@@ -11,12 +11,13 @@
 @text-shadow:       rgba(204, 204, 204, 1.0);
 @highlight-color:   rgba(240, 80, 60, 1.0);
 
-@text-select:       rgba(34, 34, 34, 0.4);
+@text-select-dark:  @highlight-color;
+@text-select-light: @color;
 
-@light-blue: rgba(11, 44, 60, 1.0);
+@light-blue:        rgba(11, 44, 60, 1.0);
 
-@black:         rgba(0, 0, 0, 1.0);
-@white:         rgba(255, 255, 255, 1.0);
+@black:             rgba(0, 0, 0, 1.0);
+@white:             rgba(255, 255, 255, 1.0);
 
 html,
 button,
@@ -31,28 +32,36 @@ html {
 }
 
 body {
+
     .meta;
     .font-size (@font-size);
     text-rendering: optimizeLegibility;
+
 }
 
 ::-moz-selection {
+
     color: #fff;
-    background: @text-select;
+    background: @text-select-dark;
     text-shadow: none;
+
 }
 
 ::selection {
+
     color: #fff;
-    background: @text-select;
+    background: @text-select-dark;
     text-shadow: none;
+
 }
 
 .chromeframe {
+
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
+
 }
 
 /* Author: Saul Hardman (@saulhardman) and that other guy (@benashman) */
@@ -97,6 +106,27 @@ body {
     .clearfix;
     margin: 0 auto;
     width: 1200px;
+
+}
+
+.apply {
+
+    display: block;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    margin: 0;
+    padding: 15px 25px;
+    .futura;
+    color: @white;
+    background: @color;
+
+    &:hover {
+
+        text-decoration: none;
+        background: @highlight-color;
+
+    }
 
 }
 
@@ -208,6 +238,22 @@ nav {
 
 #main {
 
+    ::-moz-selection {
+
+        color: #fff;
+        background: @text-select-light;
+        text-shadow: none;
+
+    }
+
+    ::selection {
+
+        color: #fff;
+        background: @text-select-light;
+        text-shadow: none;
+
+    }
+
     margin: 0 auto 80px;
 
     .header {
@@ -241,10 +287,10 @@ nav {
 
         margin: 0 auto 60px;
         width: 760px;
-        .meta;
+        .caslon;
         .font-size (32);
         .line-height (48);
-        text-align: left;
+        text-align: center;
         text-transform: none;
 
     }
