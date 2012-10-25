@@ -24,18 +24,23 @@ button,
 input,
 select,
 textarea {
+
+    .proxima;
     color: @color;
+    text-rendering: optimizeLegibility;
+
 }
 
 html {
+
     font-size: 62.5%;
+
 }
 
 body {
 
-    .meta;
     .font-size (@font-size);
-    text-rendering: optimizeLegibility;
+    .line-height (28);
 
 }
 
@@ -105,7 +110,9 @@ body {
 
     .clearfix;
     margin: 0 auto;
-    width: 1200px;
+    *width: 1200px;
+    max-width: 1200px;
+    min-width: 768px;
 
 }
 
@@ -121,10 +128,12 @@ body {
     color: @white;
     background: @color;
 
-    &:hover {
+    &:hover,
+    &:focus {
 
         text-decoration: none;
         background: @highlight-color;
+        outline: none;
 
     }
 
@@ -175,6 +184,19 @@ body {
         .font-size (50);
         line-height: 72px;
 
+        a {
+
+            color: @white;
+
+            &:hover {
+
+                color: @white;
+                text-decoration: none;
+
+            }
+
+        }
+
     }
 
 }
@@ -194,7 +216,7 @@ nav {
     li {
 
         display: inline;
-        margin: 0 0 0 10px;
+        margin: 0 0 0 15px;
 
         &:first-of-type {
 
@@ -207,28 +229,21 @@ nav {
     a {
 
         padding: 3px 11px;
-        .futura;
+        .proxima;
+        text-transform: uppercase;
         color: @highlight-color;
         letter-spacing: 1px;
-        font-weight: 700;
-        line-height: 1.5;
+        font-weight: bold;
         text-shadow: 0 0 2px rgba(20, 20, 20, .1);
 
         &:hover,
+        &:focus,
         &.active {
 
-            color: @white;
-            background-color: @highlight-color;
-            text-decoration: none;
-            
-
-        }
-
-        &:focus {
-
             color: @color;
-            background: #fff;
+            background: @white;
             outline: none;
+            text-decoration: none;
 
         }
 
@@ -288,6 +303,7 @@ nav {
         margin: 0 auto 60px;
         width: 760px;
         .caslon;
+        font-weight: 500;
         .font-size (32);
         .line-height (48);
         text-align: center;
@@ -316,7 +332,12 @@ nav {
         p {
 
             margin: 0;
-            .line-height (32);
+
+            strong {
+
+                font-weight: 600;
+
+            }
 
         }
 

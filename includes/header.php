@@ -36,9 +36,7 @@
 
                     <hgroup class="logo">
 
-                        <h1 class="title" role="banner">Digital Art <span class="amp">&amp;</span> Technology</h1>
-
-                        <!-- <h2 class="description">Messing with the future</h2> -->
+                        <h1 class="title" role="banner"><a href="/DAT/" title="Click to view ‘Course details’">Digital Art <span class="amp">&amp;</span> Technology</a></h1>
 
                     </hgroup>
 
