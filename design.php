@@ -10,7 +10,7 @@
 
             <div class="container">
 
-                <h2 class="description">With a 20 year history, <em>BA/BSc (Hons) Digital Art and Technology</em> at Plymouth University is <strong>one of the UK’s best and most established</strong> interactive media degrees.</h2>
+                <h2 class="description">Design is more than the way things look; it’s also the way things move, animate and behave, the way they sound, the way they feel and the way we interact with them. <strong>Design is central to everything we do on Digital Art and Technology.</strong></h2>
 
             </div>
 
@@ -20,15 +20,51 @@
 
     <div class="content container">
 
-        <p><strong>Our graduates are amongst the World’s best game designers, digital artists, web designers, coders and creative thinkers.</strong></p>
+        <div class="intro">
 
-        <p>The course combines creative and technical skills with cultural and new media theory - producing graduates who are highly employable while also seeing the world in a new way.</p>
+            <p><strong>The evolution of digital technologies and their applications, such as ‘Social Media’, the ‘Internet of Things’, augmented reality, virtual worlds, wearable and physical computing is explored in all the creative, design and production aspects.</strong></br> We utilise the latest software and teaching approaches:</p>
 
-        <p>We aim to future-proof our students, to prepare them for an ever-changing world, where technologies evolve, but smart thinking is always in demand.</p>
+            <ul>
 
-        <p>Breaking down barriers between disciplines, the course can be taken as either a BSc or a BA.</p>
+                <li>2D design with Adobe Photoshop and Illustrator</li>
 
-        <p><em>“Messing with the future”</em> is our mantra.</p>
+                <li>3D modelling and animation with Maya and Unity 3D</li>
+
+                <li>Motion graphics and animation with After Effects, Premiere and Flash.</li>
+
+            </ul>
+
+        </div>
+
+        <p>In the final year, students choose to specialise in one of three pathways:</p>
+
+        <div class="pathways">
+
+            <article class="pathway">
+
+                <h3>Interaction Design</h3>
+
+                <p>Creating interactive digital media, physical installations, web and mobile applications, exploring the Internet of Things and Augmented Reality. That’s the evolution of interaction away from the screen into the physical environment through new media design.</p>
+
+            </article>
+
+            <article class="pathway">
+
+                <h3>Game Design</h3>
+
+                <p>Building on the rich history of video games with new technologies, modes of interaction and storytelling to create not only new games, but new kinds of gaming.</p>
+
+            </article>
+
+            <article class="pathway">
+
+                <h3>Information Design</h3>
+
+                <p>Translating data into graphic, animation and sounds. The new aesthetic of Infographics and sonification across a range of screen based media, websites, projection mapping and immersive full dome environments. Visuals: Software / tech logos, pull quotes, photos</p>
+
+            </article>
+
+        </div>
 
     </div>
 
