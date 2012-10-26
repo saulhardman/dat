@@ -24,6 +24,10 @@
 
         </footer>
 
+        <a href="http://plymouth.ac.uk" title="Click here to apply to Digital Art and Technology at Plymouth University" class="apply">Apply</a>
+
+        <div class="background-image" style="background-image: url('<?php echo $directory . "background-" . $index; ?>.jpg')"></div>
+
         <script>
             var config = {
                     debugMode: (location.hostname === 'localhost') ? true : false,

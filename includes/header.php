@@ -1,4 +1,18 @@
-<?php $pageName = (isset($_GET['page'])) ? $_GET['page']: 'course'; ?>
+<?php
+
+    $pageName = (isset($_GET['page'])) ? $_GET['page']: 'course';
+
+    $directory = "img/backgrounds/processed/";
+
+    if (glob($directory)) {
+
+        $length = count(glob($directory . '*'));
+
+        $index = rand(1, $length);
+
+    }
+
+?>
 <!DOCTYPE html>
 
 <html class="no-js">
@@ -26,33 +40,27 @@
 
     <body>
 
-        <a href="http://plymouth.ac.uk" title="Click here to apply to Digital Art and Technology at Plymouth University" class="apply">Apply</a>
-
         <header class="main-header">
 
-            <div class="tint">
+            <div class="container">
 
-                <div class="container">
+                <hgroup class="logo">
 
-                    <hgroup class="logo">
+                    <h1 class="title" role="banner"><a href="/DAT/" title="Click to view ‘Course details’">Digital Art <span class="amp">&amp;</span> Technology</a></h1>
 
-                        <h1 class="title" role="banner"><a href="/DAT/" title="Click to view ‘Course details’">Digital Art <span class="amp">&amp;</span> Technology</a></h1>
+                </hgroup>
 
-                    </hgroup>
+                <?php $pages = array("design", "programming", "theory", "industry", "environment", "team"); ?>
 
-                    <?php $pages = array("design", "programming", "theory", "industry", "environment", "team"); ?>
+                <nav>
 
-                    <nav>
+                    <?php foreach ($pages as $page): ?>
 
-                        <?php foreach ($pages as $page): ?>
+                        <li><a href="<?php echo $page; ?>"<?php if ($pageName == $page): ?> class="active"<?php endif; ?> title="Click to view the ‘<?php echo ucfirst($page); ?>’"><?php echo ucfirst($page); ?></a></li>
 
-                            <li><a href="<?php echo $page; ?>"<?php if ($pageName == $page): ?> class="active"<?php endif; ?> title="Click to view the ‘<?php echo ucfirst($page); ?>’"><?php echo ucfirst($page); ?></a></li>
+                    <?php endforeach; ?>
 
-                        <?php endforeach; ?>
-
-                    </nav>
-
-                </div>
+                </nav>
 
             </div>
 

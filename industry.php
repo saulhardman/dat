@@ -10,7 +10,7 @@
 
             <div class="container">
 
-                <h2 class="description">With a 20 year history, <em>BA/BSc (Hons) Digital Art and Technology</em> at Plymouth University is <strong>one of the UK’s best and most established</strong> interactive media degrees.</h2>
+                <h2 class="description">Digital Art and Technology has always enjoyed a great relationship with the tech, creative and advertising industries.</h2>
 
             </div>
 
@@ -20,15 +20,13 @@
 
     <div class="content container">
 
-        <p><strong>Our graduates are amongst the World’s best game designers, digital artists, web designers, coders and creative thinkers.</strong></p>
+        <p>The optional placement year sees students employed in sectors as diverse as web design, videogames, advertisement agency, visual effects, broadcasters, software development, academic research, museums and galleries.</p>
 
-        <p>The course combines creative and technical skills with cultural and new media theory - producing graduates who are highly employable while also seeing the world in a new way.</p>
+        <p>Past graduates now enjoy senior roles in some of the world’s most exciting creative companies, including Aardman, Electronic Arts and Yahoo!</p>
 
-        <p>We aim to future-proof our students, to prepare them for an ever-changing world, where technologies evolve, but smart thinking is always in demand.</p>
+        <p>There is also an amazing track record for graduate entrepreneurship, with start-ups such as <a href="http://www.specialmoves.com" title="">Specialmoves</a>, <a href="http://www.remodestudios.com" title="">Remode</a> and <a href="http://www.mutantlabs.com" title="">Mutant Labs</a> achieving great success straight out of university.</p>
 
-        <p>Breaking down barriers between disciplines, the course can be taken as either a BSc or a BA.</p>
-
-        <p><em>“Messing with the future”</em> is our mantra.</p>
+        <p>88% of our graduates find a job in their chosen field within a year of graduating, a higher percentage than most comparable courses.</p>
 
     </div>
 
