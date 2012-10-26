@@ -526,14 +526,18 @@ textarea {
 .clearfix:after {
   clear: both;
 }
-.meta {
-  font-family: "ff-meta-serif-web-pro", helvetica, arial, verdana, sans-serif;
-  font-weight: normal;
+.proxima {
+  font-family: "proxima-nova", helvetica, arial, verdana, sans-serif;
+  font-weight: 300;
 }
 .futura {
   font-family: "futura-pt", helvetica, arial, verdana, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+}
+.caslon {
+  font-family: "adobe-caslon-pro", georgia, serif;
+  font-weight: 600;
 }
 /*
 Animate.css - http://daneden.me/animate
@@ -648,26 +652,28 @@ button,
 input,
 select,
 textarea {
+  font-family: "proxima-nova", helvetica, arial, verdana, sans-serif;
+  font-weight: 300;
   color: #222222;
+  text-rendering: optimizeLegibility;
 }
 html {
   font-size: 62.5%;
 }
 body {
-  font-family: "ff-meta-serif-web-pro", helvetica, arial, verdana, sans-serif;
-  font-weight: normal;
   font-size: 16px;
   font-size: 1.6rem;
-  text-rendering: optimizeLegibility;
+  line-height: 28px;
+  line-height: 2.8rem;
 }
 ::-moz-selection {
   color: #fff;
-  background: rgba(34, 34, 34, 0.4);
+  background: #f0503c;
   text-shadow: none;
 }
 ::selection {
   color: #fff;
-  background: rgba(34, 34, 34, 0.4);
+  background: #f0503c;
   text-shadow: none;
 }
 .chromeframe {
@@ -696,12 +702,15 @@ a:hover {
 }
 /* Layout */
 body {
+  min-width: 848px;
   background-color: #eee;
 }
 .container {
   *zoom: 1;
   margin: 0 auto;
-  width: 1200px;
+  padding: 0 60px;
+  *width: 1200px;
+  max-width: 1080px;
 }
 .container:before,
 .container:after {
@@ -710,6 +719,25 @@ body {
 }
 .container:after {
   clear: both;
+}
+.apply {
+  display: block;
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  margin: 0;
+  padding: 10px 25px;
+  font-family: "futura-pt", helvetica, arial, verdana, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #a2a2a2;
+}
+.apply:hover,
+.apply:focus {
+  text-decoration: none;
+  background: #f0503c;
+  outline: none;
 }
 .main-header {
   text-align: center;
@@ -746,13 +774,21 @@ body {
 }
 .logo {
   margin: 140px 0 0;
-  color: #fff;
+  color: #ffffff;
 }
 .logo .title {
   margin: 0;
   font-size: 50px;
   font-size: 5rem;
   line-height: 72px;
+  line-height: 7.2rem;
+}
+.logo .title a {
+  color: #ffffff;
+}
+.logo .title a:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
 nav {
   margin: 10px 0 0;
@@ -765,35 +801,41 @@ nav ul {
 }
 nav li {
   display: inline;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 15px;
 }
 nav li:first-of-type {
   margin: 0;
 }
 nav a {
-  padding: 3px 11px;
-  font-family: "futura-pt", helvetica, arial, verdana, sans-serif;
-  font-weight: bold;
+  padding: 6px 10px;
+  font-family: "proxima-nova", helvetica, arial, verdana, sans-serif;
+  font-weight: 300;
   text-transform: uppercase;
   color: #f0503c;
   letter-spacing: 1px;
-  font-weight: 700;
-  line-height: 1.5;
+  font-weight: 800;
   text-shadow: 0 0 2px rgba(20, 20, 20, 0.1);
 }
 nav a:hover,
+nav a:focus,
 nav a.active {
-  color: #ffffff;
-  background-color: #f0503c;
-  text-decoration: none;
-}
-nav a:focus {
   color: #222222;
-  background: #fff;
+  background: #ffffff;
   outline: none;
+  text-decoration: none;
 }
 #main {
   margin: 0 auto 80px;
+}
+#main ::-moz-selection {
+  color: #fff;
+  background: #222222;
+  text-shadow: none;
+}
+#main ::selection {
+  color: #fff;
+  background: #222222;
+  text-shadow: none;
 }
 #main .header {
   margin: 0;
@@ -818,13 +860,14 @@ nav a:focus {
 #main .description {
   margin: 0 auto 60px;
   width: 760px;
-  font-family: "ff-meta-serif-web-pro", helvetica, arial, verdana, sans-serif;
-  font-weight: normal;
+  font-family: "adobe-caslon-pro", georgia, serif;
+  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   font-size: 3.2rem;
   line-height: 48px;
   line-height: 4.8rem;
-  text-align: left;
+  text-align: center;
   text-transform: none;
 }
 #main .content {
@@ -841,13 +884,89 @@ nav a:focus {
 }
 #main .content p {
   margin: 0;
-  line-height: 32px;
-  line-height: 3.2rem;
+}
+#main .content p strong {
+  font-weight: 600;
+}
+#main .design .content {
+  -webkit-column-count: 0;
+  -webkit-column-gap: 20px;
+  -moz-column-count: 0;
+  -moz-column-gap: 20px;
+  -o-column-count: 0;
+  -o-column-gap: 20px;
+  -ms-column-count: 0;
+  -ms-column-gap: 20px;
+  column-count: 0;
+  column-gap: 20px;
 }
 footer {
-  padding: 20px 0;
+  *zoom: 1;
+  padding: 60px 0;
   color: #ffffff;
   background-color: #222222;
+}
+footer:before,
+footer:after {
+  content: " ";
+  display: table;
+}
+footer:after {
+  clear: both;
+}
+#newsletter .email,
+#newsletter .submit {
+  float: left;
+  font-weight: 700;
+  margin: 0;
+}
+#newsletter .email {
+  padding: 5px 15px;
+  width: 200px;
+  height: 28px;
+  border: 1px solid #ffffff;
+}
+#newsletter .email:focus {
+  border: 1px solid #f0503c;
+  outline: none;
+}
+#newsletter .submit {
+  padding: 10px 25px;
+  height: 40px;
+  color: #ffffff;
+  background: #a2a2a2;
+  border: 0;
+}
+#newsletter .submit:hover,
+#newsletter .submit:focus {
+  background: #f0503c;
+  outline: none;
+}
+.links {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.links li {
+  float: left;
+}
+.links a {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+  display: block;
+  margin: 0 0 0 10px;
+  width: 40px;
+  height: 40px;
+  background: #a2a2a2;
+}
+.links a:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
 }
 @media print {
   * {

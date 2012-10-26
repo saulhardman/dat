@@ -10,49 +10,64 @@
 @tint-color:        rgba(22, 26, 54, 0.7);
 @text-shadow:       rgba(204, 204, 204, 1.0);
 @highlight-color:   rgba(240, 80, 60, 1.0);
+@light-gray:        lighten(@color, 50%);
 
-@text-select:       rgba(34, 34, 34, 0.4);
+@text-select-dark:  @highlight-color;
+@text-select-light: @color;
 
-@light-blue: rgba(11, 44, 60, 1.0);
+@light-blue:        rgba(11, 44, 60, 1.0);
 
-@black:         rgba(0, 0, 0, 1.0);
-@white:         rgba(255, 255, 255, 1.0);
+@black:             rgba(0, 0, 0, 1.0);
+@white:             rgba(255, 255, 255, 1.0);
 
 html,
 button,
 input,
 select,
 textarea {
+
+    .proxima;
     color: @color;
+    text-rendering: optimizeLegibility;
+
 }
 
 html {
+
     font-size: 62.5%;
+
 }
 
 body {
-    .meta;
+
     .font-size (@font-size);
-    text-rendering: optimizeLegibility;
+    .line-height (28);
+
 }
 
 ::-moz-selection {
+
     color: #fff;
-    background: @text-select;
+    background: @text-select-dark;
     text-shadow: none;
+
 }
 
 ::selection {
+
     color: #fff;
-    background: @text-select;
+    background: @text-select-dark;
     text-shadow: none;
+
 }
 
 .chromeframe {
+
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
+
 }
 
 /* Author: Saul Hardman (@saulhardman) and that other guy (@benashman) */
@@ -88,6 +103,7 @@ a {
 
 body {
 
+    min-width: 848px;
     background-color: #eee;
 
 }
@@ -96,7 +112,32 @@ body {
 
     .clearfix;
     margin: 0 auto;
-    width: 1200px;
+    padding: 0 60px;
+    *width: 1200px;
+    max-width: 1080px;
+
+}
+
+.apply {
+
+    display: block;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    margin: 0;
+    padding: 10px 25px;
+    .futura;
+    color: @white;
+    background: @light-gray;
+
+    &:hover,
+    &:focus {
+
+        text-decoration: none;
+        background: @highlight-color;
+        outline: none;
+
+    }
 
 }
 
@@ -137,13 +178,26 @@ body {
 .logo {
 
     margin: 140px 0 0;
-    color: #fff;
+    color: @white;
 
     .title {
 
         margin: 0;
         .font-size (50);
-        line-height: 72px;
+        .line-height (72);
+
+        a {
+
+            color: @white;
+
+            &:hover {
+
+                color: @white;
+                text-decoration: none;
+
+            }
+
+        }
 
     }
 
@@ -164,7 +218,7 @@ nav {
     li {
 
         display: inline;
-        margin: 0 0 0 10px;
+        margin: 0 0 0 15px;
 
         &:first-of-type {
 
@@ -176,29 +230,22 @@ nav {
 
     a {
 
-        padding: 3px 11px;
-        .futura;
+        padding: 6px 10px;
+        .proxima;
+        text-transform: uppercase;
         color: @highlight-color;
         letter-spacing: 1px;
-        font-weight: 700;
-        line-height: 1.5;
+        font-weight: 800;
         text-shadow: 0 0 2px rgba(20, 20, 20, .1);
 
         &:hover,
+        &:focus,
         &.active {
 
-            color: @white;
-            background-color: @highlight-color;
-            text-decoration: none;
-            
-
-        }
-
-        &:focus {
-
             color: @color;
-            background: #fff;
+            background: @white;
             outline: none;
+            text-decoration: none;
 
         }
 
@@ -209,6 +256,22 @@ nav {
 #main {
 
     margin: 0 auto 80px;
+
+    ::-moz-selection {
+
+        color: #fff;
+        background: @text-select-light;
+        text-shadow: none;
+
+    }
+
+    ::selection {
+
+        color: #fff;
+        background: @text-select-light;
+        text-shadow: none;
+
+    }
 
     .header {
 
@@ -241,36 +304,28 @@ nav {
 
         margin: 0 auto 60px;
         width: 760px;
-        .meta;
+        .caslon;
+        font-weight: 500;
         .font-size (32);
         .line-height (48);
-        text-align: left;
+        text-align: center;
         text-transform: none;
 
     }
 
     .content {
 
-        // drop cap
-
-        // p:first-child {
-
-        //     &:first-letter {
-
-        //         float: left;
-        //         padding: 0 10px 0 0;
-        //         height: 72px;
-        //         .font-size (72);
-        //         .line-height (92);
-
-        //     }
-
-        // }
+        .columns (3, 40px);
 
         p {
 
             margin: 0;
-            .line-height (32);
+
+            strong {
+
+                font-weight: 600;
+
+            }
 
         }
 
@@ -282,7 +337,15 @@ nav {
 
         // }
 
-        .columns (3, 40px);
+    }
+
+    .design {
+
+        .content {
+
+            .columns (0);
+
+        }
 
     }
 
@@ -290,9 +353,83 @@ nav {
 
 footer {
 
-    padding: 20px 0;
+    .clearfix;
+    padding: 60px 0;
     color: @white;
     background-color: @color;
+
+}
+
+#newsletter {
+
+    .email,
+    .submit {
+
+        float: left;
+        font-weight: 700;
+        margin: 0;
+
+    }
+
+    .email {
+
+        padding: 5px 15px;
+        width: 200px;
+        height: 28px;
+        border: 1px solid @white;
+
+        &:focus {
+
+            border: 1px solid @highlight-color;
+            outline: none;
+
+        }
+
+    }
+
+    .submit {
+
+        padding: 10px 25px;
+        height: 40px;
+        color: @white;
+        background: @light-gray;
+        border: 0;
+
+        &:hover,
+        &:focus {
+
+            background: @highlight-color;
+            outline: none;
+
+        }
+
+    }
+
+}
+
+.links {
+
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+
+        float: left;
+
+    }
+
+    a {
+
+        .ir;
+        display: block;
+        margin: 0 0 0 10px;
+        width: 40px;
+        height: 40px;
+        background: @light-gray;
+
+    }
 
 }
 

@@ -26,6 +26,8 @@
 
     <body>
 
+        <a href="http://plymouth.ac.uk" title="Click here to apply to Digital Art and Technology at Plymouth University" class="apply">Apply</a>
+
         <header class="main-header">
 
             <div class="tint">
@@ -34,9 +36,7 @@
 
                     <hgroup class="logo">
 
-                        <h1 class="title" role="banner">Digital Art <span class="amp">&amp;</span> Technology</h1>
-
-                        <!-- <h2 class="description">Messing with the future</h2> -->
+                        <h1 class="title" role="banner"><a href="/DAT/" title="Click to view ‘Course details’">Digital Art <span class="amp">&amp;</span> Technology</a></h1>
 
                     </hgroup>
 
