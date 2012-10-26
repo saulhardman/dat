@@ -4,18 +4,18 @@
 
             <div class="container">
 
-                <form id="" action="">
+                <form id="newsletter" action="/newsletter" method="post">
 
-                    <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Sign up to our newsletter">
+                    <input type="email" class="email" name="email" placeholder="Sign up to our newsletter">
 
-                    <button id="newsletter-submit">Sign Up</button>
+                    <button class="submit">Sign Up</button>
 
                 </form>
 
                 <ul class="links">
 
                     <li><a class="contact" href="mailto:" data-title="If you have any questions about the course, email us">Contact</a></li>
-                    
+
                     <li><a class="facebook" href="http://facebook.com" data-title="To meet lecturers and students, join us on facebook">Facebook</a></li>
 
                 </ul>

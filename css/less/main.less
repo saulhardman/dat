@@ -10,6 +10,7 @@
 @tint-color:        rgba(22, 26, 54, 0.7);
 @text-shadow:       rgba(204, 204, 204, 1.0);
 @highlight-color:   rgba(240, 80, 60, 1.0);
+@light-gray:        lighten(@color, 50%);
 
 @text-select-dark:  @highlight-color;
 @text-select-light: @color;
@@ -111,9 +112,9 @@ body {
 
     .clearfix;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 60px;
     *width: 1200px;
-    max-width: 1120px;
+    max-width: 1080px;
 
 }
 
@@ -124,10 +125,10 @@ body {
     top: 40px;
     right: 40px;
     margin: 0;
-    padding: 15px 25px;
+    padding: 10px 25px;
     .futura;
     color: @white;
-    background: @color;
+    background: @light-gray;
 
     &:hover,
     &:focus {
@@ -229,7 +230,7 @@ nav {
 
     a {
 
-        padding: 3px 11px;
+        padding: 6px 10px;
         .proxima;
         text-transform: uppercase;
         color: @highlight-color;
@@ -254,6 +255,8 @@ nav {
 
 #main {
 
+    margin: 0 auto 80px;
+
     ::-moz-selection {
 
         color: #fff;
@@ -269,8 +272,6 @@ nav {
         text-shadow: none;
 
     }
-
-    margin: 0 auto 80px;
 
     .header {
 
@@ -314,21 +315,7 @@ nav {
 
     .content {
 
-        // drop cap
-
-        // p:first-child {
-
-        //     &:first-letter {
-
-        //         float: left;
-        //         padding: 0 10px 0 0;
-        //         height: 72px;
-        //         .font-size (72);
-        //         .line-height (92);
-
-        //     }
-
-        // }
+        .columns (3, 40px);
 
         p {
 
@@ -350,17 +337,88 @@ nav {
 
         // }
 
-        .columns (3, 40px);
-
     }
 
 }
 
 footer {
 
-    padding: 20px 0;
+    .clearfix;
+    padding: 60px 0;
     color: @white;
     background-color: @color;
+
+}
+
+#newsletter {
+
+    .email,
+    .submit {
+
+        float: left;
+        margin: 0;
+
+    }
+
+    .email {
+
+        padding: 5px 15px;
+        width: 200px;
+        height: 28px;
+        border: 1px solid @white;
+
+        &:focus {
+
+            border: 1px solid @highlight-color;
+            outline: none;
+
+        }
+
+    }
+
+    .submit {
+
+        padding: 10px 25px;
+        height: 40px;
+        color: @white;
+        background: @light-gray;
+        border: 0;
+
+        &:hover,
+        &:focus {
+
+            background: @highlight-color;
+            outline: none;
+
+        }
+
+    }
+
+}
+
+.links {
+
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+
+        float: left;
+
+    }
+
+    a {
+
+        .ir;
+        display: block;
+        margin: 0 0 0 10px;
+        width: 40px;
+        height: 40px;
+        background: @light-gray;
+
+    }
 
 }
 
