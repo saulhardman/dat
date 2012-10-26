@@ -20,6 +20,12 @@
 @black:             rgba(0, 0, 0, 1.0);
 @white:             rgba(255, 255, 255, 1.0);
 
+* {
+
+    .box-sizing (border-box);
+
+}
+
 html,
 button,
 input,
@@ -339,6 +345,71 @@ nav {
 
     }
 
+    .programming {
+
+        .content {
+
+            .columns (0);
+
+            p,
+            ul {
+
+                float: left;
+
+            }
+
+            p:first-child {
+
+                margin: 0;
+                width: ~`100/3+'%'`;
+                padding: 0 20px 0 0;
+
+            }
+
+            p {
+
+                margin: 40px 0 0;
+
+            }
+
+            ul {
+
+                margin: 0;
+                padding: 0 30px 0 30px;
+                width: ~`100/3+'%'`;
+                list-style: none;
+
+                li {
+
+                    position: relative;
+
+                    &:before {
+
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        left: -20px;
+                        top: 9px;
+                        width: 10px;
+                        height: 10px;
+                        background-color: @highlight-color;
+
+                    }
+
+                }
+
+                &:last-of-type {
+
+                    padding-right: 0;
+
+                }
+
+            }
+
+        }
+
+    }
+
 }
 
 footer {
@@ -357,14 +428,14 @@ footer {
 
         float: left;
         margin: 0;
+        height: 40px;
 
     }
 
     .email {
 
         padding: 5px 15px;
-        width: 200px;
-        height: 28px;
+        width: 230px;
         border: 1px solid @white;
 
         &:focus {
@@ -379,7 +450,6 @@ footer {
     .submit {
 
         padding: 10px 25px;
-        height: 40px;
         color: @white;
         background: @light-gray;
         border: 0;

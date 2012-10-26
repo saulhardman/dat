@@ -10,7 +10,7 @@
 
             <div class="container">
 
-                <h2 class="description">With a 20 year history, <em>BA/BSc (Hons) Digital Art and Technology</em> at Plymouth University is <strong>one of the UK’s best and most established</strong> interactive media degrees.</h2>
+                <h2 class="description">Programming is the language underpinning <strong>everything</strong> in the digital world. We take our students from simple logic and scripting to <em>object-oriented programming and software engineering</em>.</h2>
 
             </div>
 
@@ -20,15 +20,29 @@
 
     <div class="content container">
 
-        <p><strong>Our graduates are amongst the World’s best game designers, digital artists, web designers, coders and creative thinkers.</strong></p>
+        <p><strong>All students get a strong foundation in computer programming, including:</strong></p>
 
-        <p>The course combines creative and technical skills with cultural and new media theory - producing graduates who are highly employable while also seeing the world in a new way.</p>
+        <ul>
 
-        <p>We aim to future-proof our students, to prepare them for an ever-changing world, where technologies evolve, but smart thinking is always in demand.</p>
+            <li>Web development with HTML5, CSS3 and JavaScript (including jQuery), PHP and MySQL.</li>
 
-        <p>Breaking down barriers between disciplines, the course can be taken as either a BSc or a BA.</p>
+            <li>Game development with Unity3D, HTML5 Canvas (JavaScript) and Flash (ActionScript 3).</li>
 
-        <p><em>“Messing with the future”</em> is our mantra.</p>
+            <li>Creative coding, digital art, visualisations and physical installations using Processing and Arduino.</li>
+
+        </ul>
+
+        <ul>
+
+            <li>Mobile app development for iPhone and Android smartphones with PhoneGap, Java and Objective-C.</li>
+
+            <li>Physical computing and hardware including Arduino, Raspberry Pi, MindWave, Mobile and Tablet devices.</li>
+
+        </ul>
+
+        <p>It’s up to individual students how much they wish to specialise in programming. For some it is a useful tool in their arsenal, for others it’s the start of a life-long love affair.</p>
+
+        <!-- Add software and hardware logos here -->
 
     </div>
 
