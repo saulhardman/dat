@@ -31,9 +31,21 @@
 
 }
 
-.full-background (@background-image) {
+.full-background-image (@background-image) {
 
-    background: url(@background-image) no-repeat center center; 
+    background-image: url(@background-image);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+
+}
+
+.full-background-size {
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
