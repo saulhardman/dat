@@ -10,7 +10,7 @@
 
             <div class="container">
 
-                <h2 class="description">With a 20 year history, <em>BA/BSc (Hons) Digital Art and Technology</em> at Plymouth University is <strong>one of the UK’s best and most established</strong> interactive media degrees.</h2>
+                <h2 class="description"> Students not only learn how to design and code, but learn to connect between pre-digital technologies and contemporary media forms, to assemble innovative Arts/Sciences hybrid and digital work <em>within a critical, cultural, social and economic context.</em></h2>
 
             </div>
 
@@ -20,15 +20,9 @@
 
     <div class="content container">
 
-        <p><strong>Our graduates are amongst the World’s best game designers, digital artists, web designers, coders and creative thinkers.</strong></p>
+        <p><strong>On Digital Art and Technology, we underpin technical and creative skills with a theoretical framework ranging from the ideas of Bruce Sterling and Marshall McLuhan to Will Wright and Steve Jobs, and everything in-between.</strong></p>
 
-        <p>The course combines creative and technical skills with cultural and new media theory - producing graduates who are highly employable while also seeing the world in a new way.</p>
-
-        <p>We aim to future-proof our students, to prepare them for an ever-changing world, where technologies evolve, but smart thinking is always in demand.</p>
-
-        <p>Breaking down barriers between disciplines, the course can be taken as either a BSc or a BA.</p>
-
-        <p><em>“Messing with the future”</em> is our mantra.</p>
+        <p>Students learn a range of skills that allow them to deal with questions about media, technology and the future in a highly informed and critical way - our studies take in everything from cutting edge questions in digital culture -  to the archeologies of media forms. This allows us to reflect on the transformative power of technology as well as the way in which artists, individuals and the public have explored, exploited, innovated and intervened in the emergence of new technologies and digital media technologies.</p>
 
     </div>
 

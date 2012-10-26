@@ -1028,6 +1028,53 @@ nav a.active {
   font-weight: 500;
   color: #a2a2a2;
 }
+#main .theory .content p {
+  margin: 0 0 10px 0;
+}
+#main .environment .content {
+  -webkit-column-count: 0;
+  -webkit-column-gap: 20px;
+  -moz-column-count: 0;
+  -moz-column-gap: 20px;
+  -o-column-count: 0;
+  -o-column-gap: 20px;
+  -ms-column-count: 0;
+  -ms-column-gap: 20px;
+  column-count: 0;
+  column-gap: 20px;
+}
+#main .environment .content .environments {
+  *zoom: 1;
+  margin: 40px 0 0 0;
+}
+#main .environment .content .environments:before,
+#main .environment .content .environments:after {
+  content: " ";
+  display: table;
+}
+#main .environment .content .environments:after {
+  clear: both;
+}
+#main .environment .content .environments h3 {
+  text-transform: uppercase;
+}
+#main .environment .content .environments .environment {
+  float: left;
+  padding: 0 0 0 40px;
+  width: 33.333333333333336%;
+}
+#main .environment .content .environments .environment:first-of-type {
+  padding: 0;
+}
+#main .environment .content .environments .environment h4 {
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #a2a2a2;
+}
+#main .environment .content .environments .environment p {
+  margin: 0 0 10px 0;
+}
 footer {
   *zoom: 1;
   padding: 60px 0;
