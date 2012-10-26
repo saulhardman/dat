@@ -1,5 +1,15 @@
 /* Mixins */
 
+.box-sizing (@box-sizing: border-box) {
+
+    -webkit-box-sizing: @box-sizing;
+    -moz-box-sizing: @box-sizing;
+    -o-box-sizing: @box-sizing;
+    -ms-box-sizing: @box-sizing;
+    box-sizing: @box-sizing;
+
+}
+
 .font-size (@font-size: 10) {
 
     font-size: @font-size * 1px;

@@ -40,7 +40,7 @@
 
                     </hgroup>
 
-                    <?php $pages = array("design", "programming", "theory", "industry", "environment", "lifestyle"); ?>
+                    <?php $pages = array("design", "programming", "theory", "industry", "environment", "team"); ?>
 
                     <nav>
 
