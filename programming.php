@@ -20,29 +20,39 @@
 
     <div class="content container">
 
-        <p><strong>All students get a strong foundation in computer programming, including:</strong></p>
+        <div class="clearfix">
 
-        <ul>
+            <p><strong>All students get a strong foundation in computer programming, including:</strong></p>
 
-            <li>Web development with HTML5, CSS3 and JavaScript (including jQuery), PHP and MySQL.</li>
+            <ul>
 
-            <li>Game development with Unity3D, HTML5 Canvas (JavaScript) and Flash (ActionScript 3).</li>
+                <li>Web development with HTML5, CSS3 and JavaScript (including jQuery), PHP and MySQL.</li>
 
-            <li>Creative coding, digital art, visualisations and physical installations using Processing and Arduino.</li>
+                <li>Game development with Unity3D, HTML5 Canvas (JavaScript) and Flash (ActionScript 3).</li>
 
-        </ul>
+                <li>Creative coding, digital art, visualisations and physical installations using Processing and Arduino.</li>
 
-        <ul>
+            </ul>
 
-            <li>Mobile app development for iPhone and Android smartphones with PhoneGap, Java and Objective-C.</li>
+            <ul>
 
-            <li>Physical computing and hardware including Arduino, Raspberry Pi, MindWave, Mobile and Tablet devices.</li>
+                <li>Mobile app development for iPhone and Android smartphones with PhoneGap, Java and Objective-C.</li>
 
-        </ul>
+                <li>Physical computing and hardware including Arduino, Raspberry Pi, MindWave, Mobile and Tablet devices.</li>
 
-        <p>It’s up to individual students how much they wish to specialise in programming. For some it is a useful tool in their arsenal, for others it’s the start of a life-long love affair.</p>
+            </ul>
+
+        </div>
+
+        <p><strong>It’s up to individual students how much they wish to specialise in programming. For some it is a useful tool in their arsenal, for others it’s the start of a life-long love affair.</strong></p>
 
         <!-- Add software and hardware logos here -->
+
+    </div>
+
+    <div class="images">
+
+        <img src="img/content/originals/programming-1.jpg" alt="" width="400" height="175"><img src="img/content/originals/programming-2.jpg" alt="" width="400" height="175"><img src="img/content/originals/programming-3.jpg" alt="" width="400" height="175">
 
     </div>
 

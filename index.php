@@ -32,6 +32,12 @@
 
     </div>
 
+    <div class="images">
+
+        <img src="img/content/originals/course-details-1.jpg" alt="" width="400" height="175"><img src="img/content/originals/course-details-2.jpg" alt="" width="400" height="175"><img src="img/content/originals/course-details-3.jpg" alt="" width="400" height="175">
+
+    </div>
+
 </section>
 
 <?php include "includes/footer.php"; ?>
