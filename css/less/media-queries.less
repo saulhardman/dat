@@ -87,8 +87,8 @@
         .title {
 
             display: block;
-            margin: -40px auto 40px;
-            padding: 30px;
+            margin: 0 auto 40px;
+            padding: 10px;
             .font-size (22);
             .line-height (32);
             z-index: 2;
@@ -131,6 +131,12 @@
                         padding: 0 0 0 20px;
                         width: auto;
 
+                        li {
+
+                            margin: 0 0 10px;
+
+                        }
+
                     }
 
                 }
@@ -169,17 +175,24 @@
 
         }
 
-        .design,
-        .programming,
-        .theory,
-        .environment,
-        .industry,
-        .environment,
-        .team {
+        .programming {
 
             .content {
 
-                .columns (0);
+                p:first-child,
+                ul {
+
+                    float: none;
+
+                }
+
+                p:first-child {
+
+                    margin: 0 0 20px;
+                    width: auto;
+                    padding: 0;
+
+                }
 
                 p {
 
@@ -187,12 +200,113 @@
 
                 }
 
+                ul {
+
+                    margin: 0 0 20px;
+                    padding: 0 0 0 20px;
+                    width: auto;
+
+                    li {
+
+                        margin: 0 0 20px;
+
+                        &:last-of-type {
+
+                            margin: 0;
+
+                        }
+
+                    }
+
+                }
+
             }
 
-            p {
+        }
 
-                width: auto;
+        .theory,
+        .industry {
+
+            .content {
+
                 .columns (0);
+
+                p {
+
+                    margin: 0 0 20px 0;
+
+                }
+
+            }
+
+        }
+
+        .environment {
+
+            .content {
+
+                .environments {
+
+                    margin: 20px 0 0 0;
+
+                    .environment {
+
+                        float: none;
+                        padding: 0;
+                        width: auto;
+
+                        h4 {
+
+                            margin: 0 0 10px 0;
+
+                        }
+
+                        p {
+
+                            margin: 0 0 20px 0;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .team {
+
+            .team-member {
+
+                margin: 40px 0; 
+
+                header,
+                .biography {
+
+                    float: none;
+
+                }
+
+                header {
+
+                    width: auto;
+
+                    .name {
+
+                        margin: 5px 0 20px;
+                        .font-size (18);
+
+                    }
+
+                }
+
+                .biography {
+
+                    .columns (0);
+                    width: auto;
+
+                }
 
             }
 
@@ -205,12 +319,15 @@
             p {
 
                 margin: 0 0 20px;
+                .line-height (38);
 
             }
 
         }
 
         .images {
+
+            margin-top: 20px;
 
             img {
 
