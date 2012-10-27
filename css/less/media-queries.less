@@ -1,3 +1,213 @@
+@media only screen and (max-device-width: 480px) {
+
+    body {
+
+        min-width: 100%;
+
+    }
+
+    .container {
+
+        padding: 0 40px;
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+
+    }
+
+    .logo {
+
+        margin: 120px 0 0;
+        padding: 5px 20px;
+
+        .title {
+
+            margin: 0;
+            .font-size (18);
+            .line-height (36);
+
+            a {
+
+                border: 7px solid @white;
+                color: @white;
+                padding: 6px 18px;
+                background-color: none;
+                .transition ();
+
+                &:hover,
+                &:focus {
+
+                    color: @white;
+                    background-color: rgba(255,255,255,.2);
+                    text-decoration: none;
+                    outline: none;
+                    .transition;
+
+                }
+
+            }
+
+        }
+
+    }
+
+    #main {
+
+        margin: 0 auto 40px;
+
+        .header {
+
+
+
+        }
+
+        .title,
+        .description {
+
+            margin: 0 auto 40px;
+
+        }
+
+        .title {
+
+            display: block;
+            margin: -40px auto 40px;
+            padding: 30px;
+            .font-size (22);
+            .line-height (32);
+            z-index: 2;
+
+        }
+
+        .description {
+
+            margin: 0 auto 20px;
+            width: auto;
+            .caslon;
+            font-weight: 500;
+            .font-size (18);
+            .line-height (38);
+            text-align: left;
+
+        }
+
+        .design {
+
+            .content {
+
+                .intro {
+
+                    margin: 0;
+
+                    p {
+
+                        float: none;
+                        margin: 0 0 20px;
+                        width: auto;
+                        .columns (0);
+
+                    }
+
+                    ul {
+
+                        float: none;
+                        margin: 0 0 20px;
+                        padding: 0 0 0 20px;
+                        width: auto;
+
+                    }
+
+                }
+
+                .pathways {
+
+                    margin: 20px 0 0 0;
+
+                    .pathway {
+
+                        float: none;
+                        padding: 0;
+                        width: auto;
+
+                        &:first-of-type {   
+
+                            padding: 0;
+
+                        }
+
+
+                        h3 {
+
+                            margin: 0 0 10px 0;
+                            text-transform: uppercase;
+                            font-weight: 500;
+                            color: @light-gray;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .design,
+        .programming,
+        .theory,
+        .environment,
+        .industry,
+        .environment,
+        .team {
+
+            .content {
+
+                .columns (0);
+
+                p {
+
+                    margin: 0 0 20px;
+
+                }
+
+            }
+
+            p {
+
+                width: auto;
+                .columns (0);
+
+            }
+
+        }
+
+        .content {
+
+            .columns (0);
+
+            p {
+
+                margin: 0 0 20px;
+
+            }
+
+        }
+
+        .images {
+
+            img {
+
+                width: 100%;
+
+            }
+
+        }
+
+    }
+
+}
+
 @media print {
     * {
         background: transparent !important;

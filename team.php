@@ -108,7 +108,7 @@
 
                 <hgroup>
 
-                    <h1 class="name">Mike</h1>
+                    <h1 class="name">Mike (2)</h1>
 
                 </hgroup>
 

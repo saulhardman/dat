@@ -213,12 +213,14 @@ body {
             background-color: none;
             .transition ();
 
-            &:hover, &:focus {
+            &:hover,
+            &:focus {
 
                 color: @white;
                 background-color: rgba(255,255,255,.2);
                 text-decoration: none;
-                .transition ();
+                outline: none;
+                .transition;
 
             }
 
@@ -350,6 +352,7 @@ nav {
             &:focus {
 
                 color: @light-gray;
+                text-decoration: underline;
                 outline: none;
 
             }
@@ -517,25 +520,25 @@ nav {
 
                 p {
 
-                    .columns (2);
-                    width: 66.666666%;
                     float: left;
+                    width: 66.666666%;
+                    .columns (2);
 
                 }
 
                 ul {
 
-                    .columns (1);
-                    width: 33.333333%;
                     float: left;
                     margin: 0;
                     padding: 0 0 0 60px;
+                    width: 33.333333%;
+                    .columns (0);
 
                     li {
 
                         position: relative;
                         margin: 0 0 5px 0;
-                        list-style-type: none;
+                        list-style: none;
 
                         &:before {
 
@@ -725,8 +728,9 @@ footer {
 .contact {
 
     float: right;
-    width: 50%;
     margin: -7px 0 0 0;
+    max-width: 40%;
+    min-width: 30%;
     padding: 0;
 
     a {
@@ -734,23 +738,22 @@ footer {
         color: @highlight-color;
 
 
-        &:visited { 
-
-            color: @highlight-color;
-
-        }
-
-        &:hover { 
-
-            color: @light-gray;
-
-        }
-
+        &:visited,
         &:active { 
 
             color: @highlight-color;
 
         }
+
+        &:hover,
+        &:focus { 
+
+            color: @light-gray;
+            text-decoration: underline;
+            outline: none;
+
+        }
+
     }
 
 }
