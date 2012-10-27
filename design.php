@@ -38,7 +38,7 @@
 
         </div>
 
-        <p>In the final year, students choose to specialise in one of three pathways:</p>
+        <p><strong>In the final year, students choose to specialise in one of three pathways:</strong></p>
 
         <div class="pathways">
 
