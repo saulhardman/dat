@@ -36,7 +36,7 @@
         
             <div class="biography">
 
-                <p>Gianni Corino is Associate Professor in Interactive Media, i-DAT’s Creative Producer and Programme Leader for BA/BSc Digital Art and Technology courses. His PhD research consolidates many years of interdisciplinary practice around the idea of embodied networks. The thesis investigates the relevance of the ‘thing’ and the ‘object’ in the Internet of Things and proposes an alternative design approach to the field. He established the “Smarter Planet Lab” as an interdisciplinary facility in partnership with IBM – Hursley Innovation Centre. Previous projects in the area of IoT include Remote Risonanaze, Quixote and Dn[t]cube.</p>
+                <p>Gianni Corino is Associate Professor in Interactive Media, i-DAT’s Creative Producer and Programme Leader for BA/BSc Digital Art and Technology courses. His PhD research consolidates many years of interdisciplinary practice around the idea of embodied networks. The thesis investigates the relevance of the ‘thing’ and the ‘object’ in the Internet of Things and proposes an alternative design approach to the field. He established the “Smarter Planet Lab” as an interdisciplinary facility in partnership with IBM – Hursley Innovation Centre. Previous projects in the area of IoT include <a href="http://rr-project.net" title="Find out more about ‘Remoate Risonanaze’">Remote Risonanaze</a>, Quixote and Dn[t]cube.</p>
 
             </div>
 
@@ -56,7 +56,7 @@
 
             <div class="biography">
 
-                <p>Mike Phillips is Professor of Interdisciplinary Arts, Plymouth University, School of Arts & Media, Faculty of Arts. He is the Director of Research at i-DAT, an Arts Council England National Portfolio Organisation, and a Principal Supervisor for the Planetary Collegium. His R&D orbits digital architectures and transmedia publishing, and is manifest in a series of ‘Operating Systems’ that dynamically manifest ‘data’ as experience to enhance perspectives on a complex world. He manages the FulDome Immersive Vision Theatre (IVT), a transdisciplinary instrument for the manifestation of material, immaterial and imaginary worlds and is co-editor of Ubiquity, The Journal of Pervasive Media: http://www.ubiquityjournal.net/</p>
+                <p>Mike Phillips is Professor of Interdisciplinary Arts, Plymouth University, School of Arts & Media, Faculty of Arts. He is the Director of Research at i-DAT, an Arts Council England National Portfolio Organisation, and a Principal Supervisor for the Planetary Collegium. His R&D orbits digital architectures and transmedia publishing, and is manifest in a series of ‘Operating Systems’ that dynamically manifest ‘data’ as experience to enhance perspectives on a complex world. He manages the Full Dome Immersive Vision Theatre (IVT), a transdisciplinary instrument for the manifestation of material, immaterial and imaginary worlds and is co-editor of <a href="http://www.ubiquityjournal.net" title="Click to see more about ‘Ubiquity’">Ubiquity, The Journal of Pervasive Media</a>.</p>
 
             </div>
 
@@ -76,7 +76,7 @@
 
             <div class="biography">
 
-                <p>Hannah Drayson is a visual artist and performer whose experiments with sound reactive and live visuals have led to collaborations with sound designers and DJs and to performances in the festival and club scene all over the UK and Europe. She is program leader of the Digital Media and Animation BA (top-up) program and leads a number of modules and projects with DAT, as well as activities such as the first year field trip, Degree Show and Animated Exeter Festival. She holds a doctorate for her research into body-sensor instrumentation and bio-signaling in the arts, is associate editor and panel member of Leonardo Reviews (for Leonardo, Journal of the Arts Sciences and Technology http://www.leonardo.info/ ) and a contributing researcher to the Transtechnology Research group.</p>
+                <p>Hannah Drayson is a visual artist and performer whose experiments with sound reactive and live visuals have led to collaborations with sound designers and DJs and to performances in the festival and club scene all over the UK and Europe. She is program leader of the Digital Media and Animation BA (top-up) program and leads a number of modules and projects with DAT, as well as activities such as the first year field trip, Degree Show and Animated Exeter Festival. She holds a doctorate for her research into body-sensor instrumentation and bio-signaling in the arts, is associate editor and panel member of Leonardo Reviews (for <a href="http://www.leonardo.info" title="Find out more about ‘Leonardo’">Leonardo, Journal of the Arts Sciences and Technology</a>) and a contributing researcher to the Transtechnology Research group.</p>
 
             </div>
 
@@ -136,7 +136,7 @@
 
             <div class="biography">
 
-                <p>Vlad Geroimenko is Associate Professor (Reader) in Multimedia and Web Technology. He holds not only a PhD, but also a higher DSc degree. He has published 150 scientific works, including 13 books (such as Visualizing Information³ Using SVG and X3D², ³Visualizing the Semantic Web² and a unique ³Dictionary of XML Technologies and the Semantic Web²). His main teaching topics include advanced web technologies, such as HTML5-based web and game design, augmented and virtual reality, 3D design and animation, XML and semantic technologies. His digital photo paintings are in private collections of UK, USA, Canada, Australia, Germany, France, Spain, Switzerland, Holland, Finland, Malta, Mexico, Russia and Belarus.</p>
+                <p>Vlad Geroimenko is Associate Professor (Reader) in Multimedia and Web Technology. He holds not only a PhD, but also a higher DSc degree. He has published 150 scientific works, including 13 books (such as Visualizing Information Using SVG and X3D, Visualizing the Semantic Web and a unique Dictionary of XML Technologies and the Semantic Web). His main teaching topics include advanced web technologies, such as HTML5-based web and game design, augmented and virtual reality, 3D design and animation, XML and semantic technologies. His digital photo paintings are in private collections of UK, USA, Canada, Australia, Germany, France, Spain, Switzerland, Holland, Finland, Malta, Mexico, Russia and Belarus.</p>
 
             </div>
 

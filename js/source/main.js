@@ -1,8 +1,10 @@
-require(['jquery', 'plugins/bigVideo', 'plugins/swipe', 'plugins/imagesLoaded', 'plugins/log'], function ($) {
+require(['jquery', 'plugins/retinafy', 'plugins/log'], function ($) {
 	
 	var main = {
 
 		init: function () {
+
+			$('body').retinafy();
 
 			console.log('Main initiated.');
 
