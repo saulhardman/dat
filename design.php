@@ -22,9 +22,13 @@
 
         <div class="intro">
 
-            <p><strong>The evolution of digital technologies and their applications, such as ‘Social Media’, the ‘Internet of Things’, augmented reality, virtual worlds, wearable and physical computing is explored in all the creative, design and production aspects.</strong></p>
+            <div>
 
-            <p>We utilise the latest software and teaching approaches:</p>
+                <p><strong>The evolution of digital technologies and their applications, such as ‘Social Media’, the ‘Internet of Things’, augmented reality, virtual worlds, wearable and physical computing is explored in all the creative, design and production aspects.</strong></p>
+            
+                <p>We utilise the latest software and teaching approaches:</p>
+
+            </div>
 
             <ul>
 
