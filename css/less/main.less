@@ -136,13 +136,17 @@ body {
     color: @white;
     background: @light-gray;
     z-index: 2;
+    opacity: .5;
+    .transition ();
 
     &:hover,
     &:focus {
 
         text-decoration: none;
-        background: @highlight-color;
+        //background: @highlight-color;
         outline: none;
+        opacity: 1;
+        .transition ();
 
     }
 
@@ -190,8 +194,10 @@ body {
 
 .logo {
 
-    margin: 140px 0 0;
+    margin: 120px 0 0;
     color: @white;
+    display: inline-block;
+    padding: 5px 20px;
 
     .title {
 
@@ -201,12 +207,18 @@ body {
 
         a {
 
+            border: 7px solid @white;
             color: @white;
+            padding: 6px 18px;
+            background-color: none;
+            .transition ();
 
-            &:hover {
+            &:hover, &:focus {
 
                 color: @white;
+                background-color: rgba(255,255,255,.2);
                 text-decoration: none;
+                .transition ();
 
             }
 
@@ -218,7 +230,7 @@ body {
 
 nav {
 
-    margin: 10px 0 0;
+    margin: 20px 0 0;
     .font-size (14);
 
     ul {
@@ -457,7 +469,7 @@ nav {
         .team-member {
 
             .clearfix;
-            margin: 60px 0;
+            margin: 60px 0; 
 
             &:nth-of-type (odd) {
 
@@ -630,6 +642,12 @@ nav {
                 .clearfix;
                 margin: 40px 0 0 0;
 
+                &:first-of-type {
+
+                    margin: 0;
+
+                }
+
                 h3 {
 
                     text-transform: uppercase;
@@ -684,6 +702,8 @@ footer {
 
 #newsletter {
 
+    float: left;
+
     .email,
     .submit {
 
@@ -713,6 +733,8 @@ footer {
         padding: 10px 25px;
         color: @white;
         background: @light-gray;
+        text-transform: uppercase;
+        font-weight: 700;
         border: 0;
 
         &:hover,
@@ -727,28 +749,35 @@ footer {
 
 }
 
-.links {
+.contact {
 
     float: right;
-    margin: 0;
+    width: 50%;
+    margin: -7px 0 0 0;
     padding: 0;
-    list-style: none;
-
-    li {
-
-        float: left;
-
-    }
 
     a {
 
-        .ir;
-        display: block;
-        margin: 0 0 0 10px;
-        width: 40px;
-        height: 40px;
-        background: @light-gray;
+        color: @highlight-color;
 
+
+        &:visited { 
+
+            color: @highlight-color;
+
+        }
+
+        &:hover { 
+
+            color: @light-gray;
+
+        }
+
+        &:active { 
+
+            color: @highlight-color;
+
+        }
     }
 
 }

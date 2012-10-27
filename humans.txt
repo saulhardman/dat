@@ -3,9 +3,10 @@
 
 # TEAM
 
-    Saul Hardman -- Designer & Developer -- @saulhardman
+    Saul Hardman -- @saulhardman
+    Ben Ashman -- @benashman
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    jQuery, Modernizr, RequireJS
+    jQuery, Modernizr, RequireJS, TypeKit, Beer

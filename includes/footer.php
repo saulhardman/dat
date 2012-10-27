@@ -6,19 +6,17 @@
 
                 <form id="newsletter" action="/newsletter" method="post">
 
-                    <input type="email" class="email" name="email" placeholder="Sign up to our newsletter">
+                    <input type="email" class="email" name="email" placeholder="Enter your email address">
 
-                    <button class="submit">Sign Up</button>
+                    <button class="submit">Keep in touch</button>
 
                 </form>
 
-                <ul class="links">
+                <p class="contact">
 
-                    <li><a class="contact" href="mailto:" data-title="If you have any questions about the course, email us">Contact</a></li>
+                    To apply, <a href="http://www1.plymouth.ac.uk/courses/undergraduate/4315/Pages/CourseOverview.aspx">click here</a>. If you have any questions about the course, <a href="mailto:">email us here</a>. To meet lecturers and students, <a href="https://www.facebook.com/DigitalArtAndTechnology">join us on Facebook</a>.
 
-                    <li><a class="facebook" href="http://facebook.com" data-title="To meet lecturers and students, join us on facebook">Facebook</a></li>
-
-                </ul>
+                </p>
 
             </div>
 
