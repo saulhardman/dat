@@ -1018,16 +1018,6 @@ nav a.active {
 #main .team .team-member:after {
   clear: both;
 }
-#main .team .team-member:nth-of-type (odd) .biography {
-  padding: 0 0 0 20px;
-}
-#main .team .team-member:nth-of-type (even) header {
-  float: right;
-  text-align: right;
-}
-#main .team .team-member:nth-of-type (even) .biography {
-  padding: 0 20px 0 0;
-}
 #main .team .team-member header,
 #main .team .team-member .biography {
   float: left;

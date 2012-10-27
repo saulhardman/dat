@@ -30,6 +30,12 @@
 
     </div>
 
+    <div class="images">
+
+        <img src="img/content/processed/industry-1.jpg" alt="" width="400" height="175"><img src="img/content/processed/industry-2.jpg" alt="" width="400" height="175"><img src="img/content/processed/industry-3.jpg" alt="" width="400" height="175">
+
+    </div>
+
 </section>
 
 <?php include "includes/footer.php"; ?>

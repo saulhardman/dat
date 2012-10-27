@@ -52,7 +52,7 @@
 
     <div class="images">
 
-        <img src="img/content/originals/programming-1.jpg" alt="" width="400" height="175"><img src="img/content/originals/programming-2.jpg" alt="" width="400" height="175"><img src="img/content/originals/programming-3.jpg" alt="" width="400" height="175">
+        <img src="img/content/processed/programming-1.jpg" alt="" width="400" height="175"><img src="img/content/processed/programming-2.jpg" alt="" width="400" height="175"><img src="img/content/processed/programming-3.jpg" alt="" width="400" height="175">
 
     </div>
 
