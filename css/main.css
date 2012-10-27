@@ -1243,6 +1243,55 @@ footer:after {
 .contact a:active {
   color: #f0503c;
 }
+@media only screen and (max-device-width: 480px) {
+  body {
+    min-width: 100%;
+  }
+  .container {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+  }
+  .apply {
+    display: none;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .background-image {
+    background: none;
+  }
+  .main-header {
+    background: #222222;
+  }
+  .logo {
+    margin: 40px;
+  }
+  .logo .title {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+  .logo .title a {
+    border: 5px solid #ffffff;
+  }
+  nav {
+    margin: 20px 0;
+  }
+  nav li {
+    display: block;
+  }
+  #main .container {
+    padding: 0 40px;
+  }
+  #main .container .description {
+    width: 100%;
+    line-height: 18px;
+    line-height: 1.8rem;
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+}
 @media print {
   * {
     background: transparent !important;
