@@ -29,7 +29,9 @@
         <script>
             var config = {
                     debugMode: (location.hostname === 'localhost') ? true : false,
-                    ga: 'UA-XXXXXXXX-X'
+                    ga: 'UA-XXXXXXXX-X',
+                    imageCount: <?php echo $length; ?>,
+                    imageIndex: <?php echo $index; ?>
                 },
                 require = {
                     baseUrl: (config.debugMode) ? 'js/source/' : 'js',

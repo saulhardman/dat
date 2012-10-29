@@ -169,8 +169,15 @@ body {
     position: relative;
     height: 400px;
     text-align: center;
-    background-color: @tint-color;
+    background-color: @color;
     z-index: 2;
+
+    &.loaded {
+
+        background-color: @tint-color;
+        .transition (1s);
+
+    }
 
     /*
     
