@@ -1,6 +1,6 @@
 define(function () {
 	
-	if (!(window.console && console.log) || config.debugMode === 0) {
+	if (!(window.console && console.log) || config.debugMode === false) {
 		(function() {
 			var noop = function() {},
 				methods = ['assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error', 'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log', 'markTimeline', 'profile', 'profileEnd', 'markTimeline', 'table', 'time', 'timeEnd', 'timeStamp', 'trace', 'warn'],
