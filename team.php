@@ -20,7 +20,7 @@
 
     <div class="content container">
 
-        <p><strong>The course is closely tied to our postgraduate taught programmes, doctoral programmes, industrial collaborations and applied research at Plymouth University’s Institute of Digital Art and Technology (iDAT), now an Art Council National Portfolio Art Organisation.</strong><p>
+        <p><strong>The course is closely tied to our postgraduate taught programmes, doctoral programmes, industrial collaborations and applied research at Plymouth University’s Institute of Digital Art and Technology (iDAT), now an Arts Council National Portfolio Art Organisation.</strong><p>
 
         <article class="team-member">
 
@@ -124,7 +124,7 @@
 
                 <hgroup>
 
-                    <h1 class="name">Mike (2)</h1>
+                    <h1 class="name">Mike Blow</h1>
 
                 </hgroup>
 
@@ -205,6 +205,26 @@
                 <p>Luke Christison's practice focuses on the use of the Immersive Vision Theatre and DAT's portable dome, teaching and inspiring all ages about the universe, and the potential of the fulldome environment.</p>
 
                 <p>This educational technologist is also developing interactive and immersive artistic visualizations, and scientific applications for the space. He is involved in numerous DAT projects and is a leader for a first year module in visual communication.</p>
+
+            </div>
+
+        </article>
+		
+		<article class="team-member">
+
+            <header>
+
+                <hgroup>
+
+                    <h1 class="name">Iain</h1>
+
+                </hgroup>
+
+            </header>
+
+            <div class="biography">
+
+                <p>Iain Lobb is an award-winning game designer and developer who delivers the first year Web Technologies module as an Associate Lecturer. Iain is the founder/owner of Dull Dude, a two-person games studio based in Cornwall, producing games for the web and mobile devices. He speaks about games and interactive media at conferences around the world, and co-hosts the Creative Coding Podcast.</p>
 
             </div>
 

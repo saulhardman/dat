@@ -30,7 +30,7 @@
 
                 <h4>MediaLab</h4>
 
-                <p>All students have access to the Digital Art and Technology MediaLab. The MediaLab is kitted out with speedy Mac Pros and the latest software.</p>
+                <p>All students have access to the Digital Art and Technology MediaLab. The MediaLab is kitted out with speedy iMacs and the latest software.</p>
 
             </article>
 
@@ -38,7 +38,7 @@
 
                 <h4>IBM Smarter Planet Lab</h4>
 
-                <p>Digital Art and Technology’s MediaLab is kitted out with speedy Mac Pros and the latest software. The IBM-sponsored Smarter Planet Lab is a state of the art lab to learn and experiment with new design concepts and software development.</p>
+                <p>The IBM-sponsored Smarter Planet Lab is a state of the art facility for learning and experimenting with new design concepts and software development techniques.</p>
 
             </article>
 
@@ -59,7 +59,7 @@
 
             <article class="environment">
 
-                <h4>field Trips</h4>
+                <h4>Field Trips</h4>
 
                 <p>To broaden students’ horizons there are national and international field trips to enjoy, taking part in festivals and cultural events in major vibrant cities and innovation centres. Recent trips include New York, Helsinki, Turin and Berlin.</p>
 
@@ -75,9 +75,9 @@
 
             <article class="environment">
 
-                <h4>Immersive Vision Theatre</h4>
+                <h4>Visiting Speakers</h4>
 
-                <p>The Immersive Vision Theatre is a unique 360° dome cinema, that provides a breathtaking visual and sonic experience.</p>
+                <p>We regularly play host to interesting practitioners and theorists.</p>
 
             </article>
 
@@ -96,7 +96,7 @@
 
                 <p>Plymouth is a modern, fun city with the university at its heart. The course is plugged-in to a really vibrant community of local events, festivals and gatherings including Explay indie games festival, Digpen web conference and Port Eliot literary festival.</p> 
 
-                <p>There’s great nightlife to enjoy, and the amazing countryside and sandy beaches of Devon and Cornwall on our doorstep. It includes Newquay, the UK's leading surfing destination.
+                <p>There’s great nightlife to enjoy, and the amazing countryside and sandy beaches of Devon and Cornwall on our doorstep - great news if you love surfing or the great outdoors!
                 </p>
 
             </article>
@@ -105,7 +105,7 @@
 
                 <h4>ExPlay Indie Games Festival</h4>
 
-                <p>ExPlay represents the independent games development and design industry across the South West of England and beyond. We hold an annual conference that attracts leading speakers from the indie games circuit and support the growth of the industry through bespoke training programmes, business support and networking events throughout the year.</p>
+                <p>ExPlay is a community of independent games developers and studios spread across the South West of England, but founded and organised right here in Plymouth. The monthly meetup in Plymouth brings together professionals and students, to play games and share ideas. The annual conference attracts leading speakers from the indie games circuit and aims to support the growth of the industry through training programmes and business support.</p>
 
             </article>
 
@@ -113,7 +113,7 @@
 
                 <h4>DigPen Web Conference</h4>
 
-                <p>DigPen is a grassroots movement of people who make web and digital stuff in the far South West of England. DigPen is about collaborating, sharing and celebrating the South West's amazing community of designers, developers and entrepreneurs. </p>
+                <p>DigPen is a grassroots movement of people who make web and digital media, in the far South West of England. It's all about collaborating, sharing and celebrating the South West's amazing community of designers, developers and entrepreneurs. </p>
 
             </article>
 

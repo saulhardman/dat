@@ -20,7 +20,7 @@
 
     <div class="content container">
 
-        <p><strong>Our graduates are amongst the World’s best game designers, digital artists, web designers, coders and creative thinkers.</strong></p>
+        <p><strong>Our graduates are amongst the world’s best game designers, digital artists, web designers, coders and creative thinkers.</strong></p>
 
         <p>The course combines creative and technical skills with cultural and new media theory - producing graduates who are highly employable while also seeing the world in a new way.</p>
 
