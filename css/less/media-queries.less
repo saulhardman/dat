@@ -375,8 +375,6 @@
             .submit {
 
                 width: 100%;
-                -webkit-appearance: none;
-                border-radius: 0px;
 
             }
 
@@ -390,6 +388,47 @@
             max-width: 100%;
             min-width: 100%;
             text-align: center;
+
+        }
+
+    }
+
+}
+
+only screen and (max-device-width: 768px) {
+
+    body {
+
+        position: relative;
+        min-width: 100%;
+
+    }
+
+    .container {
+
+        padding: 0 40px;
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+
+    }
+
+    #main {
+
+        .header {
+
+            .container {
+
+                padding: 0;
+
+            }
+
+        }
+
+        .description {
+
+            padding: 0 40px;
+            width: 100%;
 
         }
 

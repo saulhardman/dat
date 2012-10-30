@@ -8,11 +8,7 @@
 
             <h1 class="title">Course Details</h1>
 
-            <div class="container">
-
-                <h2 class="description">With a 20 year history, <em>BA/BSc (Hons) Digital Art and Technology</em> at Plymouth University is <strong>one of the UK’s best and most established</strong> interactive media degrees.</h2>
-
-            </div>
+            <h2 class="description">With a 20 year history, <em>BA/BSc (Hons) Digital Art and Technology</em> at Plymouth University is <strong>one of the UK’s best and most established</strong> interactive media degrees.</h2>
 
         </hgroup>
 
