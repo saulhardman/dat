@@ -24,7 +24,7 @@
 
             <div>
 
-                <p><strong>The evolution of digital technologies and their applications, such as ‘Social Media’, the ‘Internet of Things’, augmented reality, virtual worlds, wearable and physical computing is explored in all the creative, design and production aspects.</strong></p>
+                <p><strong>Students design and produce innovative new applications of digital technology, from Social Media to ‘The Internet of Things’, augmented reality, wearable and physical computing, and virtual worlds.</strong></p>
             
                 <p>We utilise the latest software and teaching approaches:</p>
 
@@ -34,9 +34,9 @@
 
                 <li>2D design with Adobe Photoshop and Illustrator</li>
 
-                <li>3D modelling and animation with Maya and Unity 3D</li>
+                <li>3D modelling, animation and environment design with Maya and Unity 3D</li>
 
-                <li>Motion graphics and animation with After Effects, Premiere and Flash.</li>
+                <li>Motion graphics, film editing and animation with After Effects, Premiere and Flash.</li>
 
             </ul>
 
@@ -50,7 +50,7 @@
 
                 <h3>Interaction Design</h3>
 
-                <p>Creating interactive digital media, physical installations, web and mobile applications, exploring the Internet of Things and Augmented Reality. That’s the evolution of interaction away from the screen into the physical environment through new media design.</p>
+                <p>Creating interactive digital media, physical installations, web and mobile applications, exploring the Internet of Things and Augmented Reality. Taking interaction beyond the screen, into the physical environment.</p>
 
             </article>
 
@@ -66,7 +66,7 @@
 
                 <h3>Information Design</h3>
 
-                <p>Translating data into graphic, animation and sounds. The new aesthetic of Infographics and sonification across a range of screen based media, websites, projection mapping and immersive full dome environments. Visuals: Software / tech logos, pull quotes, photos</p>
+                <p>Translating data into graphics, animation and sound. Exploring the new aesthetic of Infographics and sonification across a range of screen based media, websites, projection mapping and immersive full dome environments.</p>
 
             </article>
 

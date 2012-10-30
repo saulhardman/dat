@@ -20,7 +20,7 @@
 
     <div class="content container">
 
-        <p>The optional placement year sees students employed in sectors as diverse as web design, videogames, advertisement agency, visual effects, broadcasters, software development, academic research, museums and galleries.</p>
+        <p>The optional placement year sees students employed in sectors as diverse as web design, videogames, advertising agencies, visual effects, broadcasters, software development, academic research, museums and galleries.</p>
 
         <p>Past graduates now enjoy senior roles in some of the world’s most exciting creative companies, including Aardman, Electronic Arts and Yahoo!</p>
 
