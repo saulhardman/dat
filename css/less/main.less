@@ -434,7 +434,7 @@ nav {
             ul {
 
                 margin: 0;
-                padding: 0 30px 0 30px;
+                padding: 0 20px;
                 width: ~`100/3+'%'`;
                 list-style: none;
 
@@ -459,7 +459,7 @@ nav {
 
                 &:last-of-type {
 
-                    padding-right: 0;
+                    padding: 0 0 0 40px;
 
                 }
 
@@ -530,7 +530,7 @@ nav {
 
                     float: left;
                     width: 66.666666%;
-                    .columns (2);
+                    .columns (2, 40px);
 
                 }
 
@@ -577,12 +577,23 @@ nav {
                     padding: 0 0 0 40px;
                     width: ~`100/3+'%'`;
 
-                    &:first-of-type {   
+                    &:nth-of-type (1) {
 
-                        padding: 0;
+                        padding: 0 20px 0 0;
 
                     }
 
+                    &:nth-of-type (2) {
+
+                        padding: 0 10px;
+
+                    }
+
+                    &:nth-of-type (3) {
+
+                        padding: 0 0 0 20px;
+
+                    }
 
                     h3 {
 
