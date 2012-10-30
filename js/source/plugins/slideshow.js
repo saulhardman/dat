@@ -1,4 +1,4 @@
-define(['jquery', 'plugins/imagesLoaded'], function ($) {
+define(['jquery'], function ($) {
 	
 	var slideshow = {
 
@@ -52,7 +52,11 @@ define(['jquery', 'plugins/imagesLoaded'], function ($) {
 
 			var imagePath = slideshow.path + index + '.jpg';
 
-			slideshow.$background.css('background-image', 'url(' + imagePath + ')').imagesLoaded(function () {
+			// replace this with an asynchronous image load
+
+			$('<img/>').attr('src', imagePath).load(function () {
+
+				slideshow.$background.css('background-image', 'url(' + imagePath + ')');
 
 				$('.main-header').addClass('loaded');
 
