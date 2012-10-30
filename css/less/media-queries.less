@@ -395,7 +395,7 @@
 
 }
 
-only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 768px) {
 
     body {
 
@@ -410,6 +410,67 @@ only screen and (max-device-width: 768px) {
         max-width: 100%;
         min-width: 100%;
         width: 100%;
+
+    }
+
+    .apply {
+
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        opacity: 1;
+
+    }
+
+    .main-header {
+
+        height: 400px;
+
+        .container {
+
+            padding: 0;
+
+            .logo {
+
+                margin: 150px 0 0 0;
+                padding: 0;
+
+                .title {
+
+                    .font-size (32);
+
+                    a {
+
+                        border: 5px solid @white;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    nav {
+
+        margin: 20px 0 40px 0;
+
+        li {
+
+            margin: 0 0 15px 0;
+
+            &:first-of-type {
+
+                margin: 0 0 15px 0;
+
+            }
+
+        }
 
     }
 
