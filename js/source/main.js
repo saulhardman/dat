@@ -24,7 +24,11 @@ require(['jquery', 'plugins/retinafy', 'plugins/imagesLoaded', 'plugins/jquery.h
 
 			main.retinafyImages();
 
-			main.fadeInBackgroundImage();
+			if (Modernizr.touch === false) {
+
+				main.fadeInBackgroundImage();
+
+			}
 
 			console.log('Main initiated.');
 
