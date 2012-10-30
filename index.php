@@ -8,7 +8,11 @@
 
             <h1 class="title">Course Details</h1>
 
-            <h2 class="description">With a 20 year history, <em>BA/BSc (Hons) Digital Art and Technology</em> at Plymouth University is <strong>one of the UK’s best and most established</strong> interactive media degrees.</h2>
+            <div class="container">
+
+                <h2 class="description">With a 20 year history, <em>BA/BSc (Hons) Digital Art and Technology</em> at Plymouth University is <strong>one of the UK’s best and most established</strong> interactive media degrees.</h2>
+
+            </div>
 
         </hgroup>
 
@@ -16,7 +20,7 @@
 
     <div class="content container">
 
-        <p><strong>Our graduates are amongst the world’s best game designers, digital artists, web designers, coders and creative thinkers.</strong></p>
+        <p><strong>Our graduates are amongst the World’s best game designers, digital artists, web designers, coders and creative thinkers.</strong></p>
 
         <p>The course combines creative and technical skills with cultural and new media theory - producing graduates who are highly employable while also seeing the world in a new way.</p>
 
