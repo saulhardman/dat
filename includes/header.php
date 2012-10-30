@@ -22,7 +22,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
 
-        <title>Digital Art and Technology — Messing With the Future</title>
+        <?php $pageTitle = "Digital Art and Technology — Messing With the Future"; ?>
+
+        <title><?php echo $pageTitle; ?> — Course Details</title>
 
         <meta name="author" content="">
         <meta name="description" content="">
@@ -52,11 +54,11 @@
 
                 <?php $pages = array("design", "programming", "theory", "industry", "environment", "team"); ?>
 
-                <nav>
+                <nav id="nav">
 
                     <?php foreach ($pages as $page): ?>
 
-                        <li><a href="<?php echo $page; ?>"<?php if ($pageName == $page): ?> class="active"<?php endif; ?> title="Click to view the ‘<?php echo ucfirst($page); ?>’"><?php echo ucfirst($page); ?></a></li>
+                        <li><a href="<?php echo $page; ?>" class="<?php echo $page; ?>-link<?php if ($pageName == $page): ?> active<?php endif; ?>" data-page-title="<?php echo $pageTitle; ?> — <?php echo ucfirst($page); ?>" title="Click to view the ‘<?php echo ucfirst($page); ?>’"><?php echo ucfirst($page); ?></a></li>
 
                     <?php endforeach; ?>
 
@@ -65,5 +67,3 @@
             </div>
 
         </header>
-
-        <div id="main" role="main">

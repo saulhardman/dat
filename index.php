@@ -1,6 +1,6 @@
 <?php include "includes/header.php"; ?>
 
-<section class="course">
+<section id="main" role="main" class="<?php echo $pageName; ?>">
 
     <header class="header">
 

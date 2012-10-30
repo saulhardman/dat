@@ -7,7 +7,19 @@ define(['jquery'], function ($) {
 
 		var retina = {
 
+			cache: [],
+
 			checkRetinaSrc: function (retinaSrc, callback) {
+
+				if ($.inArray(retinaSrc, retina.cache)) {
+
+					return callback(false);
+
+				} else {
+
+					retina.cache.push(retinaSrc);
+					
+				}
 
 				var http = new XMLHttpRequest();
 

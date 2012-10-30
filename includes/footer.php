@@ -31,7 +31,8 @@
                     debugMode: (location.hostname === 'localhost') ? true : false,
                     ga: 'UA-XXXXXXXX-X',
                     imageCount: <?php echo $length; ?>,
-                    imageIndex: <?php echo $index; ?>
+                    imageIndex: <?php echo $index; ?>,
+                    imagePath: "<?php echo $directory . "background-"; ?>"
                 },
                 require = {
                     baseUrl: (config.debugMode) ? 'js/source/' : 'js',
