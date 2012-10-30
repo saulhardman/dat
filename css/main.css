@@ -1213,7 +1213,10 @@ footer:after {
 }
 footer .info {
   float: left;
-  width: 600px;
+  max-width: 600px;
+}
+footer .info .sentence {
+  display: block;
 }
 footer .qr {
   float: right;
@@ -1553,8 +1556,11 @@ footer .qr:hover {
     min-width: 100%;
     text-align: center;
   }
+  .qr {
+    display: none;
+  }
 }
-@media only screen and (max-device-width: 768px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   body {
     position: relative;
     min-width: 100%;
@@ -1606,6 +1612,12 @@ footer .qr:hover {
   #main .description {
     padding: 0 40px;
     width: 100%;
+  }
+  footer .info {
+    width: 450px;
+  }
+  footer .info .sentence {
+    display: inline;
   }
 }
 @media print {

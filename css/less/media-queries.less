@@ -393,9 +393,17 @@
 
     }
 
+    .qr {
+
+        display: none;
+
+    }
+
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
 
     body {
 
@@ -490,6 +498,23 @@
 
             padding: 0 40px;
             width: 100%;
+
+        }
+
+    }
+
+    footer {
+
+
+        .info {
+
+            width: 450px;
+
+            .sentence {
+
+                display: inline;
+
+            }
 
         }
 
