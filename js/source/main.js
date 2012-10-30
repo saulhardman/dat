@@ -46,10 +46,6 @@ require(['jquery', 'plugins/retinafy', 'plugins/imagesLoaded', 'plugins/jquery.h
 
 			History.Adapter.bind(window, 'statechange', function () {
 
-				var State = History.getState();
-
-				History.log(State.data, State.title, State.url);
-
 				main.currentPage = location.pathname;
 
 				console.log('Current page: ', main.currentPage);

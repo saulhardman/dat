@@ -48,7 +48,7 @@
 
                 <hgroup class="logo">
 
-                    <h1 class="title" role="banner"><a href="/DAT/" title="Click to view ‘Course details’">Digital Art <span class="amp">&amp;</span> Technology</a></h1>
+                    <h1 class="title" role="banner"><a href="/DAT/" data-page-title="<?php echo $pageTitle; ?> — Course Details" title="Click to view ‘Course details’">Digital Art <span class="amp">&amp;</span> Technology</a></h1>
 
                 </hgroup>
 
