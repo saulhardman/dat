@@ -122,6 +122,8 @@ require(['jquery', 'plugins/retinafy', 'plugins/imagesLoaded', 'plugins/jquery.h
 
 					main.$main = $main;
 
+					main.$main.retinafy();
+
 					main.pageCache[href] = $main;
 
 				});

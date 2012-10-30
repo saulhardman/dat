@@ -11,13 +11,13 @@ define(['jquery'], function ($) {
 
 			checkRetinaSrc: function (retinaSrc, callback) {
 
-				if ($.inArray(retinaSrc, retina.cache)) {
+				if ($.inArray(retinaSrc, retina.cache) === -1) {
 
-					return callback(false);
+					retina.cache.push(retinaSrc);
 
 				} else {
 
-					retina.cache.push(retinaSrc);
+					return callback(false);
 					
 				}
 
