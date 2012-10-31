@@ -1,6 +1,8 @@
-require(['jquery', 'plugins/retinafy', 'plugins/imagesLoaded', 'plugins/jquery.history', 'plugins/slideshow', 'plugins/log'], function ($) {
+require(['jquery', 'plugins/slideshow', 'plugins/retinafy', 'plugins/imagesLoaded', 'plugins/jquery.history', 'plugins/log'], function ($, slideshow) {
 	
 	var main = {
+
+		width: $(window).width(),
 
 		$body: $('body'),
 
@@ -11,6 +13,8 @@ require(['jquery', 'plugins/retinafy', 'plugins/imagesLoaded', 'plugins/jquery.h
 		currentPage: location.pathname,
 
 		clickEvent: (Modernizr.touch) ? 'touchend': 'click',
+
+		touchMoved: false,
 
 		pageCache: {},
 
@@ -24,11 +28,9 @@ require(['jquery', 'plugins/retinafy', 'plugins/imagesLoaded', 'plugins/jquery.h
 
 			main.retinafyImages();
 
-			if (Modernizr.touch === false) {
+			// base this on screen size
 
-				main.fadeInBackgroundImage();
-
-			}
+			main.initSlideshow();
 
 			console.log('Main initiated.');
 
@@ -70,13 +72,39 @@ require(['jquery', 'plugins/retinafy', 'plugins/imagesLoaded', 'plugins/jquery.h
 
 				e.preventDefault();
 
-				var $this = $(this);
+				if (main.touchMoved === false) {
 
-				History.pushState(null, $this.data('page-title'), $this.attr('href'));
+					var $this = $(this);
+
+					History.pushState(null, $this.data('page-title'), $this.attr('href'));
+
+				}
 
 				return false;
 
 			});
+
+			$(window).on('touchmove', function () {
+
+				main.touchMoved = true;
+
+			}).on('touchend', function () {
+
+				main.touchMoved = false;
+
+			});
+
+			if (Modernizr.touch === true) {
+
+				main.$navLinks.on('touchstart', function (e) {
+
+					e.preventDefault();
+
+					return false;
+
+				});
+
+			}
 
 		},
 
@@ -86,13 +114,19 @@ require(['jquery', 'plugins/retinafy', 'plugins/imagesLoaded', 'plugins/jquery.h
 
 		},
 
-		fadeInBackgroundImage: function () {
+		initSlideshow: function () {
 
-			$('.background-image').imagesLoaded(function () {
+			if (main.width >= 768) {
 
-				$('.main-header').addClass('loaded');
+				slideshow.init();
 
-			});
+				$('.background-image').imagesLoaded(function () {
+
+					$('.main-header').addClass('loaded');
+
+				});
+
+			}
 
 		},
 

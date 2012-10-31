@@ -4,25 +4,31 @@
 
             <div class="container">
 
-                <form id="newsletter" action="/newsletter" method="post">
+                <div class="info">
 
-                    <input type="email" class="email" name="email" placeholder="Enter your email address">
+                    <form id="newsletter" action="/newsletter" method="post">
 
-                    <button class="submit">Keep in touch</button>
+                        <input type="email" class="email" name="email" placeholder="Enter your email address">
 
-                </form>
+                        <button class="submit">Keep in touch</button>
 
-                <p class="contact">
+                    </form>
 
-                    To apply, <a href="http://www1.plymouth.ac.uk/courses/undergraduate/4315/Pages/CourseOverview.aspx">click here</a>. If you have any questions about the course, <a href="mailto:">email us here</a>. To meet lecturers and students, <a href="https://www.facebook.com/DigitalArtAndTechnology">join us on Facebook</a>.
+                    <p class="contact">
 
-                </p>
+                        <span class="sentence">To apply, <a href="http://www1.plymouth.ac.uk/courses/undergraduate/4315/Pages/CourseOverview.aspx">click here</a>. If you have any questions about the course, <a href="mailto:">email us here</a>.</span> <span class="sentence">To meet lecturers and students, <a href="https://www.facebook.com/DigitalArtAndTechnology">join us on Facebook</a>.</span>
+
+                    </p>
+
+                </div>
+
+                <div class="qr"></div>
 
             </div>
 
         </footer>
 
-        <a href="http://plymouth.ac.uk" title="Click here to apply to Digital Art and Technology at Plymouth University" class="apply">Apply</a>
+        <a href="http://www1.plymouth.ac.uk/courses/undergraduate/4315/Pages/CourseOverview.aspx" title="Click here to apply to Digital Art and Technology at Plymouth University" class="apply">Apply</a>
 
         <div class="background-image" style="background-image: url('<?php echo $directory . "background-" . $index; ?>.jpg')"></div>
 

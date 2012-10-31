@@ -284,6 +284,12 @@ nav {
 
         }
 
+        &:active {
+
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+        }
+
     }
 
 }
@@ -705,10 +711,44 @@ footer {
     color: @white;
     background-color: @color;
 
+    .info {
+
+        float: left;
+        max-width: 600px;
+
+        .sentence {
+
+            display: block;
+
+        }
+
+    }
+
+    .qr {
+
+        float: right;
+        height: 150px;
+        width: 150px;
+        background-image: url(../img/content/original/dat-logo.png);
+        background-size: 120px 120px;
+        background-repeat: no-repeat;
+        opacity: .2;
+        .transition;
+
+        &:hover {
+
+            opacity: .5;
+            .transition;
+
+        }
+
+    }
+
 }
 
 #newsletter {
 
+    .clearfix;
     float: left;
 
     .email,
@@ -760,10 +800,8 @@ footer {
 
 .contact {
 
-    float: right;
-    margin: -7px 0 0 0;
-    max-width: 40%;
-    min-width: 30%;
+    float: left;
+    margin: 30px 0 0 0;
     padding: 0;
 
     a {

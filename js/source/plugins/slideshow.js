@@ -16,11 +16,7 @@ define(['jquery'], function ($) {
 
 		init: function () {
 
-			if (Modernizr.touch === false) {
-
-				slideshow.setLoop();
-
-			}
+			slideshow.setLoop();
 
 			return slideshow;
 
@@ -72,6 +68,6 @@ define(['jquery'], function ($) {
 
 	};
 
-	return slideshow.init();
+	return slideshow;
 
 });
