@@ -1,11 +1,5 @@
 <?php include "includes/header.php"; ?>
 
-<?php
-
-	// testing a commit
-
-?>
-
 <section id="main" role="main" class="<?php echo $pageName; ?>">
 
     <header class="header">
