@@ -60,11 +60,11 @@ require(['jquery', 'plugins/slideshow', 'plugins/retinafy', 'plugins/imagesLoade
 
 				console.log('Current page: ', main.currentPage);
 
-				main.analytics.update(main.currentPage);
-
 				main.loadPage(main.currentPage);
 
 				main.changeNavState(main.currentPage);
+
+				main.analytics.update(main.currentPage);
 				
 			});
 
@@ -87,6 +87,18 @@ require(['jquery', 'plugins/slideshow', 'plugins/retinafy', 'plugins/imagesLoade
 				return false;
 
 			});
+
+			if (Modernizr.touch === true) {
+
+				main.$navLinks.on('click', function (e) {
+
+					e.preventDefault();
+
+					return false;
+
+				});
+
+			}
 
 			$(window).on('touchmove', function () {
 

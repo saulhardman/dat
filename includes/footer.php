@@ -33,7 +33,7 @@
         <script>
             var config = {
                     debugMode: (location.hostname === 'localhost') ? true : false,
-                    ga: "UA-36035812-1",
+                    ga: 'UA-36035812-1',
                     imageCount: <?php echo $length; ?>,
                     imageIndex: <?php echo $index; ?>,
                     imagePath: "<?php echo $directory . 'background-'; ?>"
