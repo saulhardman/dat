@@ -4,6 +4,8 @@ define(['jquery'], function ($) {
 
 		$background: $('.background-image'),
 
+		$header: $('.main-header'),
+
 		count: config.imageCount,
 
 		index: config.imageIndex,
@@ -14,21 +16,47 @@ define(['jquery'], function ($) {
 
 		interval: 5000,
 
-		init: function () {
+		running: false,
+
+		start: function () {
+
+			slideshow.running = true;
 
 			slideshow.setLoop();
 
-			return slideshow;
+			console.log('Slideshow started.');
+
+		},
+
+		stop: function () {
+
+			slideshow.running = false;
+
+			clearTimeout(slideshow.loop);
+
+			slideshow.$header.removeClass('loaded');
+
+			setTimeout(function () {
+
+				slideshow.$background.css('background-image', 'none');
+
+			}, slideshow.fadeInterval);
+
+			console.log('Slideshow stopped.');
 
 		},
 
 		setLoop: function () {
 
-			slideshow.loop = setTimeout(function () {
+			if (slideshow.running === true) {
 
-				slideshow.iterate(slideshow.loop);
+				slideshow.loop = setTimeout(function () {
 
-			}, slideshow.interval);
+					slideshow.iterate(slideshow.loop);
+
+				}, slideshow.interval);
+
+			}
 
 		},
 
@@ -36,7 +64,7 @@ define(['jquery'], function ($) {
 
 			var nextIndex = ((slideshow.index + 1) > slideshow.count) ? 1 : slideshow.index + 1;
 
-			$('.main-header').removeClass('loaded');
+			slideshow.$header.removeClass('loaded');
 
 			setTimeout(function () {
 
@@ -58,7 +86,7 @@ define(['jquery'], function ($) {
 
 				slideshow.$background.css('background-image', 'url(' + imagePath + ')');
 
-				$('.main-header').addClass('loaded');
+				slideshow.$header.addClass('loaded');
 
 				slideshow.setLoop();
 

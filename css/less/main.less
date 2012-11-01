@@ -136,17 +136,16 @@ body {
     color: @white;
     background: @light-gray;
     z-index: 2;
-    opacity: .5;
-    .transition ();
+    opacity: 0.5;
+    .transition (opacity);
 
     &:hover,
     &:focus {
 
         text-decoration: none;
-        //background: @highlight-color;
         outline: none;
         opacity: 1;
-        .transition ();
+        .transition (opacity);
 
     }
 
@@ -171,12 +170,12 @@ body {
     text-align: center;
     background-color: @color;
     z-index: 2;
-    .transition (1s);
+    .transition (background-color, 1s);
 
     &.loaded {
 
         background-color: @tint-color;
-        .transition (1s);
+        .transition (background-color, 1s);
 
     }
 
@@ -218,17 +217,17 @@ body {
             border: 7px solid @white;
             color: @white;
             padding: 6px 18px;
-            background-color: none;
-            .transition ();
+            background-color: transparent;
+            .transition (background-color);
 
             &:hover,
             &:focus {
 
                 color: @white;
-                background-color: rgba(255,255,255,.2);
+                background-color: rgba(255, 255, 255, 0.2);
                 text-decoration: none;
                 outline: none;
-                .transition;
+                .transition (background-color);
 
             }
 
@@ -733,12 +732,12 @@ footer {
         background-size: 120px 120px;
         background-repeat: no-repeat;
         opacity: .2;
-        .transition;
+        .transition (opacity);
 
         &:hover {
 
             opacity: .5;
-            .transition;
+            .transition (opacity);
 
         }
 

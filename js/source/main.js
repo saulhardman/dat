@@ -1,6 +1,10 @@
-require(['jquery', 'plugins/slideshow', 'plugins/retinafy', 'plugins/imagesLoaded', 'plugins/jquery.history', 'plugins/log'], function ($, slideshow) {
+/*global _gaq*/
+
+require(['jquery', 'plugins/slideshow', 'plugins/retinafy', 'plugins/imagesLoaded', 'plugins/jquery.history', 'analytics', 'plugins/log'], function ($, slideshow) {
 	
 	var main = {
+
+		config: config,
 
 		width: $(window).width(),
 
@@ -28,9 +32,9 @@ require(['jquery', 'plugins/slideshow', 'plugins/retinafy', 'plugins/imagesLoade
 
 			main.retinafyImages();
 
-			// base this on screen size
-
 			main.initSlideshow();
+
+			main.analytics.init();
 
 			console.log('Main initiated.');
 
@@ -56,7 +60,7 @@ require(['jquery', 'plugins/slideshow', 'plugins/retinafy', 'plugins/imagesLoade
 
 				console.log('Current page: ', main.currentPage);
 
-				// main.analytics.update(main.currentPage);
+				main.analytics.update(main.currentPage);
 
 				main.loadPage(main.currentPage);
 
@@ -92,6 +96,18 @@ require(['jquery', 'plugins/slideshow', 'plugins/retinafy', 'plugins/imagesLoade
 
 				main.touchMoved = false;
 
+			}).on('resize', function () {
+
+				if (slideshow.running === true && $(window).width() < 768) {
+
+					slideshow.stop();
+
+				} else if (slideshow.running === false && $(window).width() >= 768) {
+
+					slideshow.start();
+
+				}
+
 			});
 
 			if (Modernizr.touch === true) {
@@ -118,7 +134,7 @@ require(['jquery', 'plugins/slideshow', 'plugins/retinafy', 'plugins/imagesLoade
 
 			if (main.width >= 768) {
 
-				slideshow.init();
+				slideshow.start();
 
 				$('.background-image').imagesLoaded(function () {
 
@@ -182,6 +198,38 @@ require(['jquery', 'plugins/slideshow', 'plugins/retinafy', 'plugins/imagesLoade
 			} else {
 
 				main.$navLinks.removeClass('active');
+
+			}
+
+		},
+
+		analytics: {
+
+			init: function () {
+
+				if (main.config.debugMode === false) {
+
+					main._gaq = _gaq || [];
+
+					main._gaq.push(['_setAccount', main.config.ga]);
+
+					main._gaq.push(['_trackPageview']);
+
+					main._gaq.push(['_trackPageLoadTime']);
+
+				}
+
+			},
+
+			update: function (page) {
+
+				if (main.config.debugMode === false) {
+
+					main._gaq.push(['_trackPageview', page]);
+
+					main._gaq.push(['_trackPageLoadTime']);
+
+				}
 
 			}
 

@@ -1,9 +1,11 @@
 /* Mixins */
 
-.transition (@duration:0.2s, @ease:ease-out) {
-  -webkit-transition: all @duration @ease;
-  -moz-transition: all @duration @ease;
-  transition: all @duration @ease;
+.transition (@property: all, @duration: 0.2s, @ease: ease-out) {
+
+    -webkit-transition: @property @duration @ease;
+    -moz-transition: @property @duration @ease;
+    transition: @property @duration @ease;
+
 }
 
 .box-sizing (@box-sizing: border-box) {

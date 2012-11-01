@@ -1,5 +1,3 @@
-        </div>
-
         <footer>
 
             <div class="container">
@@ -35,15 +33,16 @@
         <script>
             var config = {
                     debugMode: (location.hostname === 'localhost') ? true : false,
-                    ga: 'UA-XXXXXXXX-X',
+                    ga: "UA-36035812-1",
                     imageCount: <?php echo $length; ?>,
                     imageIndex: <?php echo $index; ?>,
-                    imagePath: "<?php echo $directory . "background-"; ?>"
+                    imagePath: "<?php echo $directory . 'background-'; ?>"
                 },
                 require = {
                     baseUrl: (config.debugMode) ? 'js/source/' : 'js',
                     paths: {
-                        'jquery': ['//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min', 'vendor/jquery-1.8.1.min']
+                        'jquery': ['//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min', 'vendor/jquery-1.8.1.min'],
+                        'analytics': '//www.google-analytics.com/ga'
                     }
                 };
         </script>
