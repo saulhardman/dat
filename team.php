@@ -20,7 +20,7 @@
 
     <div class="content container">
 
-        <p><strong>The course is closely tied to our postgraduate taught programmes, doctoral programmes, industrial collaborations and applied research at Plymouth University’s Institute of Digital Art and Technology (iDAT), now an Arts Council National Portfolio Art Organisation.</strong><p>
+        <p><strong>The course is closely tied to our postgraduate taught programmes, doctoral programmes, industrial collaborations and applied research at Plymouth University’s Institute of Digital Art and Technology (iDAT), now an Arts Council National Portfolio Art Organisation.</strong></p>
 
         <article class="team-member">
 
@@ -225,6 +225,32 @@
             <div class="biography">
 
                 <p>Iain Lobb is an award-winning game designer and developer who delivers the first year Web Technologies module as an Associate Lecturer. Iain is the founder/owner of Dull Dude, a two-person games studio based in Cornwall, producing games for the web and mobile devices. He speaks about games and interactive media at conferences around the world, and co-hosts the Creative Coding Podcast.</p>
+
+            </div>
+
+        </article>
+
+        <article class="team-member">
+
+            <header>
+
+                <hgroup>
+
+                    <h1 class="name">Dawn</h1>
+
+                </hgroup>
+
+            </header>
+
+            <div class="biography">
+
+                <p>Dawn Melville, a graduate of Plymouth University’s groundbreaking Media Lab Arts course, is a P/T Associate Lecturer at Plymouth University, School of Arts &amp; Media, and is one of the city’s most enterprising media businesswomen.</p>
+
+                <p>She began her media career on the city’s daily newspaper, moving to work in design and marketing for events venue Plymouth Pavilions and the Theatre Royal. A natural entrepreneur, she established her own media production company Motiongrafik which ran successfully for seven years.</p>
+
+                <p>She set up initiatives in her home city of Plymouth including building projection festival Motionplymouth, schools’ film festival Young Motionplymouth, creatives’ networking session Last Friday. In 2005 she was given an Enterprising Woman award highlighting her success in local business. She is also a Common Purpose graduate and sits on the Media Innovation Board.</p>
+
+                <p>For the last five years she has worked as freelance consultant in the education, creative, business and events sectors, creating and carrying out roles of strategy, bridge-building and relationship management, fund-finding, business conception and development. She is a director of Indra Congress: an arts and reconciliation organisation working internationally with young people in the world’s trouble spots on creative expression as a tool for peacemaking.</p>
 
             </div>
 
