@@ -4,7 +4,9 @@
 
                 <div class="info">
 
-                    <form id="newsletter" action="/newsletter" method="post">
+                    <form id="newsletter" action="keep-in-touch" method="post">
+
+                        <span class="validation"></span>
 
                         <input type="email" class="email" name="email" placeholder="Enter your email address">
 
@@ -14,13 +16,13 @@
 
                     <p class="contact">
 
-                        <span class="sentence">To apply, <a href="http://www1.plymouth.ac.uk/courses/undergraduate/4315/Pages/CourseOverview.aspx">click here</a>. If you have any questions about the course, <a href="mailto:">email us here</a>.</span> <span class="sentence">To meet lecturers and students, <a href="https://www.facebook.com/DigitalArtAndTechnology">join us on Facebook</a>.</span>
+                        <span class="sentence">To apply, <a href="http://www1.plymouth.ac.uk/courses/undergraduate/4315/Pages/CourseOverview.aspx">click here</a>. If you have any questions about the course, <a href="mailto:hello@digitalartandtechnology.co.uk">email us here</a>.</span> <span class="sentence">To meet lecturers and students, <a href="https://www.facebook.com/DigitalArtAndTechnology">join us on Facebook</a>. To see students work, check out our channel on <a href="https://vimeo.com/channels/354591" title="Click to see the Digital Art and Technology Vimeo Channel">Vimeo</a>.</span>
 
                     </p>
 
                 </div>
 
-                <div class="qr"></div>
+                <img class="dat-logo" src="img/dat-logo.png" alt="DAT logo" width="120" height="120">
 
             </div>
 

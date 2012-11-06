@@ -14,6 +14,8 @@ require(['jquery', 'plugins/slideshow', 'plugins/retinafy', 'plugins/imagesLoade
 
 		$main: $('#main'),
 
+		$newsletter: $('#newsletter'),
+
 		currentPage: location.pathname,
 
 		clickEvent: (Modernizr.touch) ? 'touchend': 'click',
@@ -134,6 +136,16 @@ require(['jquery', 'plugins/slideshow', 'plugins/retinafy', 'plugins/imagesLoade
 
 			}
 
+			main.$newsletter.on('submit', function (e) {
+
+				e.preventDefault();
+
+				main.storeEmail(main.$newsletter.find('.email').val());
+
+				return false;
+
+			});
+
 		},
 
 		retinafyImages: function () {
@@ -244,6 +256,50 @@ require(['jquery', 'plugins/slideshow', 'plugins/retinafy', 'plugins/imagesLoade
 				}
 
 			}
+
+		},
+
+		storeEmail: function (email) {
+
+			var data = {
+
+					email: email
+
+				};
+
+			console.log('Data: ', data);
+
+			$.post(main.$newsletter.attr('action'), data, function (response) {
+
+				response = JSON.parse(response);
+
+				console.log('Response: ', response);
+
+				if (response.success === 0) {
+
+					// fail
+
+					main.$newsletter.find('.email').focus();
+
+					main.$newsletter.find('.validation').addClass('error');
+
+				} else {
+
+					// success
+
+					main.$newsletter.find('.email').val('');
+
+					main.$newsletter.find('.validation').addClass('success');
+
+				}
+
+				setTimeout(function () {
+
+					main.$newsletter.find('.validation').removeClass('error success');
+
+				}, 2000);
+
+			});
 
 		}
 

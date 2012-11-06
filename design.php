@@ -74,6 +74,12 @@
 
     </div>
 
+    <div class="images">
+
+        <img src="img/content/processed/design-1.jpg" alt="" width="400" height="175"><img src="img/content/processed/design-2.jpg" alt="" width="400" height="175"><img src="img/content/processed/design-3.jpg" alt="" width="400" height="175">
+
+    </div>
+
 </section>
 
 <?php include "includes/footer.php"; ?>

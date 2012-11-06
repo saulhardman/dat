@@ -30,6 +30,8 @@
 
                     <h1 class="name">Gianni</h1>
 
+                    <img src="img/content/processed/gianni.jpg" alt="Gianni Portrait" class="portrait">
+
                 </hgroup>
 
             </header>
@@ -53,6 +55,8 @@
                 <hgroup>
 
                     <h1 class="name">Mike</h1>
+
+                    <img src="img/content/processed/mike.jpg" alt="Mike Portrait" class="portrait">
 
                 </hgroup>
 
@@ -78,6 +82,8 @@
 
                     <h1 class="name">Hannah</h1>
 
+                    <img src="img/content/processed/hannah.jpg" alt="Hannah Portrait" class="portrait">
+
                 </hgroup>
 
             </header>
@@ -101,6 +107,8 @@
                 <hgroup>
 
                     <h1 class="name">Simon</h1>
+
+                    <img src="img/content/processed/simon.jpg" alt="Simon Portrait" class="portrait">
 
                 </hgroup>
 
@@ -126,6 +134,8 @@
 
                     <h1 class="name">Mike Blow</h1>
 
+                    <img src="img/content/processed/mike-blow.jpg" alt="Mike Blow Portrait" class="portrait">
+
                 </hgroup>
 
             </header>
@@ -147,6 +157,8 @@
                 <hgroup>
 
                     <h1 class="name">Vlad</h1>
+
+                    <img src="img/content/processed/vlad.jpg" alt="Vlad Portrait" class="portrait">
 
                 </hgroup>
 
@@ -172,6 +184,8 @@
 
                     <h1 class="name">Andrew</h1>
 
+                    <img src="img/content/processed/andrew.jpg" alt="Andrew Portrait" class="portrait">
+
                 </hgroup>
 
             </header>
@@ -196,6 +210,8 @@
 
                     <h1 class="name">Luke</h1>
 
+                    <img src="img/content/processed/luke.jpg" alt="Luke Portrait" class="portrait">
+
                 </hgroup>
 
             </header>
@@ -218,6 +234,8 @@
 
                     <h1 class="name">Iain</h1>
 
+                    <img src="img/content/processed/iain.jpg" alt="Iain Portrait" class="portrait">
+
                 </hgroup>
 
             </header>
@@ -237,6 +255,8 @@
                 <hgroup>
 
                     <h1 class="name">Dawn</h1>
+
+                    <img src="img/content/processed/dawn.jpg" alt="Dawn Portrait" class="portrait">
 
                 </hgroup>
 

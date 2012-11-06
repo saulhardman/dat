@@ -136,16 +136,16 @@ body {
     color: @white;
     background: @light-gray;
     z-index: 2;
-    opacity: 0.5;
-    .transition (opacity);
+    background-color: rgba(144, 144, 144, 0.5);
+    .transition (background-color);
 
     &:hover,
     &:focus {
 
         text-decoration: none;
         outline: none;
-        opacity: 1;
-        .transition (opacity);
+        background-color: rgba(144, 144, 144, 1);
+        .transition (background-color);
 
     }
 
@@ -496,12 +496,24 @@ nav {
 
             header {
 
+                padding: 0 40px 0 0;
                 width: 100%/3;
 
                 .name {
 
-                    margin: 5px 0 0;
-                    .font-size (32);
+                    position: relative;
+                    margin: 5px 0 -48px;
+                    padding: 10px;
+                    .font-size (28);
+                    color: @highlight-color;
+                    z-index: 2;
+
+                }
+
+                .portrait {
+
+                    width: 100%;
+                    height: auto;
 
                 }
 
@@ -723,20 +735,15 @@ footer {
 
     }
 
-    .qr {
+    .dat-logo {
 
         float: right;
-        height: 150px;
-        width: 150px;
-        background-image: url(../img/content/original/dat-logo.png);
-        background-size: 120px 120px;
-        background-repeat: no-repeat;
         opacity: .2;
         .transition (opacity);
 
         &:hover {
 
-            opacity: .5;
+            opacity: 1;
             .transition (opacity);
 
         }
@@ -748,6 +755,7 @@ footer {
 #newsletter {
 
     .clearfix;
+    position: relative;
     float: left;
 
     .email,
@@ -790,6 +798,31 @@ footer {
 
             background: @highlight-color;
             outline: none;
+
+        }
+
+    }
+
+    .validation {
+
+        position: absolute;
+        padding: 6px 0 0;
+        width: 40px;
+        height: 40px;
+        left: -40px;
+        top: 0;
+        text-align: center;
+        .transition (background-color);
+
+        &.error {
+
+            background-color: red;
+
+        }
+
+        &.success {
+
+            background-color: green;
 
         }
 

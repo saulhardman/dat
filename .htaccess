@@ -333,9 +333,9 @@ FileETag None
   Options +FollowSymlinks
   Options +SymLinksIfOwnerMatch
   RewriteEngine On
-  RewriteBase /
-  RewriteRule ^([a-z]+)/$ $1 [R=302,L]
-  RewriteRule ^([a-z]+)$ $1.php?page=$1 [L]
+  RewriteBase /DAT/
+  RewriteRule ^([a-z\-]+)/$ $1 [R=302,L]
+  RewriteRule ^([a-z\-]+)$ $1.php?page=$1 [L]
 </IfModule>
 
 
