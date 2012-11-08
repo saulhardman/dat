@@ -16,7 +16,6 @@
 
 ?>
 <!DOCTYPE html>
-
 <html class="no-js">
 
     <head>
@@ -28,21 +27,31 @@
 
         <title><?php echo $pageTitle; ?> — Course Details</title>
 
-        <meta name="author" content="">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-
-        <link rel="stylesheet" href="css/main.css">
-
-        <!-- REPLACE WITH PRODUCTION VERSION -->
-        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+        <meta name="author" content="Digital Art and Technology">
+        <meta name="description" content="With a 20 year history, BA/BSc (Hons) Digital Art and Technology at Plymouth University is one of the UK’s best and most established interactive media degrees.">
+        <meta name="keywords" content="Web design, game design, new media, interaction design, information design, multimedia, software, programming, motion graphics, digital animation, 3D modelling, virtual reality, mobile platforms, digital media, mobile applications, creative and cultural environments, visualisation, immersive environments">
 
         <script type="text/javascript" src="//use.typekit.net/cxe5vvo.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
     </head>
 
     <body>
+
+        <!--
+
+               ___       _ __        __              __                     __   __            __                __                 
+          ____/ (_)_____(_) /_______/ /  ___________/ /_   __________  ____/ /  / /____  _____/ /_  ____  ____  / /___  ________  __
+         / __  / / __  / / __/ __  / /  / __  / ___/ __/  / __  / __ \/ __  /  / __/ _ \/ ___/ __ \/ __ \/ __ \/ / __ \/ __  / / / /
+        / /_/ / / /_/ / / /_/ /_/ / /  / /_/ / /  / /_   / /_/ / / / / /_/ /  / /_/  __/ /__/ / / / / / / /_/ / / /_/ / /_/ / /_/ / 
+        \____/_/\___ /_/\__/\____/_/   \____/_/   \__/   \____/_/ /_/\____/   \__/\___/\___/_/ /_/_/ /_/\____/_/\____/\___ /\___ /  
+               /____/                                                                                                /____//____/   
+
+        -->
 
         <header class="main-header">
 
