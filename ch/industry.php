@@ -6,11 +6,11 @@
 
         <hgroup>
 
-            <h1 class="title"><?php echo ucfirst($pageName); ?></h1>
+            <h1 class="title">&#23601;&#19994;</h1>
 
             <div class="container">
 
-                <h2 class="description">Digital Art and Technology has always enjoyed a great relationship with the tech, creative and advertising industries.</h2>
+                <h2 class="description">&#25968;&#30721;&#33402;&#26415;&#19982;&#31185;&#25216;&#19982;&#39640;&#31185;&#25216;&#65292;&#21019;&#24847;&#21644;&#24191;&#21578;&#34892;&#19994;&#19968;&#30452;&#37117;&#23384;&#22312;&#30528;&#24456;&#23494;&#20999;&#30340;&#20851;&#31995;&#12290;</h2>
 
             </div>
 
@@ -20,19 +20,23 @@
 
     <div class="content container">
 
-        <p>The optional placement year sees students employed in sectors as diverse as web design, videogames, advertising agencies, visual effects, broadcasters, software development, academic research, museums and galleries.</p>
+        <p>&#36890;&#36807;&#36873;&#20462;&#23454;&#20064;&#19968;&#24180;&#65292;&#25105;&#20204;&#30475;&#21040;&#25105;&#20204;&#30340;&#23398;&#29983;&#21463;&#38599;&#20110;&#19981;&#21516;&#30340;&#32593;&#39029;&#35774;&#35745;&#20844;&#21496;&#65292;&#30005;&#23376;&#28216;&#25103;&#20844;&#21496;&#65292;&#24191;&#21578;&#20844;&#21496;&#65292;&#35270;&#35273;&#25928;&#26524;&#20844;&#21496;&#65292;&#24191;&#25773;&#20844;&#21496;&#65292;&#36719;&#20214;&#24320;&#21457;&#20844;&#21496;&#65292;&#23398;&#26415;&#30740;&#31350;&#26426;&#26500;&#65292;&#21338;&#29289;&#39302;&#21644;&#30011;&#24266;&#12290;</p>
 
-        <p>Past graduates now enjoy senior roles in some of the world’s most exciting creative companies, including Aardman, Electronic Arts and Yahoo!</p>
+        <p>&#25105;&#20204;&#20063;&#19981;&#20047;&#25317;&#26377;&#24456;&#22810;&#27491;&#22312;&#20174;&#20107;&#39640;&#32423;&#32844;&#21153;&#24448;&#23626;&#27605;&#19994;&#29983;&#65292;&#20854;&#20013;&#21253;&#25324;&#19968;&#20123;&#19990;&#30028;&#19978;&#26368;&#20196;&#20154;&#20852;&#22859;&#30340;&#21019;&#24847;&#20844;&#21496;&#65292;&#22914;&#38463;&#24503;&#26364;&#65292;&#30005;&#23376;&#33402;&#26415;&#21644;&#38597;&#34382;&#12290;</p>
 
-        <p>There is also an amazing track record for graduate entrepreneurship, with start-ups such as <a href="http://www.specialmoves.com" title="">Specialmoves</a>, <a href="http://www.remodestudios.com" title="">Remode</a> and <a href="http://www.mutantlabs.com" title="">Mutant Labs</a> achieving great success straight out of university.</p>
+        <!--<p>There is also an amazing track record for graduate entrepreneurship, with start-ups such as <a href="http://www.specialmoves.com" title="">Specialmoves</a>, <a href="http://www.remodestudios.com" title="">Remode</a> and <a href="http://www.mutantlabs.com" title="">Mutant Labs</a> achieving great success straight out of university.</p>-->
+        
+        <p>&#22823;&#23398;&#29983;&#21019;&#19994;&#19994;&#32489;&#35760;&#24405;&#37324;&#32473;&#20986;&#20102;&#26356;&#20026;&#40723;&#33310;&#25105;&#20204;&#30340;&#25968;&#25454;&#65292;&#22914;&#65292;Remode&#21644;Mutant Labs  &#37117;&#22312;&#22823;&#23398;&#26399;&#38388;&#36208;&#36807;&#20102;&#20225;&#19994;&#30340;&#21021;&#21019;&#38454;&#27573;&#65292;&#24182;&#21462;&#24471;&#20102;&#24040;&#22823;&#30340;&#25104;&#21151;</p>
+        
+     
 
-        <p>88% of our graduates find a job in their chosen field within a year of graduating, a higher percentage than most comparable courses.</p>
+        <p>&#30456;&#23545;&#19982;&#20854;&#20182;&#19987;&#19994;&#23398;&#31185;&#65292;&#25105;&#20204;&#20445;&#25345;&#30528;&#36739;&#39640;&#30340;&#23601;&#19994;&#29575;&#12290;&#27605;&#19994;&#19968;&#24180;&#20869;,88&#65285;&#30340;&#23398;&#29983;&#65292;&#22312;&#33258;&#24049;&#30340;&#30740;&#31350;&#39046;&#22495;&#20869;&#25214;&#21040;&#20102;&#19968;&#20221;&#24037;&#20316;.</p>
 
     </div>
 
     <div class="images">
 
-        <img src="img/content/processed/industry-1.jpg" alt="" width="400" height="175"><img src="img/content/processed/industry-2.jpg" alt="" width="400" height="175"><img src="img/content/processed/industry-3.jpg" alt="" width="400" height="175">
+        <img src="../img/content/processed/industry-1.jpg" alt="" width="400" height="175"><img src="../img/content/processed/industry-2.jpg" alt="" width="400" height="175"><img src="../img/content/processed/industry-3.jpg" alt="" width="400" height="175">
 
     </div>
 

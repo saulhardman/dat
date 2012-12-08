@@ -6,11 +6,11 @@
 
         <hgroup>
 
-            <h1 class="title"><?php echo ucfirst($pageName); ?></h1>
+            <h1 class="title">&#29615;&#22659;</h1>
 
             <div class="container">
 
-                <h2 class="description">The recently re-imagined Plymouth University campus provides an inspiring backdrop to learning.</h2>
+                <h2 class="description">&#26368;&#36817;&#37325;&#26032;&#22609;&#36896;&#24418;&#35937;&#30340;&#26222;&#21033;&#33541;&#26031;&#22823;&#23398;&#26657;&#22253;&#65292;&#20026;&#23398;&#29983;&#20204;&#25552;&#20379;&#20102;&#19968;&#20010;&#26356;&#20026;&#28608;&#21169;&#20154;&#24515;&#30340;&#23398;&#26415;&#29615;&#22659;</h2>
 
             </div>
 
@@ -24,29 +24,29 @@
         <!--row-->
         <div class="environments">
 
-            <h3>Facilities</h3>
+            <h3>&#35774;&#22791;</h3>
 
             <article class="environment">
 
-                <h4>MediaLab</h4>
+                <h4>&#23186;&#20307;&#23454;&#39564;&#23460;</h4>
 
-                <p>All students have access to the Digital Art and Technology MediaLab. The MediaLab is kitted out with speedy iMacs and the latest software.</p>
+                <p>&#25152;&#26377;&#30340;&#23398;&#29983;&#37117;&#26377;&#26435;&#21033;&#35775;&#38382;&#25968;&#30721;&#33402;&#26415;&#21644;&#31185;&#25216;&#23186;&#20307;&#23454;&#39564;&#23460;&#12290;&#36825;&#20010;&#23454;&#39564;&#23460;&#37197;&#22791;&#20102;iMac&#30005;&#33041;&#21644;&#26368;&#26032;&#30340;&#36719;&#20214;&#12290;</p>
 
             </article>
 
             <article class="environment">
 
-                <h4>IBM Smarter Planet Lab</h4>
+                <h4>IBM&#26234;&#33021;&#30340;&#22320;&#29699;&#23454;&#39564;&#23460;</h4>
 
-                <p>The IBM-sponsored Smarter Planet Lab is a state of the art facility for learning and experimenting with new design concepts and software development techniques.</p>
+                <p>IBM&#36190;&#21161;&#30340;&#8216;&#26234;&#24935;&#30340;&#22320;&#29699;&#23454;&#39564;&#23460;&#8217;&#25317;&#26377;&#22269;&#23478;&#26368;&#20808;&#36827;&#30340;&#35774;&#26045;&#65292;&#20026;&#23398;&#20064;&#21644;&#23581;&#35797;&#26032;&#30340;&#35774;&#35745;&#29702;&#24565;&#21644;&#36719;&#20214;&#24320;&#21457;&#25216;&#26415;&#25552;&#20379;&#20102;&#25216;&#26415;&#25903;&#25345;&#12290;</p>
 
             </article>
 
             <article class="environment">
 
-                <h4>Immersive Vision Theatre</h4>
+                <h4>&#36523;&#20020;&#20854;&#22659;&#30340;&#35270;&#35273;&#21095;&#38498;</h4>
 
-                <p>The Immersive Vision Theatre is a unique 360° dome cinema, that provides a breathtaking visual and sonic experience.</p>
+                <p>&#8216;&#36523;&#20020;&#20854;&#22659;&#30340;&#35270;&#35273;&#21095;&#38498;&#8217;&#26159;&#19968;&#20010;&#29420;&#29305;&#30340;360&#176;&#31353;&#39030;&#30005;&#24433;&#65292;&#23427;&#25552;&#20379;&#20102;&#19968;&#20010;&#20196;&#20154;&#24778;&#21497;&#30340;&#35270;&#35273;&#21644;&#22768;&#38899;&#30340;&#20307;&#39564;&#12290;</p>
 
             </article>
 
@@ -55,29 +55,29 @@
         <!--row-->
         <div class="environments">
 
-            <h3>Events</h3>
+            <h3>&#27963;&#21160;</h3>
 
             <article class="environment">
 
-                <h4>Field Trips</h4>
+                <h4>&#23454;&#22320;&#32771;&#23519;</h4>
 
-                <p>To broaden students’ horizons there are national and international field trips to enjoy, taking part in festivals and cultural events in major vibrant cities and innovation centres. Recent trips include New York, Helsinki, Turin and Berlin.</p>
+                <p>&#20026;&#20102;&#25299;&#23485;&#23398;&#29983;&#30340;&#35270;&#37326;&#65292;&#35838;&#31243;&#25552;&#20379;&#22269;&#23478;&#21644;&#22269;&#38469;&#31867;&#23454;&#22320;&#32771;&#23519;&#65292;&#20363;&#22914;&#22312;&#26377;&#27963;&#21147;&#19988;&#21019;&#26032;&#24615;&#24378;&#30340;&#22478;&#24066;&#21442;&#21152;&#33410;&#26085;&#21644;&#25991;&#21270;&#27963;&#21160;&#12290; &#26368;&#36817;&#30340;&#34892;&#31243;&#21253;&#25324;&#32445;&#32422;&#65292;&#36203;&#23572;&#36763;&#22522;&#65292;&#37117;&#28789;&#21644;&#26575;&#26519;&#12290;</p>
 
             </article>
 
             <article class="environment">
 
-                <h4>Annual Arts Degree Show</h4>
+                <h4>&#19968;&#24180;&#19968;&#24230;&#30340;&#33402;&#26415;&#27605;&#19994;&#23637;</h4>
 
-                <p> The climax of the degree is the annual Arts Degree Show - a huge event incorporating the work of every final stage art, design and media student. The culmination of three challenging years, it’s a great opportunity for students to show their work off to friends, family, employers and the public.</p>
+                <p>&#19968;&#24180;&#19968;&#24230;&#30340;&#33402;&#26415;&#27605;&#19994;&#23637;&#26159;&#26412;&#23398;&#31185;&#31934;&#21326;&#25152;&#22312; &#8211; &#23427;&#25226;&#27599;&#19968;&#20010;&#33310;&#21488;&#33402;&#26415;&#65292;&#35774;&#35745;&#21644;&#23186;&#20307;&#30340;&#23398;&#29983;&#20316;&#21697;&#24635;&#24402;&#21040;&#19968;&#36215;&#12290;&#36890;&#36807;&#19977;&#24180;&#30340;&#23398;&#20064;&#65292;&#25226;&#23398;&#29983;&#20204;&#30340;&#26368;&#32456;&#20316;&#21697;&#23637;&#31034;&#32473;&#33258;&#24049;&#30340;&#23478;&#20154;&#65292;&#26379;&#21451;&#65292;&#38599;&#20027;&#21644;&#22823;&#20247;&#12290;</p>
 
             </article>
 
             <article class="environment">
 
-                <h4>Visiting Speakers</h4>
+                <h4>&#24033;&#35762;</h4>
 
-                <p>We regularly play host to interesting practitioners and theorists.</p>
+                <p>&#25105;&#20204;&#32463;&#24120;&#36992;&#35831;&#30456;&#20851;&#39046;&#22495;&#30340;&#20174;&#19994;&#32773;&#21644;&#29702;&#35770;&#23478;&#21442;&#19982;&#21040;&#25105;&#20204;&#30340;&#24033;&#35762;&#20013;&#12290;</p>
 
             </article>
 
@@ -88,32 +88,30 @@
         <!--row-->
         <div class="environments">
 
-            <h3>Community and Lifestyle</h3>
+            <h3>&#31038;&#21306;&#21644;&#29983;&#27963;&#26041;&#24335;</h3>
 
             <article class="environment">
 
-                <h4>Plymouth</h4>
+                <h4>&#26222;&#21033;&#33541;&#26031;</h4>
 
-                <p>Plymouth is a modern, fun city with the university at its heart. The course is plugged-in to a really vibrant community of local events, festivals and gatherings including Explay indie games festival, Digpen web conference and Port Eliot literary festival.</p> 
-
-                <p>There’s great nightlife to enjoy, and the amazing countryside and sandy beaches of Devon and Cornwall on our doorstep - great news if you love surfing or the great outdoors!
+                <p>&#26222;&#21033;&#33541;&#26031;&#26159;&#19968;&#20010;&#29616;&#20195;&#21270;&#30340;&#65292;&#26377;&#27963;&#21147;&#30340;&#22478;&#24066;&#12290;&#22823;&#23398;&#22312;&#23427;&#30340;&#24515;&#33039;&#12290;&#35838;&#31243;&#19982;&#24403;&#22320;&#27963;&#21160;&#26159;&#30456;&#20114;&#34701;&#21512;&#30340;&#65292;&#21253;&#25324;Explay&#29420;&#31435;&#28216;&#25103;&#33410;&#65292;&#32593;&#32476;&#20250;&#35758;&#65292;Dig&#8203;&#8203;pen&#32593;&#32476;&#23792;&#20250;&#21450; Port Eliot &#25991;&#23398;&#33410;&#12290;&#36825;&#26159;&#19968;&#20010;&#30495;&#27491;&#30340;&#20805;&#28385;&#27963;&#21147;&#30340;&#31038;&#21306;&#12290;&#26377;&#20016;&#23500;&#30340;&#22812;&#29983;&#27963;&#65292;&#21807;&#32654;&#30340;&#20065;&#26449;&#39118;&#26223;&#21644;&#24503;&#25991;&#37089;&#21644;&#24247;&#27779;&#23572;&#37089;&#30340;&#27801;&#28393;&#12290;&#22914;&#26524;&#20320;&#21916;&#27426;&#20914;&#28010;&#25110;&#25143;&#22806;&#27963;&#21160;&#65292;&#36825;&#37324;&#23601;&#26159;&#20320;&#30340;&#22825;&#22530;&#65281;
                 </p>
 
             </article>
 
             <article class="environment">
 
-                <h4>ExPlay Indie Games Festival</h4>
+                <h4>ExPlay&#29420;&#31435;&#28216;&#25103;&#33410;</h4>
 
-                <p>ExPlay is a community of independent games developers and studios spread across the South West of England, but founded and organised right here in Plymouth. The monthly meetup in Plymouth brings together professionals and students, to play games and share ideas. The annual conference attracts leading speakers from the indie games circuit and aims to support the growth of the industry through training programmes and business support.</p>
+                <p>ExPlay&#26159;&#29420;&#31435;&#28216;&#25103;&#24320;&#21457;&#32773;&#21644;&#24037;&#20316;&#23460;&#30340;&#31038;&#22242;&#65292;&#23427;&#36941;&#24067;&#33521;&#26684;&#20848;&#35199;&#21335;&#22320;&#21306;&#65292;&#20294;&#32452;&#32455;&#25104;&#31435;&#20110;&#26222;&#21033;&#33541;&#26031;&#12290;&#27599;&#26376;&#26222;&#21033;&#33541;&#26031;&#30340;&#19987;&#19994;&#20154;&#22763;&#21644;&#23398;&#29983;&#37117;&#20250;&#22312;&#36825;&#37324;&#20998;&#20139;&#20182;&#20204;&#20851;&#20110;&#28216;&#25103;&#30340;&#24819;&#27861;&#12290;&#23427;&#19968;&#24180;&#19968;&#24230;&#30340;&#23792;&#20250;&#20063;&#21560;&#24341;&#20102;&#24456;&#22810;&#31185;&#25216;&#20808;&#38155;&#65292;&#27492;&#20250;&#35758;&#30340;&#20132;&#27969;&#30446;&#30340;&#26159;&#36890;&#36807;&#22521;&#35757;&#21644;&#19994;&#21153;&#25903;&#25345;&#26469;&#36741;&#20304;&#26412;&#22320;&#32463;&#27982;&#22686;&#38271;&#30340;&#34892;&#19994;&#12290;</p>
 
             </article>
 
             <article class="environment">
 
-                <h4>DigPen Web Conference</h4>
+                <h4>DigPen&#32593;&#32476;&#20250;&#35758;</h4>
 
-                <p>DigPen is a grassroots movement of people who make web and digital media, in the far South West of England. It's all about collaborating, sharing and celebrating the South West's amazing community of designers, developers and entrepreneurs. </p>
+                <p>DigPen&#26159;&#26469;&#33258;&#20110;&#36965;&#36828;&#30340;&#33521;&#26684;&#20848;&#35199;&#21335;&#37096;&#30340;&#19968;&#20010;&#20851;&#20110;&#32593;&#32476;&#21644;&#25968;&#30721;&#23186;&#20307;&#20154;&#30340;&#33609;&#26681;&#36816;&#21160;&#12290;&#23427;&#26159;&#19968;&#20010;&#34701;&#21512;&#20102;&#21512;&#20316;&#65292;&#20849;&#20139;&#21644;&#24198;&#31069;&#19968;&#20999;&#20851;&#20110;&#35199;&#21335;&#22320;&#21306;&#30340;&#35774;&#35745;&#32773;&#65292;&#24320;&#21457;&#32773;&#21644;&#20225;&#19994;&#23478;&#30340;&#23792;&#20250;</p>
 
             </article>
 
@@ -123,7 +121,7 @@
 
     <div class="images">
 
-        <img src="img/content/processed/environment-1.jpg" alt="" width="400" height="175"><img src="img/content/processed/environment-2.jpg" alt="" width="400" height="175"><img src="img/content/processed/environment-3.jpg" alt="" width="400" height="175">
+        <img src="../img/content/processed/environment-1.jpg" alt="" width="400" height="175"><img src="../img/content/processed/environment-2.jpg" alt="" width="400" height="175"><img src="../img/content/processed/environment-3.jpg" alt="" width="400" height="175">
 
     </div>
 

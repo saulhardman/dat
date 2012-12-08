@@ -6,11 +6,11 @@
 
         <hgroup>
 
-            <h1 class="title"><?php echo ucfirst($pageName); ?></h1>
+            <h1 class="title">&#32534;&#31243;</h1>
 
             <div class="container">
 
-                <h2 class="description">Programming is the language underpinning <strong>everything</strong> in the digital world. We take our students from simple logic and scripting to <em>object-oriented programming and software engineering</em>.</h2>
+                <h2 class="description">&#32534;&#31243;&#26159;&#25968;&#23383;&#19990;&#30028;&#20013;&#30340;&#19968;&#20999;&#35821;&#35328;&#25903;&#26609;&#12290;&#25105;&#20204;&#24110;&#21161;&#23398;&#29983;&#20204;&#20174;&#31616;&#21333;&#30340;&#36923;&#36753;&#19982;&#33050;&#26412;&#24320;&#22987;&#23398;&#20064;&#38754;&#21521;&#23545;&#35937;&#32534;&#31243;&#21644;&#36719;&#20214;&#24037;&#31243;&#12290;</h2>
 
             </div>
 
@@ -22,29 +22,29 @@
 
         <div class="clearfix">
 
-            <p><strong>All students get a strong foundation in computer programming, including:</strong></p>
+            <p><strong>&#25152;&#26377;&#23398;&#29983;&#37117;&#21487;&#22312;&#35745;&#31639;&#26426;&#31243;&#24207;&#35774;&#35745;&#20013;&#25171;&#19979;&#22362;&#23454;&#30340;&#22522;&#30784;&#65292;&#20854;&#20013;&#21253;&#25324;&#65306;</strong></p>
 
             <ul>
 
-                <li>Web development with HTML5, CSS3 and JavaScript (including jQuery), PHP and MySQL.</li>
+                <li>HTML5, CSS3&#21644;JavaScrip (&#21253;&#25324;jQuery), PHP&#21644;MySQL&#30340;&#32593;&#32476;&#24320;&#21457;&#12290;</li>
 
-                <li>Game development with Unity3D, HTML5 Canvas (JavaScript) and Flash (ActionScript 3).</li>
+                <li>Unity3D&#65292;HTML5&#30011;&#24067;&#65288;JavaScript&#65289;&#21644;Flash&#65288;ActionScript 3&#65289;&#30340;&#28216;&#25103;&#24320;&#21457;&#12290;</li>
 
-                <li>Creative coding, digital art, visualisations and physical installations using Processing and Arduino.</li>
+                <li>&#21019;&#24847;&#32534;&#30721;&#65292;&#25968;&#30721;&#33402;&#26415;&#65292;&#21487;&#35270;&#21270;&#21644;&#29289;&#29702;&#22788;&#29702;&#21644;Arduino&#23433;&#35013;&#12290;</li>
 
             </ul>
 
             <ul>
 
-                <li>Mobile app development for iPhone and Android smartphones with PhoneGap, Java and Objective-C.</li>
+                <li>PhoneGap&#65292;Java&#21644;Objective-C &#19982;iPhone&#21644;Android&#26234;&#33021;&#25163;&#26426;&#30340;&#31227;&#21160;&#24212;&#29992;&#31243;&#24207;&#30340;&#24320;&#21457;</li>
 
-                <li>Physical computing and hardware including Arduino, Raspberry Pi, MindWave, Mobile and Tablet devices.</li>
+                <li>&#29289;&#29702;&#35745;&#31639;&#21644;&#30828;&#20214;&#65292;&#20854;&#20013;&#21253;&#25324; Arduino, Raspberry Pi, MindWave, &#25163;&#26426;&#21644;&#24179;&#26495;&#35774;&#22791;&#12290;</li>
 
             </ul>
 
         </div>
 
-        <p><strong>It’s up to individual students how much they wish to specialise in programming. For some it is a useful tool in their arsenal, for others it’s the start of a life-long love affair.</strong></p>
+        <p><strong>&#23545;&#20110;&#20197;&#19978;&#35838;&#31243;&#30340;&#23398;&#20064;&#65292;&#35201;&#21462;&#20915;&#19982;&#23398;&#29983;&#20204;&#23545;&#20110;&#32534;&#31243;&#30340;&#28212;&#26395;&#19982;&#28909;&#29233;&#31243;&#24230;&#12290;&#20363;&#22914;&#65292;&#26377;&#20123;&#20154;&#25226;&#31243;&#24207;&#30475;&#20316;&#26159;&#19968;&#20010;&#38750;&#24120;&#26377;&#29992;&#30340;&#24037;&#20855;&#12290;&#32780;&#21478;&#22806;&#19968;&#20123;&#20154;&#21017;&#25226;&#23427;&#30475;&#20316;&#26159;&#27605;&#29983;&#36861;&#36880;&#30340;&#23545;&#35937;&#12290;</strong></p>
 
         <!-- Add software and hardware logos here -->
 
@@ -52,7 +52,7 @@
 
     <div class="images">
 
-        <img src="img/content/processed/programming-1.jpg" alt="" width="400" height="175"><img src="img/content/processed/programming-2.jpg" alt="" width="400" height="175"><img src="img/content/processed/programming-3.jpg" alt="" width="400" height="175">
+        <img src="../img/content/processed/programming-1.jpg" alt="" width="400" height="175"><img src="../img/content/processed/programming-2.jpg" alt="" width="400" height="175"><img src="../img/content/processed/programming-3.jpg" alt="" width="400" height="175">
 
     </div>
 

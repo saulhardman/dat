@@ -1,16 +1,16 @@
 <?php include "includes/header.php"; ?>
 
-<section id="main" role="main" class="<?php echo $pageName; ?>">
+<section id="main" role="main" class="team">
 
     <header class="header">
 
         <hgroup>
 
-            <h1 class="title"><?php echo ucfirst($pageName); ?></h1>
+            <h1 class="title">&#22242;&#38431;</h1>
 
             <div class="container">
 
-                <h2 class="description">Digital Art and Technology draws from a world class research community and industry network — it is delivered by <strong>skilled interactive arts researchers</strong> and <em>award-winning industry professionals.</em></h2>
+                <h2 class="description">&#8216;&#25968;&#30721;&#33402;&#26415;&#19982;&#31185;&#25216;&#8217;&#21560;&#24341;&#20102;&#26469;&#33258;&#19990;&#30028;&#32423;&#30340;&#30740;&#31350;&#22242;&#20307;&#21644;&#20135;&#19994;&#32593;&#32476;- &#23427;&#26159;&#30001;&#25216;&#33021;&#22411;&#20114;&#21160;&#33402;&#26415;&#30340;&#30740;&#31350;&#32773;&#21644;&#23649;&#33719;&#27530;&#33635;&#30340;&#19994;&#30028;&#20154;&#22763;&#32452;&#25104;&#30340;&#19987;&#19994;&#22242;&#38431;</h2>
 
             </div>
 
@@ -20,7 +20,7 @@
 
     <div class="content container">
 
-        <p><strong>The course is closely tied to our postgraduate taught programmes, doctoral programmes, industrial collaborations and applied research at Plymouth University’s Institute of Digital Art and Technology (iDAT), now an Arts Council National Portfolio Art Organisation.</strong></p>
+        <p><strong>&#26412;&#23398;&#31185;&#19982;&#26222;&#21033;&#33541;&#26031;&#22823;&#23398;&#25968;&#30721;&#33402;&#26415;&#19982;&#31185;&#25216;&#23398;&#38498;&#65288;i-DAT)&#65288;&#29616;&#20026;&#33521;&#26684;&#20848;&#33402;&#26415;&#22996;&#21592;&#20250;&#22269;&#23478;&#25237;&#36164;&#32452;&#32455;&#30740;&#31350;&#37096;&#65289;&#30340;&#30740;&#31350;&#29983;&#35838;&#31243;&#65292;&#21338;&#22763;&#29983;&#35838;&#31243;&#65292;&#24037;&#19994;&#21512;&#20316;&#30740;&#31350;&#21644;&#24212;&#29992;&#30740;&#31350;&#32039;&#23494;&#30456;&#36830;&#30340;</strong></p>
 
         <article class="team-member">
 
@@ -28,9 +28,9 @@
 
                 <hgroup>
 
-                    <h1 class="name">Gianni</h1>
+                    <h1 class="name">&#35449;&#23612;</h1>
 
-                    <img src="img/content/processed/gianni.jpg" alt="Gianni Portrait" class="portrait">
+                    <img src="../img/content/processed/gianni.jpg" alt="Gianni Portrait" class="portrait">
 
                 </hgroup>
 
@@ -38,37 +38,11 @@
         
             <div class="biography">
 
-                <p>Gianni Corino is Associate Professor in Interactive Media, i-DAT’s Creative Producer and Programme Leader for BA/BSc Digital Art and Technology courses.</p>
+                <p>&#35449;&#23612;.&#31185;&#29790;&#35834;&#26159;&#20114;&#21160;&#23186;&#20307;&#23398;&#30340;&#21103;&#25945;&#25480;&#65292;&#22312;I-DAT&#25285;&#20219;&#21019;&#24847;&#21046;&#20316;&#21644;BA / BSc&#25968;&#30721;&#33402;&#26415;&#19982;&#31185;&#25216;&#35838;&#31243;&#30340;&#31185;&#25945;&#20027;&#20219;.</p>
 
-                <p>His PhD research consolidates many years of interdisciplinary practice around the idea of embodied networks. The thesis investigates the relevance of the ‘thing’ and the ‘object’ in the Internet of Things and proposes an alternative design approach to the field.</p>
+                <p>&#20182;&#30340;&#21338;&#22763;&#30740;&#31350;&#22810;&#24180;&#33268;&#21147;&#20110;&#36328;&#23398;&#31185;&#23454;&#36341;&#25972;&#21512;&#19982;&#30456;&#20851;&#29702;&#24565;&#30340;&#32593;&#32476;&#20307;&#29616;&#12290;&#20182;&#30340;&#35770;&#25991;&#20027;&#35201;&#20542;&#21521;&#20110;&#22312;&#29289;&#32852;&#32593;&#39046;&#22495;&#30340;'&#19996;&#35199;'&#21644;'&#23545;&#35937;'&#65292;&#24182;&#25552;&#20986;&#20102;&#21478;&#19968;&#31181;&#35774;&#35745;&#26041;&#27861;&#12290;</p>
 
-                <p>He established the “Smarter Planet Lab” as an interdisciplinary facility in partnership with IBM – Hursley Innovation Centre. Previous projects in the area of IoT include <a href="http://rr-project.net" title="Find out more about ‘Remoate Risonanaze’">Remote Risonanaze</a>, Quixote and Dn[t]cube.</p>
-
-            </div>
-
-        </article>
-
-        <article class="team-member">
-
-            <header>
-
-                <hgroup>
-
-                    <h1 class="name">Mike</h1>
-
-                    <img src="img/content/processed/mike.jpg" alt="Mike Portrait" class="portrait">
-
-                </hgroup>
-
-            </header>
-
-            <div class="biography">
-
-                <p>Mike Phillips is Professor of Interdisciplinary Arts, Plymouth University, School of Arts &amp; Media, Faculty of Arts. He is the Director of Research at i-DAT, an Arts Council England National Portfolio Organisation, and a Principal Supervisor for the Planetary Collegium.</p>
-
-                <p>His R&amp;D orbits digital architectures and transmedia publishing, and is manifest in a series of ‘Operating Systems’ that dynamically manifest ‘data’ as experience to enhance perspectives on a complex world.
-
-                <p>He manages the Full Dome Immersive Vision Theatre (IVT), a transdisciplinary instrument for the manifestation of material, immaterial and imaginary worlds and is co-editor of <a href="http://www.ubiquityjournal.net" title="Click to see more about ‘Ubiquity’">Ubiquity, The Journal of Pervasive Media</a>.</p>
+                <p>&#20182;&#19982;IBM- Hursley&#30340;&#21019;&#26032;&#20013;&#24515;&#21512;&#20316;&#65292;&#20026;&#36328;&#23398;&#31185;&#30740;&#31350;&#24314;&#31435;&#20102;&#20027;&#35201;&#35774;&#26045;&#8220;&#26234;&#24935;&#30340;&#22320;&#29699;&#23454;&#39564;&#23460;&#8221; &#12290;&#20182;&#22312;&#29289;&#32852;&#32593;&#39046;&#22495;&#30340;&#20854;&#20182;&#39033;&#30446;&#36824;&#21253;&#25324;&#36828;&#31243;Risonanaze&#65292;&#22530;&#21513;&#35779;&#24503;&#21644;Dn [T]&#31435;&#26041;&#20307;&#12290;</p>
 
             </div>
 
@@ -80,9 +54,9 @@
 
                 <hgroup>
 
-                    <h1 class="name">Hannah</h1>
+                    <h1 class="name">&#36808;&#20811;</h1>
 
-                    <img src="img/content/processed/hannah.jpg" alt="Hannah Portrait" class="portrait">
+                    <img src="../img/content/processed/mike.jpg" alt="Mike Portrait" class="portrait">
 
                 </hgroup>
 
@@ -90,11 +64,13 @@
 
             <div class="biography">
 
-                <p>Hannah Drayson is a visual artist and performer whose experiments with sound reactive and live visuals have led to collaborations with sound designers and DJs and to performances in the festival and club scene all over the UK and Europe.</p>
+                <p>&#36808;&#20811;&#183;&#33778;&#21033;&#26222;&#26031;&#26159;&#36328;&#23398;&#31185;&#33402;&#26415;&#65292;&#26222;&#21033;&#33541;&#26031;&#22823;&#23398;&#33402;&#26415;&#19982;&#20256;&#23186;&#23398;&#38498;&#30340;&#33402;&#26415;&#31995;&#30340;&#25945;&#25480;&#12290;&#20182;&#26159;i-DAT &#65288;&#33521;&#26684;&#20848;&#33402;&#26415;&#22996;&#21592;&#20250;&#22269;&#23478;&#25237;&#36164;&#32452;&#32455;&#30740;&#31350;&#37096;&#65289;&#30340;&#20027;&#35201;&#36127;&#36131;&#20154;&#65292;&#21516;&#26102;&#20063;&#26159;&#34892;&#26143;&#25191;&#34892;&#31649;&#29702;&#22996;&#21592;&#20250;&#30340;&#30417;&#20107;</p>
 
-                <p>She is program leader of the Digital Media and Animation BA (top-up) program and leads a number of modules and projects with DAT, as well as activities such as the first year field trip, Degree Show and Animated Exeter Festival.</p>
+                <p>&#20182;&#20027;&#35201;&#30740;&#31350;&#21457;&#23637;&#25968;&#30721;&#26550;&#26500;&#21644;&#36328;&#23186;&#20307;&#20986;&#29256;&#65292;&#24182;&#36890;&#36807;&#19968;&#31995;&#21015;&#30340;&#8220;&#25805;&#20316;&#31995;&#32479;&#8221;&#26469;&#25910;&#38598;&#21160;&#24577;&#28165;&#21333;&#30340;&#8220;&#25968;&#25454;&#8221; , &#20174;&#32780;&#25552;&#39640;&#22312;&#22797;&#26434;&#19990;&#30028;&#37324;&#30340;&#25968;&#25454;&#21487;&#35270;&#21270;&#35266;&#28857;</p>
+        
 
-                <p>She holds a doctorate for her research into body-sensor instrumentation and bio-signaling in the arts, is associate editor and panel member of Leonardo Reviews (for <a href="http://www.leonardo.info" title="Find out more about ‘Leonardo’">Leonardo, Journal of the Arts Sciences and Technology</a>) and a contributing researcher to the Transtechnology Research group.</p>
+                <p>&#20182;&#31649;&#29702;&#30340;&#20840;&#22278;&#39030;&#38134;&#24149;&#35270;&#35273;&#21095;&#38498;&#65288;IVT&#65289;&#65292;&#26159;&#19968;&#20010;&#36328;&#23398;&#31185;&#30340;&#24037;&#20855;&#20307;&#29616;&#12290;
+                &#12298;&#26080;&#22788;&#19981;&#22312;&#65292;&#26080;&#23380;&#19981;&#20837;&#12299;&#23186;&#20307;&#26434;&#24535;&#21017;&#33268;&#21147;&#20110;&#29289;&#36136;&#30340;&#65292;&#38750;&#29289;&#36136;&#30340;&#19982;&#34394;&#26500;&#19990;&#30028;&#30340;&#20849;&#21516;&#32534;&#36753;&#12290;</p>
 
             </div>
 
@@ -106,9 +82,9 @@
 
                 <hgroup>
 
-                    <h1 class="name">Simon</h1>
+                    <h1 class="name">&#27721;&#23068;</h1>
 
-                    <img src="img/content/processed/simon.jpg" alt="Simon Portrait" class="portrait">
+                    <img src="../img/content/processed/hannah.jpg" alt="Hannah Portrait" class="portrait">
 
                 </hgroup>
 
@@ -116,11 +92,11 @@
 
             <div class="biography">
 
-                <p>Simon is responsible for the delivery of different modules providing practical, hands-on workshops that allow students to get to grips with the very latest emerging technologies.</p>
+                <p>&#27721;&#23068;&#183;&#24503;&#38647;&#26862;&#26159;&#19968;&#20301;&#35270;&#35273;&#33402;&#26415;&#23478;&#21644;&#34920;&#28436;&#23478;&#65292;&#22905;&#30528;&#37325;&#20110;&#34920;&#28436;&#30340;&#23454;&#36341;&#19982;&#33391;&#22909;&#30340;&#21453;&#24212;&#65292;&#29616;&#22330;&#30340;&#35270;&#35273;&#25928;&#26524;&#65292;&#22768;&#38899;&#35774;&#35745;&#24072;&#21644;DJ&#20204;&#30340;&#21512;&#20316;&#65292;&#24182;&#22312;&#33521;&#22269;&#21644;&#27431;&#27954;&#21508;&#22320;&#30340;&#33410;&#26085;&#21644;&#20465;&#20048;&#37096;&#36827;&#34892;&#29616;&#22330;&#34920;&#28436;&#12290;</p>
 
-                <p>He is module leader for GamePlay, a module which brings in experts from the games industry to give students a real-world commercial perspective on development.
+                <p>&#22905;&#26159;&#25968;&#30721;&#23186;&#20307;&#21644;&#21160;&#30011;BA&#65288;&#39030;&#32423;&#65289;&#39033;&#30446;&#30340;&#39033;&#30446;&#36127;&#36131;&#20154;&#65292;&#24182;&#19982; DAT&#21512;&#20316;&#35838;&#31243;&#30340;&#24320;&#21457;&#19982;&#39033;&#30446;&#27963;&#21160;&#65292;&#20363;&#22914;&#23454;&#22320;&#32771;&#23519;&#30340;&#31532;&#19968;&#24180;&#65292;&#27605;&#19994;&#23637;&#21644;&#22467;&#20811;&#22622;&#29305;&#21160;&#30011;&#33410;&#31561;</p>
 
-                <p>Simon is a digital designer and developer with an interest in Visualisation, Interaction and Victoriana.</p>
+                <p>&#22905;&#22312;&#25104;&#20307;&#20256;&#24863;&#22120;&#20202;&#22120;&#20202;&#34920;&#21644;&#29983;&#29289;&#20449;&#21495;&#30340;&#33402;&#26415;&#30740;&#31350;&#39046;&#22495;&#21462;&#24471;&#20102;&#21338;&#22763;&#23398;&#20301;&#12290;&#22905;&#26159;&#33713;&#26114;&#32435;&#22810;&#35780;&#35770;&#65288;&#33713;&#26114;&#32435;&#22810;, &#33402;&#26415;&#31185;&#23398;&#19982;&#31185;&#25216;&#26434;&#24535;&#65289;&#30340;&#21103;&#20027;&#32534;&#21450;&#25104;&#21592;&#65292;&#21516;&#26102;&#20063;&#26159;&#36328;&#31185;&#23398;&#30740;&#31350;&#23567;&#32452;&#30340;&#25104;&#21592;</p>
 
             </div>
 
@@ -132,9 +108,9 @@
 
                 <hgroup>
 
-                    <h1 class="name">Mike Blow</h1>
+                    <h1 class="name">&#35199;&#33945;</h1>
 
-                    <img src="img/content/processed/mike-blow.jpg" alt="Mike Blow Portrait" class="portrait">
+                    <img src="../img/content/processed/simon.jpg" alt="Simon Portrait" class="portrait">
 
                 </hgroup>
 
@@ -142,9 +118,11 @@
 
             <div class="biography">
 
-                <p>Mike Blow works in interactive installations, electronics and sound. His work has included sound sculptures, interactive installations, robotic swarms, evolutionary art and interactive theatre projections, and recently solar and wind-powered work.</p>
+                <p>&#35199;&#33945;&#26159;&#19981;&#21516;&#35838;&#31243;&#30340;&#32532;&#36896;&#32773;&#12290;&#20026;&#20102;&#35753;&#23398;&#29983;&#20204;&#20102;&#35299;&#21644;&#25484;&#25569;&#26368;&#26032;&#30340;&#26032;&#20852;&#31185;&#25216;&#65292;&#20182;&#36127;&#36131;&#32452;&#24314;&#24320;&#23637;&#26356;&#22810;&#23454;&#29992;&#23454;&#36341;&#30340;&#30740;&#35752;&#20250;&#12290;</p>
 
-                <p>He has studied for a PhD in sound art at Oxford Brookes University investigating audiovisual relationships, and has been a visiting lecturer at Brighton University for 5 years teaching programming, sensors, electronics and interactives.</p>
+                <p>&#20182;&#26159;&#28216;&#25103;&#35838;&#31243;&#30340;&#36127;&#36131;&#20154;&#65292;&#36825;&#20010;&#35838;&#31243;&#20174;&#28216;&#25103;&#34892;&#19994;&#20013;&#35831;&#21040;&#20102;&#24456;&#22810;&#30340;&#19987;&#23478;&#26469;&#21442;&#19982;&#65292;&#20174;&#32780;&#32473;&#23398;&#29983;&#20204;&#21019;&#24314;&#20102;&#19968;&#20010;&#30495;&#23454;&#30340;&#21830;&#19994;&#19990;&#30028;&#21457;&#23637;&#35266;</p>
+
+                <p>&#35199;&#33945;&#26159;&#19968;&#20010;&#25968;&#30721;&#35774;&#35745;&#24072;&#21644;&#24320;&#21457;&#20154;&#21592;&#65292;&#20182;&#23545;&#20110;&#21487;&#35270;&#21270;&#65292;&#20114;&#21160;&#21644;&#32500;&#22810;&#21033;&#20122;&#26102;&#20195;&#37117;&#26377;&#30528;&#27987;&#21402;&#30340;&#20852;&#36259;&#12290;</p>
 
             </div>
 
@@ -156,9 +134,9 @@
 
                 <hgroup>
 
-                    <h1 class="name">Vlad</h1>
+                    <h1 class="name">&#36808;&#20811;.&#20271;&#21171;</h1>
 
-                    <img src="img/content/processed/vlad.jpg" alt="Vlad Portrait" class="portrait">
+                    <img src="../img/content/processed/mike-blow.jpg" alt="Mike Blow Portrait" class="portrait">
 
                 </hgroup>
 
@@ -166,11 +144,9 @@
 
             <div class="biography">
 
-                <p>Vlad Geroimenko is Associate Professor (Reader) in Multimedia and Web Technology. He holds not only a PhD, but also a higher DSc degree. He has published 150 scientific works, including 13 books (such as Visualizing Information Using SVG and X3D, Visualizing the Semantic Web and a unique Dictionary of XML Technologies and the Semantic Web).</p>
+                <p>&#36808;&#20811;.&#20271;&#21171;&#20174;&#20107;&#19982;&#20114;&#21160;&#35013;&#32622;&#65292;&#30005;&#23376;&#21644;&#22768;&#38899;&#24037;&#20316;&#12290;&#20182;&#30340;&#24037;&#20316;&#21253;&#25324;&#22768;&#38899;&#38613;&#22609;&#65292;&#20114;&#21160;&#35013;&#32622;&#65292;&#26426;&#22120;&#20154;&#32676;&#65292;&#36827;&#21270;&#30340;&#33402;&#26415;&#21644;&#20114;&#21160;&#21095;&#22330;&#39044;&#27979;&#12290;&#26368;&#36817;&#20182;&#33268;&#21147;&#20110;&#22826;&#38451;&#33021;&#21644;&#39118;&#33021;&#20379;&#30005;&#30340;&#30740;&#31350;&#24037;&#20316;&#12290;</p>
 
-                <p>His main teaching topics include advanced web technologies, such as HTML5-based web and game design, augmented and virtual reality, 3D design and animation, XML and semantic technologies.</p>
-
-                <p>His digital photo paintings are in private collections of UK, USA, Canada, Australia, Germany, France, Spain, Switzerland, Holland, Finland, Malta, Mexico, Russia and Belarus.</p>
+                <p>&#20182;&#26366;&#22312;&#33521;&#22269;&#29275;&#27941;&#24067;&#40065;&#20811;&#26031;&#22823;&#23398;&#36827;&#34892;&#35843;&#26597;&#35797;&#21548;&#20851;&#31995;&#30340;&#21338;&#22763;&#30740;&#31350;&#65292;&#24182;&#24050;&#22312;&#33521;&#22269;&#24067;&#33713;&#39039;&#22823;&#23398;&#25285;&#20219;&#23458;&#24231;&#35762;&#24072;&#12290;5&#24180;&#26469;&#65292;&#20182;&#20027;&#35201;&#25945;&#25480;&#32534;&#31243;&#65292;&#20256;&#24863;&#22120;&#65292;&#30005;&#23376;&#21644;&#20132;&#20114;&#24335;&#26041;&#38754;&#23398;&#31185;&#30693;&#35782;&#12290;</p>
 
             </div>
 
@@ -182,9 +158,9 @@
 
                 <hgroup>
 
-                    <h1 class="name">Andrew</h1>
+                    <h1 class="name">&#24343;&#25289;&#24503; .&#21746;&#32599;&#23612;&#26364;&#31185;</h1>
 
-                    <img src="img/content/processed/andrew.jpg" alt="Andrew Portrait" class="portrait">
+                    <img src="../img/content/processed/vlad.jpg" alt="Vlad Portrait" class="portrait">
 
                 </hgroup>
 
@@ -192,11 +168,11 @@
 
             <div class="biography">
 
-                <p>Andrew Jinman believes in stories to make change happen, he is a consultant and technologist, working on 3D Internet, Mobile Technologies and Augmented Reality Systems.</p>
+                <p>&#24343;&#25289;&#24503;.&#21746;&#32599;&#23612;&#26364;&#31185;&#26159;&#22810;&#23186;&#20307;&#21644;&#32593;&#32476;&#25216;&#26415;&#30340;&#21103;&#25945;&#25480;&#12290; &#20182;&#19981;&#20165;&#25317;&#26377;&#21746;&#23398;&#21338;&#22763;&#23398;&#20301;&#65292;&#20063;&#33719;&#24471;&#20102;&#26356;&#39640;&#30340;&#31185;&#23398;&#21338;&#22763;&#23398;&#20301;&#12290;&#20182;&#24050;&#20986;&#29256;&#20102;150&#20010;&#31185;&#23398;&#33879;&#20316;&#65292;&#21253;&#25324;13&#26412;&#20070;&#65288;&#22914;&#21487;&#35270;&#21270;&#20449;&#24687;&#20351;&#29992;SVG&#21644;X3D&#65292;&#21487;&#35270;&#21270;&#30340;&#35821;&#20041;&#32593;&#32476;&#21644;&#29420;&#29305;&#30340;XML&#25216;&#26415;&#23450;&#20041;&#21450;&#35821;&#20041;&#32593;&#32476;&#65289;&#12290;</p>
 
-                <p>Since graduating DAT in 2007 he has worked among the others for Twofour Communications and created start-ups like video production company supporting business development in the region. Within DAT he is module leader for creative industries; his overall goal is to empower up and coming students to reach their full potential going forward on there own stories, encouraging creativity and knowledge transfer through collaboration.
+                <p>&#20182;&#30340;&#20027;&#35201;&#25945;&#23398;&#30340;&#20869;&#23481;&#21253;&#25324;&#20808;&#36827;&#30340;&#32593;&#32476;&#25216;&#26415;&#65292;&#22914;HTML5&#20026;&#22522;&#30784;&#30340;&#32593;&#32476;&#21644;&#28216;&#25103;&#35774;&#35745;&#65292;&#22686;&#24378;&#21644;&#34394;&#25311;&#29616;&#23454;&#65292;&#19977;&#32500;&#35774;&#35745;&#21644;&#21160;&#30011;&#65292;XML&#21644;&#35821;&#20041;&#25216;&#26415;&#12290;</p>
 
-                <p>He also works for Plymouth Business School Talent Hub, which is the first venture of its kind to involve placement students from three faculties and is a significant contribution to the social enterprise agenda of the University. Andrew is here to help students make the intuitive leap from university to industry.</p>
+                <p>&#20182;&#30340;&#25968;&#30721;&#29031;&#29255;&#30011;&#34987;&#31169;&#20154;&#25910;&#34255;&#20110;&#33521;&#22269;&#65292;&#32654;&#22269;&#65292;&#21152;&#25343;&#22823;&#65292;&#28595;&#22823;&#21033;&#20122;&#65292;&#24503;&#22269;&#65292;&#27861;&#22269;&#65292;&#35199;&#29677;&#29273;&#65292;&#29790;&#22763;&#65292;&#33655;&#20848;&#65292;&#33452;&#20848;&#65292;&#39532;&#32819;&#20182;&#65292;&#22696;&#35199;&#21733;&#65292;&#20420;&#32599;&#26031;&#21644;&#30333;&#20420;&#32599;&#26031;&#31561;&#22810;&#20010;&#22269;&#23478;&#12290;</p>
 
             </div>
 
@@ -208,9 +184,9 @@
 
                 <hgroup>
 
-                    <h1 class="name">Luke</h1>
+                    <h1 class="name">&#23433;&#24503;&#40065;.&#37329;&#28385;</h1>
 
-                    <img src="img/content/processed/luke.jpg" alt="Luke Portrait" class="portrait">
+                    <img src="../img/content/processed/andrew.jpg" alt="Andrew Portrait" class="portrait">
 
                 </hgroup>
 
@@ -218,9 +194,35 @@
 
             <div class="biography">
 
-                <p>Luke Christison's practice focuses on the use of the Immersive Vision Theatre and DAT's portable dome, teaching and inspiring all ages about the universe, and the potential of the fulldome environment.</p>
+                <p>&#23433;&#24503;&#40065;.&#37329;&#28385;&#30456;&#20449;&#22312;&#25925;&#20107;&#20013;&#21457;&#29983;&#25913;&#21464;&#12290;&#20182;&#26159;&#19968;&#20010;&#39038;&#38382;&#21644;&#25216;&#26415;&#19987;&#23478;&#12290;&#33268;&#21147;&#20110;3D&#20114;&#32852;&#32593;&#65292;&#31227;&#21160;&#36890;&#20449;&#25216;&#26415;&#21644;&#29616;&#23454;&#22686;&#24378;&#31995;&#32479;&#12290;</p>
 
-                <p>This educational technologist is also developing interactive and immersive artistic visualizations, and scientific applications for the space. He is involved in numerous DAT projects and is a leader for a first year module in visual communication.</p>
+                <p>2007&#24180;&#20174; DAT &#27605;&#19994;&#20197;&#26469;&#65292;&#20182;&#19968;&#30452;&#22312;Towfour&#36890;&#20449;&#24037;&#20316;, &#20182;&#21019;&#36896;&#20102;&#36825;&#20010;&#30340;&#21021;&#21019;&#8203;&#8203;&#24433;&#35270;&#21046;&#20316;&#20844;&#21496;&#24182;&#25903;&#25345;&#20854;&#22312;&#35813;&#22320;&#21306;&#30340;&#19994;&#21153;&#21457;&#23637;&#12290;&#22312;DAT&#65292;&#20182;&#26159;&#21019;&#24847;&#20135;&#19994;&#35838;&#31243;&#30340;&#36127;&#36131;&#20154;&#65292;&#20182;&#30340;&#24635;&#20307;&#30446;&#26631;&#26159;&#65292;&#25480;&#26435;&#21644;&#40723;&#21169;&#30340;&#23398;&#29983;&#20805;&#20998;&#21457;&#25381;&#20854;&#28508;&#21147;&#22312;&#33258;&#24049;&#30340;&#25925;&#20107;&#37324;&#19981;&#26029;&#21521;&#21069;&#21457;&#23637;&#65292;&#20182;&#40723;&#21169;&#23398;&#29983;&#20204;&#36890;&#36807;&#21512;&#20316;&#26469;&#21019;&#36896;&#21644;&#30693;&#35782;&#36716;&#31227; &#12290;</p>
+
+                <p>&#20182;&#36824;&#20026;&#26222;&#21033;&#33541;&#26031;&#21830;&#23398;&#38498;&#20154;&#25165;&#20013;&#24515;&#24037;&#20316;&#65292;&#36825;&#20010;&#20154;&#25165;&#20013;&#24515;&#26159;&#31532;&#19968;&#31508;&#23545;&#19977;&#20010;&#23398;&#38498;&#23454;&#20064;&#23398;&#29983;&#30340;&#39118;&#38505;&#25237;&#36164;&#65292;&#20063;&#26159;&#23545;&#23398;&#26657;&#31038;&#20250;&#20225;&#19994;&#30340;&#19968;&#20010;&#37325;&#22823;&#30340;&#36129;&#29486;&#12290;&#23433;&#24503;&#40065;&#22312;&#36825;&#37324;&#24110;&#21161;&#23398;&#29983;&#23454;&#29616;&#20174;&#22823;&#23398;&#21040;&#20135;&#19994;&#30452;&#35266;&#30340;&#39134;&#36291;&#12290;</p>
+
+            </div>
+
+        </article>
+
+        <article class="team-member">
+
+            <header>
+
+                <hgroup>
+
+                    <h1 class="name">&#21346;&#20811; .&#20811;&#37324;&#26031;&#33922;&#26862;</h1>
+
+                    <img src="../img/content/processed/luke.jpg" alt="Luke Portrait" class="portrait">
+
+                </hgroup>
+
+            </header>
+
+            <div class="biography">
+
+                <p>&#21346;&#20811;.&#20811;&#37324;&#26031;&#33922;&#26862;&#30340;&#23454;&#36341;&#20391;&#37325;&#20110;&#20351;&#29992;&#36523;&#20020;&#20854;&#22659;&#30340;&#35270;&#35273;&#21095;&#38498;&#21644;DAT&#30340;&#20415;&#25658;&#24335;&#30340;&#22278;&#39030;&#12290;&#20182;&#25945;&#25480;&#21644;&#28608;&#21457;&#21508;&#24180;&#40836;&#27573;&#30340;&#20154;&#23545;&#23431;&#23449;&#65292;&#21644;&#29699;&#24149;&#30005;&#24433;&#29615;&#22659;&#30340;&#28508;&#22312;&#35748;&#30693;&#12290;</p>
+
+                <p>&#36825;&#20010;&#25945;&#32946;&#22411;&#30340;&#25216;&#26415;&#19987;&#23478;&#20063;&#27491;&#22312;&#24320;&#21457;&#20114;&#21160;&#21644;&#36523;&#20020;&#20854;&#22659;&#30340;&#33402;&#26415;&#35270;&#35273;&#25928;&#26524;&#19982;&#31354;&#38388;&#30340;&#31185;&#23398;&#24212;&#29992;&#12290;&#20182;&#36824;&#21442;&#19982;&#20102;&#22823;&#37327;&#30340;DAT&#39033;&#30446;&#65292;&#26159;&#22823;&#23398;&#19968;&#24180;&#32423;&#23398;&#20064;&#35270;&#35273;&#36890;&#20449;&#35838;&#31243;&#30340;&#36127;&#36131;&#20154;&#12290;</p>
 
             </div>
 
@@ -232,9 +234,9 @@
 
                 <hgroup>
 
-                    <h1 class="name">Iain</h1>
+                    <h1 class="name">&#20234;&#24681;.&#32599;&#24067;</h1>
 
-                    <img src="img/content/processed/iain.jpg" alt="Iain Portrait" class="portrait">
+                    <img src="../img/content/processed/iain.jpg" alt="Iain Portrait" class="portrait">
 
                 </hgroup>
 
@@ -242,7 +244,7 @@
 
             <div class="biography">
 
-                <p>Iain Lobb is an award-winning game designer and developer who delivers the first year Web Technologies module as an Associate Lecturer. Iain is the founder/owner of Dull Dude, a two-person games studio based in Cornwall, producing games for the web and mobile devices. He speaks about games and interactive media at conferences around the world, and co-hosts the Creative Coding Podcast.</p>
+                <p>&#20234;&#24681;&#183;&#32599;&#24067;&#26159;&#19968;&#20010;&#23649;&#33719;&#27530;&#33635;&#30340;&#28216;&#25103;&#35774;&#35745;&#24072;&#21644;&#24320;&#21457;&#20154;&#21592;&#12290;&#20182;&#25552;&#20379;&#22823;&#23398;&#19968;&#24180;&#32423;&#30340;&#32593;&#32476;&#25216;&#26415;&#35838;&#31243;&#65292;&#24182;&#25285;&#20219;&#21161;&#29702;&#35762;&#24072;&#12290;&#20234;&#24681;&#26159;&#8220;&#27785;&#38391;&#30340;&#21733;&#20204;&#8221;&#30340;&#21019;&#22987;&#20154;&#65292;&#20182;&#30340;&#20004;&#20154;&#28216;&#25103;&#24037;&#20316;&#23460;&#35774;&#22312;&#24247;&#27779;&#23572;&#37089;&#65292; &#20027;&#35201;&#20026;&#32593;&#32476;&#21644;&#25163;&#26426;&#31227;&#21160;&#35774;&#22791;&#21046;&#20316;&#28216;&#25103;&#12290;&#20182;&#22312;&#19990;&#30028;&#21508;&#22320;&#30340;&#20250;&#35758;&#19978;&#37117;&#36827;&#34892;&#36807;&#20851;&#20110;&#28216;&#25103;&#21644;&#20114;&#21160;&#23186;&#20307;&#30456;&#20851;&#35752;&#35770;&#65292;&#24182;&#20849;&#21516;&#20027;&#21150;&#30340;&#21019;&#24847;&#32534;&#30721;&#30340;&#25773;&#23458;&#12290;</p>
 
             </div>
 
@@ -254,9 +256,9 @@
 
                 <hgroup>
 
-                    <h1 class="name">Dawn</h1>
+                    <h1 class="name">&#26421;.&#26757;&#23572;&#32500;&#23572;</h1>
 
-                    <img src="img/content/processed/dawn.jpg" alt="Dawn Portrait" class="portrait">
+                    <img src="../img/content/processed/dawn.jpg" alt="Dawn Portrait" class="portrait">
 
                 </hgroup>
 
@@ -264,13 +266,14 @@
 
             <div class="biography">
 
-                <p>Dawn Melville, a graduate of Plymouth University’s groundbreaking Media Lab Arts course, is a P/T Associate Lecturer at Plymouth University, School of Arts &amp; Media, and is one of the city’s most enterprising media businesswomen.</p>
+                <p>&#26421;.&#26757;&#23572;&#32500;&#23572;, &#27605;&#19994;&#20110;&#26222;&#21033;&#33541;&#26031;&#22823;&#23398;&#30340;&#31361;&#30772;&#24615;&#23186;&#20307;&#23454;&#39564;&#23460;&#33402;&#26415;&#35838;&#31243;&#65292;&#26159;&#26222;&#21033;&#33541;&#26031;&#22823;&#23398;&#33402;&#26415;&#19982;&#20256;&#23186;&#23398;&#38498;&#30340;&#21103;&#35762;&#24072;&#65292;&#21516;&#26102;&#22905;&#20063;&#26159;&#26412;&#22478;&#24066;&#26368;&#36827;&#21462;&#30340;&#23186;&#20307;&#21830;&#20154;&#12290;</p>
 
-                <p>She began her media career on the city’s daily newspaper, moving to work in design and marketing for events venue Plymouth Pavilions and the Theatre Royal. A natural entrepreneur, she established her own media production company Motiongrafik which ran successfully for seven years.</p>
+                <p>&#22905;&#30340;&#23186;&#20307;&#29983;&#28079;&#24320;&#22987;&#19982;&#37117;&#24066;&#26085;&#25253;&#65292;&#38543;&#21518;&#36339;&#21160;&#21040;&#26222;&#21033;&#33541;&#26031;&#39302;&#21644;&#30343;&#23478;&#21095;&#38498;&#20570;&#35774;&#35745;&#21644;&#24066;&#22330;&#8203;&#8203;&#33829;&#38144;&#12290;&#20316;&#20026;&#19968;&#20010;&#22825;&#29983;&#30340;&#20225;&#19994;&#23478;&#65292;&#22905;&#25104;&#31435;&#20102;&#33258;&#24049;&#30340;&#23186;&#20307;&#21046;&#20316;&#20844;&#21496;Motiongrafik&#24182;&#25104;&#21151;&#36816;&#34892;&#20102;&#19971;&#24180;&#12290;</p>
 
-                <p>She set up initiatives in her home city of Plymouth including building projection festival Motionplymouth, schools’ film festival Young Motionplymouth, creatives’ networking session Last Friday. In 2005 she was given an Enterprising Woman award highlighting her success in local business. She is also a Common Purpose graduate and sits on the Media Innovation Board.</p>
+                <p>&#22905;&#22312;&#22905;&#30340;&#23478;&#20065;&#22478;&#24066;&#26222;&#21033;&#33541;&#26031;&#65292;&#25215;&#21150;&#36807;&#8216;&#24314;&#31569;&#25237;&#24433;&#33410;Motionplymouth&#8217;&#65292;&#8216;&#23398;&#26657;&#30005;&#24433;&#33410;&#38738;&#24180;Motionplymouth&#8217;&#65292;&#21644;&#19978;&#21608;&#20116;&#21018;&#20030;&#34892;&#36807;&#30340;&#8216;&#21019;&#24847;&#30340;&#32593;&#32476;&#20250;&#35758;&#8217;&#12290;2005&#24180;&#65292;&#22905;&#22240;&#24403;&#33258;&#24049;&#22312;&#22320;&#19994;&#21153;&#30340;&#25104;&#21151;&#32780;&#33719;&#24471;&#20102;&#21019;&#19994;&#22899;&#24615;&#22870;&#12290;&#22905;&#26159;&#19968;&#20010;&#22312;&#23186;&#20307;&#21019;&#26032;&#39046;&#22495;&#26377;&#30528;&#33258;&#24049;&#36861;&#27714;&#27605;&#19994;&#29983;&#12290;
+                 </p>
 
-                <p>For the last five years she has worked as freelance consultant in the education, creative, business and events sectors, creating and carrying out roles of strategy, bridge-building and relationship management, fund-finding, business conception and development. She is a director of Indra Congress: an arts and reconciliation organisation working internationally with young people in the world’s trouble spots on creative expression as a tool for peacemaking.</p>
+                <p>&#22312;&#36807;&#21435;&#20116;&#24180;&#20013;&#65292;&#22905;&#26366;&#22312;&#22810;&#20010;&#39046;&#22495;&#20570;&#36807;&#33258;&#30001;&#39038;&#38382;&#65292;&#20363;&#22914;&#25945;&#32946;&#65292;&#21019;&#24847;&#65292;&#27963;&#21160;&#21450;&#21830;&#21153;&#37096;&#38376;&#65292;&#24314;&#31435;&#21644;&#25191;&#34892;&#25112;&#30053;&#65292;&#26725;&#26753;&#24314;&#35774;&#21644;&#20851;&#31995;&#31649;&#29702;&#65292;&#36164;&#37329;&#35843;&#26597;&#65292;&#32463;&#33829;&#29702;&#24565;&#21644;&#21457;&#23637;&#12290;&#22905;&#26159;&#22240;&#38464;&#32599;&#20250;&#35758;&#30340;&#36127;&#36131;&#20154;&#65306;&#35813;&#22269;&#38469;&#32452;&#32455;&#20197;&#33402;&#26415;&#19982;&#21644;&#35299;&#21450;&#21019;&#36896;&#24615;&#30340;&#34920;&#36798;&#20316;&#20026;&#19968;&#31181;&#24037;&#20855;&#65292;&#19982;&#21508;&#22269;&#24180;&#36731;&#20154;&#19968;&#36215;&#20026;&#22312;&#21160;&#20081;&#30340;&#22320;&#21306;&#24314;&#31435;&#21644;&#24179;&#19990;&#30028;&#32780;&#24037;&#20316;&#12290;</p>
 
             </div>
 

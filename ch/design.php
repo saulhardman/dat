@@ -6,11 +6,11 @@
 
         <hgroup>
 
-            <h1 class="title"><?php echo ucfirst($pageName); ?></h1>
+            <h1 class="title">&#35774;&#35745;</h1>
 
             <div class="container">
 
-                <h2 class="description">Design is more than the way things look; it’s also the way things move, animate and behave, the way they sound, the way they feel and the way we interact with them. <strong>Design is central to everything we do on Digital Art and Technology.</strong></h2>
+                <h2 class="description">&#35774;&#35745;&#19981;&#20165;&#20165;&#26159;&#23427;&#34987;&#30475;&#21040;&#30340;&#26679;&#23376;&#65307;&#36824;&#21253;&#25324;&#20102;&#31227;&#21160;&#65292;&#21160;&#30011;&#21644;&#34892;&#20026;&#65292;&#20197;&#21450;&#22768;&#38899;&#30340;&#34920;&#36798;&#65292;&#24863;&#35273;&#21644;&#25105;&#20204;&#19982;&#35774;&#35745;&#26412;&#36523;&#30340;&#20114;&#21160;&#12290;<strong>&#35774;&#35745;&#26159;&#25105;&#20204;&#20570;&#19968;&#20999;&#25968;&#30721;&#33402;&#26415;&#19982;&#31185;&#25216;&#30340;&#20013;&#24515;&#12290;</strong></h2>
 
             </div>
 
@@ -24,49 +24,50 @@
 
             <div>
 
-                <p><strong>Students design and produce innovative new applications of digital technology, from Social Media to ‘The Internet of Things’, augmented reality, wearable and physical computing, and virtual worlds.</strong></p>
+                <p><strong>&#23398;&#29983;&#20204;&#30340;&#35774;&#35745;&#21487;&#36890;&#36807;&#31038;&#20132;&#23186;&#20307;&#21040;&#8220;&#29289;&#32852;&#32593;&#8221;&#65292;&#29616;&#23454;&#22686;&#24378;&#19982;&#34394;&#25311;&#19990;&#30028;&#65292;&#21487;&#20329;&#25140;&#30340;&#30005;&#33041;&#21644;&#29289;&#29702;&#30005;&#33041;&#26469;&#21046;&#20316;&#21019;&#26032;&#24615;&#30340;&#25968;&#30721;&#31185;&#25216;&#24212;&#29992;</strong></p>
             
-                <p>We utilise the latest software and teaching approaches:</p>
+                <p>&#25105;&#20204;&#21033;&#29992;&#26368;&#26032;&#30340;&#36719;&#20214;&#21644;&#25945;&#23398;&#26041;&#27861;&#65306;</p>
 
             </div>
 
             <ul>
 
-                <li>2D design with Adobe Photoshop and Illustrator</li>
+                <li>2D&#35774;&#35745;&#19982;Adobe Photoshop&#21644;Illustrator</li>
 
-                <li>3D modelling, animation and environment design with Maya and Unity 3D</li>
+                <li>3D&#24314;&#27169;&#65292; &#29595;&#38597;&#21644;Unity 3D&#35774;&#35745;&#21160;&#30011;&#21644;&#29615;&#22659;</li>
 
-                <li>Motion graphics, film editing and animation with After Effects, Premiere and Flash.</li>
+                <li>&#36890;&#36807;After Effects, Premiere and Flash&#36719;&#20214;&#26469;&#23436;&#25104;&#31227;&#21160;&#22270;&#24418;&#65292;&#21098;&#36753;&#21644;&#21160;&#30011;&#25928;&#26524;&#12290;</li>
 
             </ul>
 
         </div>
 
-        <p><strong>In the final year, students choose to specialise in one of three pathways:</strong></p>
+        <p><strong>&#22312;&#26368;&#21518;&#19968;&#24180;&#37324;&#65292;&#23398;&#29983;&#20204;&#21487;&#20197;&#22312;&#19977;&#20010;&#39046;&#22495;&#37324;&#36873;&#25321;&#19968;&#20010;&#20316;&#20026;&#20027;&#25915;&#30340;&#21457;&#23637;&#26041;&#21521;&#65306;</strong></p>
 
         <div class="pathways">
 
             <article class="pathway">
 
-                <h3>Interaction Design</h3>
+                <h3>&#20132;&#20114;&#35774;&#35745;</h3>
 
-                <p>Creating interactive digital media, physical installations, web and mobile applications, exploring the Internet of Things and Augmented Reality. Taking interaction beyond the screen, into the physical environment.</p>
-
-            </article>
-
-            <article class="pathway">
-
-                <h3>Game Design</h3>
-
-                <p>Building on the rich history of video games with new technologies, modes of interaction and storytelling to create not only new games, but new kinds of gaming.</p>
+                <p>&#21019;&#24314;&#20132;&#20114;&#24335;&#25968;&#23383;&#23186;&#20307;&#65292;&#29289;&#29702;&#35774;&#22791;&#65292;&#32593;&#32476;&#21644;&#31227;&#21160;&#24212;&#29992;&#65292;&#25506;&#32034;&#29289;&#32852;&#32593;&#21644;&#29616;&#23454;&#22686;&#24378;&#12290;&#23436;&#25104;&#26356;&#22909;&#30340;&#24149;&#21518;&#19982;&#29616;&#23454;&#20114;&#21160; &#12290;
+                </p>
 
             </article>
 
             <article class="pathway">
 
-                <h3>Information Design</h3>
+                <h3>&#28216;&#25103;&#35774;&#35745;</h3>
 
-                <p>Translating data into graphics, animation and sound. Exploring the new aesthetic of Infographics and sonification across a range of screen based media, websites, projection mapping and immersive full dome environments.</p>
+                <p>&#22312;&#20016;&#23500;&#30340;&#26032;&#31185;&#25216;&#35270;&#39057;&#28216;&#25103;&#30340;&#21382;&#21490;&#29615;&#22659;&#19979;&#65292;&#36890;&#36807;&#26032;&#27169;&#24335;&#30340;&#20114;&#21160;&#21644;&#35762;&#25925;&#20107;&#30340;&#26041;&#27861;&#26469;&#21019;&#36896;&#26032;&#30340;&#28216;&#25103;&#21450;&#28216;&#25103;&#26041;&#24335; &#12290;</p>
+
+            </article>
+
+            <article class="pathway">
+
+                <h3>&#20449;&#24687;&#35774;&#35745;</h3>
+
+                <p>&#23558;&#25968;&#25454;&#36716;&#25442;&#25104;&#22270;&#24418;&#65292;&#21160;&#30011;&#21644;&#22768;&#38899;&#12290;&#30740;&#21457;&#19968;&#31995;&#21015;&#22522;&#20110;&#23631;&#24149;&#30340;&#23186;&#20307;&#65292;&#32593;&#31449;&#65292;&#25237;&#24433;&#26144;&#23556;&#21644;&#36523;&#20020;&#20854;&#22659;&#30340;&#20840;&#22278;&#39030;&#38134;&#24149;&#30340;&#29615;&#22659;&#65292;&#25506;&#32034;&#26032;&#30340;&#23457;&#32654;&#30340;&#36164;&#35759;&#22270;&#20687;&#21644;&#36229;&#22768;&#22788;&#29702;&#12290;</p>
 
             </article>
 
@@ -76,7 +77,7 @@
 
     <div class="images">
 
-        <img src="img/content/processed/design-1.jpg" alt="" width="400" height="175"><img src="img/content/processed/design-2.jpg" alt="" width="400" height="175"><img src="img/content/processed/design-3.jpg" alt="" width="400" height="175">
+        <img src="../img/content/processed/design-1.jpg" alt="" width="400" height="175"><img src="../img/content/processed/design-2.jpg" alt="" width="400" height="175"><img src="../img/content/processed/design-3.jpg" alt="" width="400" height="175">
 
     </div>
 
