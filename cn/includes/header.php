@@ -75,6 +75,29 @@
 
                 </nav>
                 
+                <nav id="nav">
+                
+                                    
+                                        <li><a href="cn/design" class="design-link" data-page-title="Digital Art and Technology — Messing With the Future — Design" title="Click to view the ‘Design’">Design</a></li>
+                
+                                    
+                                        <li><a href="programming" class="programming-link" data-page-title="Digital Art and Technology — Messing With the Future — Programming" title="Click to view the ‘Programming’">Programming</a></li>
+                
+                                    
+                                        <li><a href="theory" class="theory-link" data-page-title="Digital Art and Technology — Messing With the Future — Theory" title="Click to view the ‘Theory’">Theory</a></li>
+                
+                                    
+                                        <li><a href="industry" class="industry-link" data-page-title="Digital Art and Technology — Messing With the Future — Industry" title="Click to view the ‘Industry’">Industry</a></li>
+                
+                                    
+                                        <li><a href="environment" class="environment-link" data-page-title="Digital Art and Technology — Messing With the Future — Environment" title="Click to view the ‘Environment’">Environment</a></li>
+                
+                                    
+                                        <li><a href="team" class="team-link" data-page-title="Digital Art and Technology — Messing With the Future — Team" title="Click to view the ‘Team’">Team</a></li>
+                
+                                    
+                                </nav>
+                
                 
 
             </div>
