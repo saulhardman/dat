@@ -59,10 +59,10 @@
 
                 <hgroup class="logo">
 
-                    <h1 class="title" role="banner"><a href="/" data-page-title="<?php echo $pageTitle; ?> — Course Details" title="Click to view ‘Course details’">&#25968;&#30721;&#33402;&#26415;&#19982;&#31185;&#25216;</h1>
+                    <h1 class="title" role="banner"><a href="/cn/" data-page-title="<?php echo $pageTitle; ?> — Course Details" title="Click to view ‘Course details’">&#25968;&#30721;&#33402;&#26415;&#19982;&#31185;&#25216;</a></h1>
 
                 </hgroup>
-
+<!--
                 <?php $pages = array("&#35774;&#35745;", "&#32534;&#31243;", "&#29702;&#35770;", "&#23601;&#19994;", "&#29615;&#22659;", "&#22242;&#38431;"); ?>
 
                 <nav id="nav">
@@ -74,26 +74,26 @@
                     <?php endforeach; ?>
 
                 </nav>
-                
+                -->
                 <nav id="nav">
                 
                                     
-                                        <li><a href="cn/design" class="design-link" data-page-title="Digital Art and Technology — Messing With the Future — Design" title="Click to view the ‘Design’">Design</a></li>
+                                        <li><a href="/cn/design" class="design-link" data-page-title="Digital Art and Technology — Messing With the Future — Design" title="Click to view the ‘Design’">&#35774;&#35745;</a></li>
                 
                                     
-                                        <li><a href="programming" class="programming-link" data-page-title="Digital Art and Technology — Messing With the Future — Programming" title="Click to view the ‘Programming’">Programming</a></li>
+                                        <li><a href="/cn/programming" class="programming-link" data-page-title="Digital Art and Technology — Messing With the Future — Programming" title="Click to view the ‘Programming’">&#32534;&#31243;</a></li>
                 
                                     
-                                        <li><a href="theory" class="theory-link" data-page-title="Digital Art and Technology — Messing With the Future — Theory" title="Click to view the ‘Theory’">Theory</a></li>
+                                        <li><a href="/cn/theory" class="theory-link" data-page-title="Digital Art and Technology — Messing With the Future — Theory" title="Click to view the ‘Theory’">&#29702;&#35770;</a></li>
                 
                                     
-                                        <li><a href="industry" class="industry-link" data-page-title="Digital Art and Technology — Messing With the Future — Industry" title="Click to view the ‘Industry’">Industry</a></li>
+                                        <li><a href="/cn/industry" class="industry-link" data-page-title="Digital Art and Technology — Messing With the Future — Industry" title="Click to view the ‘Industry’">&#23601;&#19994;</a></li>
                 
                                     
-                                        <li><a href="environment" class="environment-link" data-page-title="Digital Art and Technology — Messing With the Future — Environment" title="Click to view the ‘Environment’">Environment</a></li>
+                                        <li><a href="/cn/environment" class="environment-link" data-page-title="Digital Art and Technology — Messing With the Future — Environment" title="Click to view the ‘Environment’">&#29615;&#22659;</a></li>
                 
                                     
-                                        <li><a href="team" class="team-link" data-page-title="Digital Art and Technology — Messing With the Future — Team" title="Click to view the ‘Team’">Team</a></li>
+                                        <li><a href="/cn/team" class="team-link" data-page-title="Digital Art and Technology — Messing With the Future — Team" title="Click to view the ‘Team’">&#22242;&#38431;</a></li>
                 
                                     
                                 </nav>
