@@ -16,8 +16,9 @@
 
                     <p class="contact">
 
-                        <span class="sentence">To apply, <a href="http://www1.plymouth.ac.uk/courses/undergraduate/4315/Pages/CourseOverview.aspx">click here</a>. If you have any questions about the course, <a href="mailto:hello@digitalartandtechnology.co.uk">email us here</a>.</span> <span class="sentence">To meet lecturers and students, <a href="https://www.facebook.com/DigitalArtAndTechnology">join us on Facebook</a>. To see students work, check out our channel on <a href="https://vimeo.com/channels/354591" title="Click to see the Digital Art and Technology Vimeo Channel">Vimeo</a>.</span>
-
+                        <!--<span class="sentence">To apply, <a href="http://www1.plymouth.ac.uk/courses/undergraduate/4315/Pages/CourseOverview.aspx">click here</a>. If you have any questions about the course, <a href="mailto:hello@digitalartandtechnology.co.uk">email us here</a>.</span> <span class="sentence">To meet lecturers and students, <a href="https://www.facebook.com/DigitalArtAndTechnology">join us on Facebook</a>. To see students work, check out our channel on <a href="https://vimeo.com/channels/354591" title="Click to see the Digital Art and Technology Vimeo Channel">Vimeo</a>.</span>-->
+                        
+                        <span class="sentence"><a href="http://www1.plymouth.ac.uk/courses/undergraduate/4315/Pages/CourseOverview.aspx">&#30003;&#35831;&#65292;&#12290;</a><a href="mailto:hello@digitalartandtechnology.co.uk">&#22914;&#26524;&#24744;&#26377;&#20219;&#20309;&#20851;&#20110;&#35838;&#31243;&#30340;&#38382;&#39064;&#65292;&#12290; &#24819;&#20102;&#35299;&#26356;&#22810;&#30340;&#20449;&#24687;&#65292;&#12290;</a>.</span> 
                     </p>
 
                 </div>
